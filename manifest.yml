@@ -1,0 +1,5 @@
+applications:
+- buildpack: staticfile_buildpack   
+  host: planetky1 
+  name: planetky1
+  memory: 64M

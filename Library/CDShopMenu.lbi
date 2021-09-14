@@ -1,0 +1,39 @@
+<TABLE cellpadding="5">
+        <TBODY> 
+        <TR> 
+          <TD align="left" class="size" nowrap> 
+            <p><B><A href="../cdshop.htm"><FONT color="#FFFFFF" class="size1">Main</FONT></A><BR>
+              <A href="../cdnews.htm"><FONT color="#FFFFFF" class="size1">News</FONT></A><BR>
+              <A href="../cdhowto.htm"><FONT color="#FFFFFF" class="size1">How to buy</FONT></A><BR>
+              <FONT color="#FFFFFF" face="Arial, Helvetica" class="size1">select shop</FONT></B><BR>
+              <A href="../cdamazon.htm" onmouseover="change(1)" onmouseout="reset(1)"><IMG src="../onpu_y.gif" name="click1" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">amazon.com</FONT></A><BR>
+              <A href="../amazonca.htm" onmouseover="change(4)" onmouseout="reset(4)"><IMG src="../onpu_y.gif" name="click4" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">amazon.ca</FONT></A><BR>
+              <A href="../cduniverse.htm" onmouseover="change(2)" onmouseout="reset(2)"><IMG src="../onpu_y.gif" name="click2" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CD
+              Universe</FONT></A><BR>
+              <A href="../cdnow.htm" onmouseover="change(3)" onmouseout="reset(3)"><IMG src="../onpu_y.gif" name="click3" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CDnow</FONT></A><BR>
+              <A href="../bn.htm" onmouseover="change(11)" onmouseout="reset(11)"><IMG src="../onpu_y.gif" name="click11" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Barnes&amp;Noble</FONT></A><BR>
+              <A href="../hmv.htm" onmouseover="change(14)" onmouseout="reset(14)"><IMG src="../onpu_y.gif" name="click14" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">HMV</FONT></A><BR>
+              <A href="../tower.htm" onmouseover="change(16)" onmouseout="reset(16)"><IMG src="../onpu_y.gif" name="click16" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Tower 
+              Records</FONT></A><BR>
+              <A href="../borders.htm" onmouseover="change(18)" onmouseout="reset(18)"><IMG src="../onpu_y.gif" name="click18" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Borders</FONT></A><BR>
+              <A href="../virgin.htm" onmouseover="change(19)" onmouseout="reset(19)"><IMG src="../onpu_y.gif" name="click19" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Virgin 
+              Mega Store</FONT></A><BR>
+              <A href="../cdconn.htm" onmouseover="change(20)" onmouseout="reset(20)"><IMG src="../onpu_y.gif" name="click20" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CDconnection</FONT></A><BR>
+              <A href="../mymusic.htm" onmouseover="change(22)" onmouseout="reset(22)"><IMG src="../onpu_y.gif" name="click22" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">mymusic</FONT></A><BR>
+              <a href="../cdquest.htm" onMouseOver="change(24)" onMouseOut="reset(24)"><img src="../onpu_y.gif" name="click24" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">CD 
+              Quest</font></a> <br>
+              <a href="../playcentric.htm" onMouseOver="change(26)" onMouseOut="reset(26)"><img src="../onpu_y.gif" name="click26" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">Playcentric</font></a><br>
+              <A href="../ccmusic.htm" onmouseover="change(27)" onmouseout="reset(27)"><IMG src="../onpu_y.gif" name="click27" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Collector's Choice Music</FONT></A><BR>
+              <A href="../djangos.htm" onmouseover="change(28)" onmouseout="reset(28)"><IMG src="../onpu_y.gif" name="click28" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Djangos</FONT></A><BR>
+              <a href="../cdwow.htm" onMouseOver="change(30)" onMouseOut="reset(30)"><img src="../onpu_y.gif" name="click30" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">CD-WOW!</font></a><br>
+              <A href="../ddcd.htm" onmouseover="change(31)" onmouseout="reset(31)"><IMG src="../onpu_y.gif" name="click31" border="0"><font  color="#F3C825"face="Arial, Helvetica" class="size">DeepDiscountCD</font></A><BR>            
+              <A href="../musicsteps.htm" onmouseover="change(32)" onmouseout="reset(32)"><IMG src="../onpu_y.gif" name="click32" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">MusicSteps</font></A><BR>            
+              <A href="../chaptersca.htm" onmouseover="change(33)" onmouseout="reset(33)"><IMG src="../onpu_y.gif" name="click33" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">chapters.indigo.ca</FONT></A><BR>
+              <A href="../adirect.htm" onmouseover="change(34)" onmouseout="reset(34)"><IMG src="../onpu_y.gif" name="click34" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Artist Direct</FONT></A><BR>
+              <A href="../dvdempire.htm" onmouseover="change(35)" onmouseout="reset(35)"><IMG src="../onpu_y.gif" name="click35" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">DVD Empire</FONT></A><BR>
+              <A href="../eil.htm" onmouseover="change(36)" onmouseout="reset(36)"><IMG src="../onpu_y.gif" name="click36" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">eil.com</FONT></A><BR>
+              <A href="../cdothers.htm" onmouseover="change(40)" onmouseout="reset(40)"><IMG src="../onpu_y.gif" name="click40" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">‚»‚Ì‘¼‚Ìshop</FONT></A></p>
+          </TD>
+        </TR>
+        </TBODY> 
+      </TABLE>

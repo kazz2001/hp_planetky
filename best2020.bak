@@ -1,0 +1,452 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<meta name="Generator" content="JustSystems Homepage Builder Version 17.0.15.0 for Windows">
+<meta name="KEYWORD" content="BLACK MUSIC, CD, Album, 2020, BEST50, ベスト50, ブラックミュージック, SOUL, HIP-HOP, R&B, RAP, Best 50">
+<meta name="DESCRIPTION" content="2020 BLACK MUSIC Album BEST 50">
+<meta name="ABSTRACT" content="Annual Best 50 Album of BLACK MUSIC 2020">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>2020 Black Music Album Best50</title>
+<script language="JavaScript" src="js/common.js">
+</script><script language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+// Licensed Materials - Property of IBM
+// 83H7391, 42L1820
+// (C) Copyright IBM Corp. 1995, 1999  All Rights Reserved.
+//
+// Version: 5.0.1
+//
+
+// HpbImgPreload: 画像のプリロードを行ないます
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind: Imageオブジェクトを探します
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap: 画像を入れ換えます
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4)); // Netscape Navigator 4.0 or later
+  var isIE=(document.all    && (appVer >= 4)); // Internet Explorer  4.0 or later
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</script><script language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'flipwhiteh.gif', 'flipwhiteh4.gif');
+//-->
+</script>
+<link rel="stylesheet" href="css/bm1.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="index.rdf">
+</head>
+<body bgcolor="#FFFFFF" link="#408070" vlink="#2593c7" text="#000000">
+<table class="t1" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tbody>
+    <tr valign="TOP" align="LEFT">
+      <td width="173" bgcolor="#000000" rowspan="4" align="center"><br>
+      <a href="indexb.html" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'flipwhiteh.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'flipwhiteh4.gif');"><img id="Picture88" height="134" width="116" src="flipwhiteh.gif" vspace="0" hspace="0" align="top" border="0" name="_HPB_ROLLOVER1"></a></td>
+      <td bgcolor="#000000" colspan="3" width="547"><img src="lo2.gif" width="474" height="76" border="0"></td>
+    </tr>
+    <tr>
+      <td rowspan="3" width="45">&nbsp;</td>
+      <td colspan="2" height="3" width="502">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="501" align="left" colspan="2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-4043025554204603" data-ad-slot="3858979378"></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></td>
+    </tr>
+    <tr>
+      <td height="5" align="left" width="251"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" --><!-- #EndLibraryItem --></td>
+      <td width="251"><!-- #BeginLibraryItem "/Library/BMCOntent2.lbi" --><!-- #EndLibraryItem --></td>
+    </tr>
+    <tr bgcolor="#dfdfdf">
+      <td bgcolor="#408080" align="center" rowspan="2" height="25"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica">Site Contents</font></td>
+      <td colspan="2" class="header1" rowspan="2">2020 Black Music Album Best 50</td>
+      <td height="2"><img src="gif/space15.gif" border="0"></td>
+    </tr>
+    <tr bgcolor="#dfdfdf">
+      <td align="right" valign="middle"><!-- #BeginLibraryItem "/Library/JumpYearBest.lbi" -->      <FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+        <option selected>Select Another Year </option>
+        <option value="best1998.htm">1998 </option>
+        <option value="best1999.htm">1999 </option>
+        <option value="best2000.htm">2000 </option>
+        <option value="best2001.htm">2001 </option>
+        <option value="best2002.htm">2002 </option>
+        <option value="best2003.htm">2003 </option>
+        <option value="best2004.htm">2004 </option>
+        <option value="best2005.htm">2005 </option>
+        <option value="best2006.htm">2006 </option>
+        <option value="best2007.htm">2007 </option>
+        <option value="best2008.htm">2008 </option>
+        <option value="best2009.htm">2009 </option>
+        <option value="best2010.htm">2010 </option>
+        <option value="best2011.htm">2011 </option>
+        <option value="best2012.htm">2012 </option>
+        <option value="best2013.htm">2013 </option>
+        <option value="best2014.htm">2014 </option>
+        <option value="best2015.htm">2015 </option>
+        <option value="best2016.htm">2016 </option>
+        <option value="best2017.htm">2017 </option>
+        <option value="best2018.htm">2018 </option>
+        <option value="best2019.htm">2019 </option>
+        <option value="best2020.htm">2020 </option>
+</SELECT></FORM><!-- #EndLibraryItem --></td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000" align="center" rowspan="4" valign="top"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
+<table width="90%">
+  <tr>
+    <td align="center" bgcolor="#000000"><p class="p-white">
+	                      <br>
+                          Black Music Album Best 50<br>
+						  <a href="best2020.htm" class="size3">2020</a><br>
+						  <a href="best2019.htm" class="size3">2019</a><br>
+						  <a href="best2018.htm" class="size3">2018</a><br>
+						  <a href="best2017.htm" class="size3">2017</a><br>
+						  <a href="best2016.htm" class="size3">2016</a><br>
+                          <a href="best2015.htm" class="size3">2015</a><br>
+                          <a href="best2014.htm" class="size3">2014</a><br>
+                          <a href="best2013.htm" class="size3">2013</a><br>
+                          <a href="best2012.htm" class="size3">2012</a><br>
+                          <a href="best2011.htm" class="size3">2011</a><br>
+                          <a href="best2010.htm" class="size3">2010</a><br>
+                          <a href="best2009.htm" class="size3">2009</a><br>
+                          <a href="best2008.htm" class="size3">2008</a><br>
+                          <a href="best2007.htm" class="size3">2007</a><br>
+                          <a href="best2006.htm" class="size3">2006</a><br>
+                          <a href="best2005.htm" class="size3">2005</a><br>
+                          <a href="best2004.htm" class="size3">2004</a><br>
+                          <a href="best2003.htm" class="size3">2003</a><br>
+                          <a href="best2002.htm" class="size3">2002</a><br>
+                          <a href="best2001.htm" class="size3">2001</a><br>
+                          <a href="best2000.htm" class="size3">2000</a><br>
+                          <a href="best1999.htm" class="size3">1999</a><br>
+                          <a href="best1998.htm" class="size3">1998</a><br>
+                          <br>
+                          CD Review<br>
+                          <a href="cd.htm" class="size3">2021</a><br>
+						  <a href="cd2020.htm" class="size3">2020</a><br>
+						  <a href="cd2019.htm" class="size3">2019</a><br>
+						  <a href="cd2018.htm" class="size3">2018</a><br>
+						  <a href="cd2017.htm" class="size3">2017</a><br>
+						  <a href="cd2016.htm" class="size3">2016</a><br>
+                          <a href="cd2015.htm" class="size3">2015</a><br>
+                          <a href="cd2014.htm" class="size3">2014</a><br>
+                          <a href="cd2013.htm" class="size3">2013</a><br>
+                          <a href="cd2012.htm" class="size3">2012</a><br>
+                          <a href="cd2011.htm" class="size3">2011</a><br>
+                          <a href="cd2010.htm" class="size3">2010</a><br>
+                          <a href="cd2009.htm" class="size3">2009</a><br>
+                          <a href="cd2008.htm" class="size3">2008</a><br>
+                          <a href="cd2007.htm" class="size3">2007</a><br>
+                          <a href="cd2006.htm" class="size3">2006</a><br>
+                          <a href="cd2005.htm" class="size3">2005</a><br>
+                          <a href="cd2004.htm" class="size3">2004</a><br>
+                          <a href="cd2003.htm" class="size3">2003</a><br>
+                          <a href="cd2002.htm" class="size3">2002</a><br>
+                          <a href="cd2001.htm" class="size3">2001</a><br>
+                          <a href="cd2000.htm" class="size3">2000</a><br>
+                          <a href="cd1999.htm" class="size3">1999</a><br>
+                          <a href="cd1998.htm" class="size3">1998</a><br>
+                          <br>
+                          <font color="#ffffff"><a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a></font><br>
+                          <br>
+                          <font color="#FFFFFF"><a href="liveshot.html" class="size2">Live
+                          Shot</a></font><br>
+                          <br>
+                          <font color="#FFFFFF"><a href="mag.htm" class="size2">Hip-Hop
+                          Magazine Review</a></font><br>
+                        <br>
+                        <font color="#FFFFFF"><a href="http://planetky.com/index.html" class="size2">planet.KY
+                        home</a></font><br>
+                            <br>
+                            <font size="-2" color="#FFFFFF">
+                            <script language="JavaScript">
+document.write('Last updated at ', document.lastModified);
+                    </script>
+                          </font></p>
+        </td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><br>
+      <br>
+      <script type="text/javascript"><!--
+google_ad_client = "pub-4043025554204603";
+google_ad_width = 120;
+google_ad_height = 240;
+google_ad_format = "120x240_as";
+google_ad_type = "text_image";
+//2007-02-12: All
+google_ad_channel = "9873313941";
+//--></script> <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br>
+      </td>
+      <td>&nbsp;</td>
+      <td colspan="2" align="left" valign="top">
+      <table class="text5" cellspacing="0" cellpadding="2" width="95%" border="1">
+        <tbody>
+          <tr>
+            <td></td>
+            <td>Artist / Title</td>
+          </tr>
+          <tr>
+            <td align="right">1</td>
+            <td><a href="runthejewels4.htm">Run the Jewels / RTJ4</a></td>
+          </tr>
+          <tr>
+            <td align="right">2</td>
+            <td><a href="mosessumney2.htm">Moses Sumney / græ</a></td>
+          </tr>
+          <tr>
+            <td align="right">3</td>
+            <td><a href="chloexhalle1.htm">Chloe x Halle / Ungodly Hour</a></td>
+          </tr>
+          <tr>
+            <td align="right">4</td>
+            <td><a href="rinasawayama1.htm">Rina Sawayama / SAWAYAMA</a></td>
+          </tr>
+          <tr>
+            <td align="right">5</td>
+            <td><a href="sault2.htm">SAULT / UNTITLED (Black Is)</a></td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;6</td>
+            <td><a href="thundercat2.htm">Thundercat / It Is What It Is</a></td>
+          </tr>
+          <tr>
+            <td align="right">7</td>
+            <td><a href="weeknd6.htm">The Weeknd / After Hours</a></td>
+          </tr>
+          <tr>
+            <td align="right">8</td>
+            <td><a href="sault1.htm">SAULT / Untitled (Rise)</a></td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;9</td>
+            <td><a href="fgibbsalchemist1.htm">Freddie Gibbs &amp; The Alchemist / Alfredo</a></td>
+          </tr>
+          <tr>
+            <td align="right">10</td>
+            <td><a href="liluzivert2.htm">Lil Uzi Vert / Eternal Atake</a></td>
+          </tr>
+          <tr>
+            <td align="right">11</td>
+            <td><a href="jessieware4.htm">Jessie Ware / What's Your Pleasure?</a></td>
+          </tr>
+          <tr>
+            <td align="right">12</td>
+            <td><a href="megantheestallion1.htm">Megan Thee Stallion / Good News</a></td>
+          </tr>
+          <tr>
+            <td align="right">13</td>
+            <td><a href="jayelectronica1.htm">Jay Electronica - A Written Testimony</a></td>
+          </tr>
+          <tr>
+            <td align="right">14</td>
+            <td><a href="jheneaiko1.htm">Jhene Aiko / Chilombo</a></td>
+          </tr>
+          <tr>
+            <td align="right">15</td>
+            <td><a href="liannelahavas1.htm">Lianne La Havas / Lianne La Havas</a></td>
+          </tr>
+          <tr>
+            <td align="right">16</td>
+            <td><a href="macmiller3.htm">Mac Miller / Circles</a></td>
+          </tr>
+          <tr>
+            <td align="right">17</td>
+            <td><a href="johnlegend6.htm">John Legend / Bigger Love</a></td>
+          </tr>
+          <tr>
+            <td align="right">18</td>
+            <td><a href="lilbaby1.htm">Lil Baby / My Turn</a></td>
+          </tr>
+          <tr>
+            <td align="right">19</td>
+            <td><a href="jhus2.htm">J Hus / Big Conspiracy</a></td>
+          </tr>
+          <tr>
+            <td align="right">20</td>
+            <td><a href="popsmoke1.htm">Pop Smoke / Meet The Woo 2</a></td>
+          </tr>
+          <tr>
+            <td align="right">21</td>
+            <td><a href="victoriamonet1.htm">Victoria Monét / JAGUAR</a></td>
+          </tr>
+          <tr>
+            <td align="right">22</td>
+            <td><a href="kehlani3.htm">Kehlani / It Was Good Until It Wasn't</a></td>
+          </tr>
+          <tr>
+            <td align="right">23</td>
+            <td><a href="dvsn1.htm">dvsn / A Muse In Her Feelings</a></td>
+          </tr>
+          <tr>
+            <td align="right">24</td>
+            <td><a href="kianalede1.htm">Kiana Lede / Kiki</a></td>
+          </tr>
+          <tr>
+            <td align="right">25</td>
+            <td><a href="arianagrande6.htm">Ariana Grande / Positions</a></td>
+          </tr>
+          <tr>
+            <td align="right">26</td>
+            <td><a href="spillagevillage1.htm">Spillage Village / Spilligion</a></td>
+          </tr>
+          <tr>
+            <td align="right">27</td>
+            <td><a href="alicia7.htm">Alicia Keys / ALICIA</a></td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;28</td>
+            <td><a href="pasalieu1.htm">Pa Salieu / Send Them to Coventry</a></td>
+          </tr>
+          <tr>
+            <td align="right">29</td>
+            <td><a href="busta6.htm">Busta Rhymes / Extinction Level Event 2: The Wrath of God</a></td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;30</td>
+            <td>Pop Smoke / Shoot for the Stars, Aim for the Moon</td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;31</td>
+            <td>Flo Milli / Ho, why is you here ?</td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;32</td>
+            <td><a href="brandy5.htm">Brandy / B7</a></td>
+          </tr>
+          <tr>
+            <td align="right">33</td>
+            <td>Leven Kali / HIGHTIDE</td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;34</td>
+            <td>Conway the Machine / From King To A GOD</td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;35</td>
+            <td><a href="teyanataylor3.htm">Teyana Taylor / The Album</a></td>
+          </tr>
+          <tr>
+            <td align="right">36</td>
+            <td>clipping / Visions of Bodies Being Burned</td>
+          </tr>
+          <tr>
+            <td align="right">37</td>
+            <td>21 Savage &amp; Metro Boomin / Savage Mode II</td>
+          </tr>
+          <tr>
+            <td align="right">38</td>
+            <td><a href="childishgambino2.htm">Childish Gambino / 3.15.20</a></td>
+          </tr>
+          <tr>
+            <td align="right">39</td>
+            <td>Boldy James &amp; The Alchemist / The Price of Tea in China</td>
+          </tr>
+          <tr>
+            <td align="right">40</td>
+            <td>Headie One / EDNA</td>
+          </tr>
+          <tr>
+            <td align="right">41</td>
+            <td>Kem / Love Always Win</td>
+          </tr>
+          <tr>
+            <td align="right">42</td>
+            <td>Brent Faiyaz - Fuck The World</td>
+          </tr>
+          <tr>
+            <td align="right">43</td>
+            <td>Benny The Butcher - Burden of Proof</td>
+          </tr>
+          <tr>
+            <td align="right">&nbsp;44</td>
+            <td>Westside Gunn - Pray for Paris</td>
+          </tr>
+          <tr>
+            <td align="right">45</td>
+            <td><a href="georgiaannemuldrow2.htm">Jyoti / Mama, You Can Bet!</a></td>
+          </tr>
+          <tr>
+            <td align="right">46</td>
+            <td>Giveon - TAKE TIME</td>
+          </tr>
+          <tr>
+            <td align="right">47</td>
+            <td>KeiyaA - Forever, Ya Girl</td>
+          </tr>
+          <tr>
+            <td align="right">48</td>
+            <td>Big Sean - Detroit 2</td>
+          </tr>
+          <tr>
+            <td align="right">49</td>
+            <td><a href="nas8.htm">Nas / King's Desease</a></td>
+          </tr>
+          <tr>
+            <td align="right">50</td>
+            <td>Durand Bernerr / Dur&amp;</td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="2"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2249009&pid=887194706" rel="nofollow"><img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2249009&pid=887194706" border="0"></a></td>
+    </tr>
+    <tr>
+      <td colspan="3" height="30" bgcolor="#e3e3e3"><!-- #BeginLibraryItem "/Library/MailTo1.lbi" --><B><FONT size="-1" face="Times New Roman,Times,Times NewRoman">Email: <A href="mailto:info@planetKY.com"><FONT size="+1">info@planetKY.com</FONT></A></FONT></B><!-- #EndLibraryItem --></td>
+    </tr>
+    <tr>
+      <td colspan="3"><font size="-1" face="Times New Roman,Times,Times NewRoman"><b>Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2021<!-- #EndLibraryItem --> planet.KY. All rights reserved.</b></font><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

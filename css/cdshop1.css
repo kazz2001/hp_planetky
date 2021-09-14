@@ -1,0 +1,20 @@
+.size{
+  font-weight : normal;
+  font-size : 10pt;
+  font-family : "Arial", "sans-serif", "Helvetica", "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";
+}
+.size1{
+  font-family : "‚l‚r ‚oƒSƒVƒbƒN", "Osaka", "Arial";
+  font-weight : bolder;
+  font-size : 12pt;
+}
+.jp1{
+  font-size : 10pt;
+  line-height : 1.2em;
+}
+.title1{
+  font-family : "Arial", "Helvetica", "sans-serif", "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";
+  font-weight : bold;
+  font-size : 14pt;
+  color : black;
+}

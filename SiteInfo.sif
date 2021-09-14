@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SiteProfInfo>
+<Site SiteName="planetky" TopDir="" TopFile="index.html" HtmlDir="" ImageDir="gif/" AppletDir="" ScriptDir="" SoundDir="" CssDir="css/" ServerProf="planetky" UseDocRoot="false" UseSiteCss="false" ApplySiteCss="true" DocRootDir="" SiteCssFile="" DefaultUrl="index.html" SubSite="false" QuickSite="false"></Site>
+
+<Server ServerName="planetky" HostName="web7.websitesource.net" PortNum="21" UsePassive="true" UserName="kazz2001" Dir="/planetky.com" UserFirewall="false" FwHostName="" FwPortNum="21" FwType="1" FwUserName="" AsciiSuffix=":HTM:HTML:SHTM:SHTML:JAVA:TXT:JS:CSS:CGI:PL:RSS:XML:CDF:HTACCESS"></Server>
+</SiteProfInfo>

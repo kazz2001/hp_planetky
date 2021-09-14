@@ -1,0 +1,80 @@
+###########################################################
+#                          CHAT.SETUP
+#
+# This script was written by Gunther Birznieks.
+# Date Created: 5-15-96
+#
+# Purpose:
+#   Set up global variables for running the chat room
+# 
+############################################################
+
+#
+# @chat_rooms is a list of chat names.
+# @chat_directories is a list of directories relative to the
+#   current one where the chat_directories reside
+# @chat_variable is a list of chat id's that are
+#   used to reference the forum names.  For example,
+#   if @chat_variable = ("cgi") and @chat_rooms=("CGI Programming")
+#   then calling the script as "chat.cgi?chat_room=cgi" will
+#   reference the "CGI Programming" room.
+#
+
+@chat_rooms = ("CGI Programming", "Open Forum");
+@chat_room_directories =            ("Chat_CGI", "Chat_Open");
+@chat_room_variable =               ("cgi", "open");        
+
+#
+# $chat_script allows you to change the name reference of the
+# script.  The default is "chat.cgi".  For servers such as
+# NT Netscape v1.12 that really requires the program to be encapsulated
+# in anther one such as a .bat file, this is where you would
+# change the references to the CGI program.
+#
+$chat_script = "chat.cgi";
+
+#
+# You may want to disallow HTML Images or HTML code
+# Set the $no_html or $no_html_images to "on"
+# if you want to disallow either html code or just
+# html images from being placed in your chat
+#
+$no_html = "off";
+$no_html_images = "off";
+
+#
+# $chat_session_dir is the directory relative to the 
+# chat script where the session files are stored
+#
+# $chat_session_length is the time in days that
+# session files stay active.
+#
+# $chat_who_length is the time in days that the
+# who files stay active to show who is an
+# occupant in the chat room
+#
+# $chat_announce_entry = "on" if we want
+#  a message to automatically post announcing
+#  someone's logging into the chat room
+#
+$chat_session_dir = "Sessions";
+$chat_session_length = 1;
+$chat_who_length = 1/24/12; # 1 day divided by 24 hours divided by 12
+                            # is an interval of 5 minutes
+$chat_announce_entry = "on";
+
+#
+# $prune_how_many_days > 0 means delete messages older
+#   than this many days.
+#
+# $prune_how_many_sequences > 0 means delete old messages
+#   if there are more than this many sequence numbers in
+#   the directory.
+#
+                                                        
+$prune_how_many_days =          .25;
+$prune_how_many_sequences =     10;    
+
+# all required files must return a true (1)
+# value
+1;

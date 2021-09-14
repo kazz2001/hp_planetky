@@ -1,0 +1,141 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+  フルCSSスマートフォンテンプレート部品設定
+--------------------------------------------------------*/
+/*--------------------------------------------------------
+  ユーザー設定スタイル
+--------------------------------------------------------*/
+
+/* マージン */
+.hpb-layoutset-02 #hpb-main .hpb-parts-smt-cnt-style, .hpb-layoutset-02 #hpb-main .hpb-parts-smt-cbox-style, .hpb-layoutset-02 #hpb-main .hpb-parts-smt-sbox-style, .hpb-layoutset-02 #hpb-main .hpb-parts-smt-lbox-style
+{
+    margin: 0 15px !important;
+}
+.hpb-layoutset-02 #hpb-main .hpb-parts-smt-lbtn-01, .hpb-layoutset-02 #hpb-main .hpb-parts-smt-lbtn-02, .hpb-layoutset-02 #hpb-main .hpb-parts-smt-lbtn-03
+{
+    margin: 5px 15px !important;
+}
+
+/* レイアウトコンテナ　2種類
+================================================== */
+
+/* 見出し　7種類
+================================================== */
+.hpb-parts-smt-hl-style
+{
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+    line-height: 27px;
+}
+
+.hpb-parts-smt-hl-bg-style
+{
+    background-color: #bbbbbb !important;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+    line-height: 27px;
+    color: #4c4c4c;
+}
+
+/* 文書枠　5種類
+================================================== */
+.hpb-parts-smt-cbox-style
+{
+    border-color: #595757 !important;
+    color: #595757;
+}
+
+/* リスト枠　4種類（2×2種類　見出しアリ・ナシ）
+================================================== */
+.hpb-parts-smt-sbox-style
+{
+    color: #595757;
+}
+
+.hpb-parts-smt-sbox-style h3
+{
+    background-color: #f0f0f0;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.hpb-parts-smt-sbox-style ul
+{
+    list-style: none;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.hpb-parts-smt-sbox-style li
+{
+    background-image: none !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.hpb-parts-smt-sbox-style li a img
+{
+    display: inline !important;
+    margin: 0px !important;
+    padding: 0px 5px 0px 0px !important;
+}
+
+/* リンクリスト　2種類（2×6種類　枠角・枠丸／見出しアリ・ナシ／画像アリ・ナシ）
+================================================== */
+.hpb-parts-smt-lbox-style
+{
+    color: #595757;
+}
+
+.hpb-parts-smt-lbox-style h3
+{
+    background-color: #f0f0f0;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.hpb-parts-smt-lbox-style ul
+{
+    list-style: none;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.hpb-parts-smt-lbox-style li
+{
+    background-image: none !important;
+    padding-left: 0px !important;
+}
+
+.hpb-parts-smt-lbox-style li a img
+{
+    display: inline !important;
+    margin: 0px !important;
+    padding: 0px 5px 0px 0px !important;
+}
+
+/* リンクボタン　9種類
+================================================== */
+.hpb-parts-smt-lbtn-style
+{
+    color: #595757;
+}
+
+
+/* リンクカラー　2種類
+================================================== */
+.hpb-parts-smt-lbox-style a, .hpb-parts-smt-lbtn-style a
+{
+    color: #595757;
+}

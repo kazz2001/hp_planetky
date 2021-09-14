@@ -1,0 +1,438 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 11.0.2.1 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="KEYWORDS" content="planet.KY,CD,Online Shop">
+<META name="ABSTRACT" content="planet.KY Online Shop LIst by Kazuhide Yokoyama">
+<META name="DESCRIPTION" content="planet.KY Online Shop LIst by Kazuhide yokoyama">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>CD ONLINE SHOP LIST</TITLE>
+<SCRIPT language="JavaScript">
+<!--
+var check = (navigator.appVersion.charAt(0) == "4") || ((navigator.appVersion.charAt(0) == "3") && (navigator.appName == "Netscape"));
+
+if (check) {
+        var img = new Array();
+        img[0] = new Image(); img[0].src = "./onpu_y.gif";
+        img[1] = new Image(); img[1].src = "./onpu_r.gif";
+}
+
+function change(num) {
+        if (check) {
+                document.images["click" + num].src = img[1].src;
+        }
+}
+
+function reset(num) {
+        if (check) {
+                document.images["click" + num].src = img[0].src;
+        }
+}
+function Pop1(QueryString)
+ { 
+PopupWindow = window.open ('', 'PopupWindow', 'toolbar=0,location=0,resizable=1,height=220,width=350')
+PopupWindow.focus()
+PopupWindow.location.href = 'http://64.225.125.88:8080/fieba/preset.jsp?FI_from=USD&FI_to=JPY&FI_inputAmount=1'
+}
+//-->
+</SCRIPT>
+<LINK rel="stylesheet" href="css/cdshop1.css" type="text/css">
+</HEAD>
+<BODY bgcolor="#ffffff" text="#000000" link="#408070" vlink="#2593c7" alink="#1F25A5" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" leftMargin="0" topMargin="0"><BASEFONT size="2">
+<TABLE border="0" cellspacing="0" width="680" bgcolor="#FFFFFF" cellpadding="0">
+  <TBODY>
+    <TR>
+      <TD valign="top" colspan="4" width="680" bgcolor="#F3C825">
+      <CENTER>
+      <TABLE bgcolor="#F3C825">
+        <TBODY>
+          <TR>
+            <TD valign="bottom" align="center"><IMG src="shoplogo.gif" width="431" height="50" border="0"><BR>
+            <FONT size="4" class="size1">海外ＣＤオンラインショップリスト</FONT></TD>
+          </TR>
+          <TR>
+            <TD align="center"><A href="cdshop.htm"><IMG src="bns0792.gif" width="143" height="25" border="0"></A><A href="index.html"><IMG src="bns080X2.gif" width="126" height="25" border="0"></A><A href="cdnews.htm"><IMG src="bns0691.gif" width="129" height="25" border="0"></A><A href="mailto:webmaster@planetKY.com"><IMG src="bns0822.gif" width="141" height="25" border="0"></A></TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      </CENTER>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="180" bgcolor="#14196B" valign="top" align="center" rowspan="4"><!-- #BeginLibraryItem "/Library/CDShopMenu.lbi" --><TABLE cellpadding="5">
+        <TBODY> 
+        <TR> 
+          <TD align="left" class="size" nowrap> 
+            <p><B><A href="cdshop.htm"><FONT color="#FFFFFF" class="size1">Main</FONT></A><BR>
+              <A href="cdnews.htm"><FONT color="#FFFFFF" class="size1">News</FONT></A><BR>
+              <A href="cdhowto.htm"><FONT color="#FFFFFF" class="size1">How to buy</FONT></A><BR>
+              <FONT color="#FFFFFF" face="Arial, Helvetica" class="size1">select shop</FONT></B><BR>
+              <A href="cdamazon.htm" onmouseover="change(1)" onmouseout="reset(1)"><IMG src="onpu_y.gif" name="click1" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">amazon.com</FONT></A><BR>
+              <A href="amazonca.htm" onmouseover="change(4)" onmouseout="reset(4)"><IMG src="onpu_y.gif" name="click4" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">amazon.ca</FONT></A><BR>
+              <A href="cduniverse.htm" onmouseover="change(2)" onmouseout="reset(2)"><IMG src="onpu_y.gif" name="click2" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CD
+              Universe</FONT></A><BR>
+              <A href="cdnow.htm" onmouseover="change(3)" onmouseout="reset(3)"><IMG src="onpu_y.gif" name="click3" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CDnow</FONT></A><BR>
+              <A href="bn.htm" onmouseover="change(11)" onmouseout="reset(11)"><IMG src="onpu_y.gif" name="click11" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Barnes&amp;Noble</FONT></A><BR>
+              <A href="hmv.htm" onmouseover="change(14)" onmouseout="reset(14)"><IMG src="onpu_y.gif" name="click14" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">HMV</FONT></A><BR>
+              <A href="tower.htm" onmouseover="change(16)" onmouseout="reset(16)"><IMG src="onpu_y.gif" name="click16" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Tower 
+              Records</FONT></A><BR>
+              <A href="borders.htm" onmouseover="change(18)" onmouseout="reset(18)"><IMG src="onpu_y.gif" name="click18" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Borders</FONT></A><BR>
+              <A href="virgin.htm" onmouseover="change(19)" onmouseout="reset(19)"><IMG src="onpu_y.gif" name="click19" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Virgin 
+              Mega Store</FONT></A><BR>
+              <A href="cdconn.htm" onmouseover="change(20)" onmouseout="reset(20)"><IMG src="onpu_y.gif" name="click20" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">CDconnection</FONT></A><BR>
+              <A href="mymusic.htm" onmouseover="change(22)" onmouseout="reset(22)"><IMG src="onpu_y.gif" name="click22" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">mymusic</FONT></A><BR>
+              <a href="cdquest.htm" onMouseOver="change(24)" onMouseOut="reset(24)"><img src="onpu_y.gif" name="click24" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">CD 
+              Quest</font></a> <br>
+              <a href="playcentric.htm" onMouseOver="change(26)" onMouseOut="reset(26)"><img src="onpu_y.gif" name="click26" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">Playcentric</font></a><br>
+              <A href="ccmusic.htm" onmouseover="change(27)" onmouseout="reset(27)"><IMG src="onpu_y.gif" name="click27" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Collector's Choice Music</FONT></A><BR>
+              <A href="djangos.htm" onmouseover="change(28)" onmouseout="reset(28)"><IMG src="onpu_y.gif" name="click28" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Djangos</FONT></A><BR>
+              <a href="cdwow.htm" onMouseOver="change(30)" onMouseOut="reset(30)"><img src="onpu_y.gif" name="click30" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">CD-WOW!</font></a><br>
+              <A href="ddcd.htm" onmouseover="change(31)" onmouseout="reset(31)"><IMG src="onpu_y.gif" name="click31" border="0"><font  color="#F3C825"face="Arial, Helvetica" class="size">DeepDiscountCD</font></A><BR>            
+              <A href="musicsteps.htm" onmouseover="change(32)" onmouseout="reset(32)"><IMG src="onpu_y.gif" name="click32" border="0"><font color="#F3C825" face="Arial, Helvetica" class="size">MusicSteps</font></A><BR>            
+              <A href="chaptersca.htm" onmouseover="change(33)" onmouseout="reset(33)"><IMG src="onpu_y.gif" name="click33" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">chapters.indigo.ca</FONT></A><BR>
+              <A href="adirect.htm" onmouseover="change(34)" onmouseout="reset(34)"><IMG src="onpu_y.gif" name="click34" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">Artist Direct</FONT></A><BR>
+              <A href="dvdempire.htm" onmouseover="change(35)" onmouseout="reset(35)"><IMG src="onpu_y.gif" name="click35" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">DVD Empire</FONT></A><BR>
+              <A href="eil.htm" onmouseover="change(36)" onmouseout="reset(36)"><IMG src="onpu_y.gif" name="click36" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">eil.com</FONT></A><BR>
+              <A href="cdothers.htm" onmouseover="change(40)" onmouseout="reset(40)"><IMG src="onpu_y.gif" name="click40" border="0"><FONT color="#F3C825" face="Arial, Helvetica" class="size">その他のshop</FONT></A></p>
+          </TD>
+        </TR>
+        </TBODY> 
+      </TABLE><!-- #EndLibraryItem --><CENTER><!--Start Box Short Calculator -->
+      <TABLE cellpadding="2" cellspacing="0" width="151" border="1" bgcolor="#000000">
+        <TBODY>
+          <TR>
+            <TD align="CENTER">
+            <FORM action="http://www.exchangerate.com/quick_calculator.html" target="NEW" method="GET"><INPUT type="HIDDEN" name="qc_referer" value="planetky.com"></FORM>
+            <TABLE cellpadding="0" cellspacing="0" width="150" border="0" bgcolor="#000000">
+              <TBODY>
+                <TR>
+                  <TD align="CENTER"><nobr><A href="http://www.ExchangeRate.com" target="_NEW"><FONT face="Verdana, Helvetica, Arial" size="1" color="#FFFFFF"><B>ExchangeRate.com</B></FONT></A></nobr></TD>
+                </TR>
+                <TR>
+                  <TD align="CENTER" bgcolor="#0E3577"><nobr><FONT size="-1"><SELECT name="calc_short_from_iso">
+                    <OPTION value="">-- Select -- </OPTION>
+                    <OPTION value="CAD">Canada-CAD </OPTION>
+                    <OPTION value="JPY" selected>Japan-JPY </OPTION>
+                    <OPTION value="GBP">U.K.-GBP </OPTION>
+                    <OPTION value="USD">U.S.A.-USD </OPTION>
+                  </SELECT> </NOBR><BR>
+                  <nobr><SELECT name="calc_short_to_iso">
+                    <OPTION value="">-- Select -- </OPTION>
+                    <OPTION value="CAD">Canada-CAD </OPTION>
+                    <OPTION value="JPY">Japan-JPY </OPTION>
+                    <OPTION value="GBP">U.K.-GBP </OPTION>
+                    <OPTION value="USD">U.S.A.-USD </OPTION>
+                  </SELECT> </FONT></NOBR></TD>
+                </TR>
+                <TR>
+                  <TD align="CENTER" bgcolor="#0E3577"><INPUT type="HIDDEN" name="amount_from" value="1.00"><INPUT border="0" src="http://www.exchangerate.com/images/quick_converter.gif" type="IMAGE" name="XR-QuickConverter" value="Convert"></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+          <TR>
+            <TD align="CENTER"><nobr><FONT face="Verdana, Helvetica, Arial" size="1" color="#FFFFFF"><B>XR QuickCalculator?</B></FONT></nobr></TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <!--End Box Short Calculator --><BR>
+      <A href="http://bn.bfast.com/booklink/click?sourceid=6704978&categoryid=mhome"><IMG src="music_findgreat_120x60.gif" width="120" height="60" border="0"></A><BR>
+      <BR>
+      <FONT class="jp1" color="#000000"><B><A href="http://www.amazon.com/exec/obidos/redirect?tag=webky&path=subst/home/music.html"><IMG src="gif/musa30120x60.gif" border="0" width="120" height="60"></A><BR>
+      <BR>
+      <A href="http://www.mymusic.com/default.asp?myptr=cdshop"><IMG src="gif/mymusic-orderat.gif" width="113" height="43" border="0"></A><BR>
+      <BR>
+      <A href="http://www.djangomusic.com/home.asp?afid=KAZU022811754"><IMG src="gif/banner120x60_1.gif" width="120" height="60" border="0"></A><BR>
+      <BR>
+      <A href="http://www.videouniverse.com/default.asp?style=movie&frm=lk_planetky"><IMG src="http://www.videouniverse.com/banners/live/cdu/88x31_video/88x31_video01.gif" width="88" height="31" border="0" alt="Video Universe - Hot Movies At Low Prices!"></A><A href="http://click.linksynergy.com/fs-bin/stat?id=G6Pc6RznbuU&offerid=7225.47&type=4&subid=0"> </A><IMG border="0" width="1" height="1" src="http://ad.linksynergy.com/fs-bin/show?id=G6Pc6RznbuU&bids=7225.47&type=4&subid=0"><BR>
+      <BR>
+      </B></FONT><A href="http://www.qksrv.net/click-258866-5387954" target="_top"><IMG src="http://www.qksrv.net/image-258866-5387954" width="120" height="30" alt="" border="0"></A><BR>
+      <BR>
+      <A href="http://www.dpbolvw.net/click-1554040-10306718" target="_top"><IMG src="http://www.lduhtrp.net/image-1554040-10306718" width="120" height="60" alt="" border="0"></A><BR>
+      <BR>
+      <IFRAME src="http://rcm-jp.amazon.co.jp/e/cm?t=planetkycom-22&o=9&p=40&l=ur1&category=music&banner=0WJXXDRNF6TX4X4AE9R2&f=ifr" width="120" height="60" scrolling="no" border="0" style="border:none;" frameborder="0"></IFRAME><BR>
+      <FONT size="-2" color="#F3C825"><SCRIPT language="JavaScript">
+document.write('last updated at ', document.lastModified,
+      "<BR>");
+        </SCRIPT> </FONT><BR>
+      <BR>
+      <!-- #BeginLibraryItem "/Library/Counter1.lbi" --><p>
+              <script language='JavaScript'><!--
+document.write("<div align='center'><img src='http://web7.websitesource.net/webshell4/ac.php?q=6E647D7D353333343D34&ref=" + top.document.referrer +"' border=0></div>");
+//--></script>
+</p><!-- #EndLibraryItem --></CENTER>
+      </TD>
+      <TD valign="top" width="5" bgcolor="#F3C825" rowspan="4">&nbsp;</TD>
+      <TD valign="top" width="5" bgcolor="#fcefbe" rowspan="4">&nbsp;</TD>
+      <TD valign="top" width="480">
+      <TABLE border="1" width="100%" cellspacing="0" cellpadding="5">
+        <TBODY>
+          <TR>
+            <TD class="title1" align="center" colspan="2" bgcolor="#fcefbe" height="50">CD Online Shop List メインページ</TD>
+          </TR>
+          <TR>
+            <TD colspan="2"><FONT class="jp1">このホームページは、Popular MusicのCD全般を扱っている海外のオンラインショップについての情報を提供しています。内容は価格，日本への送料，サイトの提供する情報/サービス等です。<BR>
+            このページでは入手容易なＣＤ５タイトルで価格を比較してます。価格は改定されることも少なくないので注意してください。 購入方法などについての質問，新規ショップ追加のリクエスト，購入体験など何でもMailで受け付けています。気軽に送ってください。なお、当サイトへのリンクは自由です。(リンク先は<A href="http://www.planetKY.com/cdshop.htm">こちら</A>に御願いします。）</FONT></TD>
+          </TR>
+          <TR>
+            <TD colspan="2" align="center"><B>&lt;&lt;2001/9/17週のYahoo<A href="http://www.yahoo.co.jp/picks/20010917.html">今週のオススメ</A>に掲載されました。&gt;&gt;</B></TD>
+          </TR>
+          <TR>
+            <TD class="size1" colspan="2" align="center" bgcolor="#fcefbe">各ページの説明(左のリンクの説明)</TD>
+          </TR>
+          <TR>
+            <TD class="jp1" valign="top">Main</TD>
+            <TD class="jp1" valign="top">このページに戻ります。CD価格の比較表も載せています。</TD>
+          </TR>
+          <TR>
+            <TD class="jp1" valign="top">News</TD>
+            <TD class="jp1" valign="top">このサイトへの更新やオンラインショップのNews等を載せています。</TD>
+          </TR>
+          <TR>
+            <TD class="jp1" valign="top">How To Buy</TD>
+            <TD class="jp1" valign="top">賢い買い方や安く買う方法などを載せています。</TD>
+          </TR>
+          <TR>
+            <TD class="jp1" valign="top">Select Shop</TD>
+            <TD class="jp1" valign="top">各ショップの詳細情報ページへのリンク。順序は掲載順です。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <TABLE border="1" width="480" cellpadding="4" cellspacing="0">
+        <TBODY>
+          <TR>
+            <TD colspan="8"><A href="http://clickserve.cc-dt.com/link/click?lid=41000000001175232"><IMG src="http://clickserve.cc-dt.com/link/banner?lid=41000000001175232" border="0" alt="468x60What&#39;s in it(the bag)" height="60" width="468"></A></TD>
+          </TR>
+          <TR>
+            <TD colspan="8"><FONT class="jp1"><FONT class="size1"><A name="cdtitle"></A>CD価格の比較</FONT><FONT size="2">(単位はUS$)</FONT></FONT></TD>
+          </TR>
+          <TR>
+            <TD rowspan="5" align="center">比較対象CD</TD>
+            <TD><FONT class="jp1">1</FONT></TD>
+            <TD colspan="6"><A href="lauryn1.htm">Lauryn Hill / The Miseducation Of Lauryn Hill</A></TD>
+          </TR>
+          <TR>
+            <TD>2</TD>
+            <TD colspan="6"><A href="kanyewest2.htm">Kanye West / Late Registration</A></TD>
+          </TR>
+          <TR>
+            <TD>3</TD>
+            <TD colspan="6"><A href="http://bm.planetky.com/mary4.htm">Mary J. Blige / The Breakthrough</A></TD>
+          </TR>
+          <TR>
+            <TD>4</TD>
+            <TD colspan="6">Joss Stone / Introducing Joss Stone</TD>
+          </TR>
+          <TR>
+            <TD>5</TD>
+            <TD colspan="6">Timbaland Presents Shock Value</TD>
+          </TR>
+          <TR>
+            <TD colspan="8"><FONT class="jp1">括弧内は価格調査日&nbsp;/ 安い順に 1位:<FONT color="#ff0000">赤</FONT> 2位:<FONT color="#0000cc">青</FONT> 3位:<FONT color="#009900">緑</FONT> </FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">&nbsp;</TD>
+            <TD>1</TD>
+            <TD>2</TD>
+            <TD>3</TD>
+            <TD>4</TD>
+            <TD>5</TD>
+            <TD>合計</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">amazon.com (2007/5/6)</TD>
+            <TD class="right"><FONT color="#0000cc">9.99</FONT></TD>
+            <TD class="right">13.98</TD>
+            <TD class="right"><FONT color="#000099">9.99</FONT></TD>
+            <TD class="right"><FONT color="#ff0000">9.99</FONT></TD>
+            <TD class="right">12.99</TD>
+            <TD class="right"><FONT color="#1f25a5">56.94</FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">amazon.ca (2007/5/6) Canada$</TD>
+            <TD>10.97</TD>
+            <TD>16.99</TD>
+            <TD>13.99</TD>
+            <TD>13.97</TD>
+            <TD>11.96</TD>
+            <TD>67.88</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">CD Universe (2007/5/6)</TD>
+            <TD class="right">11.29</TD>
+            <TD class="right">13.75</TD>
+            <TD class="right">13.09</TD>
+            <TD class="right">15.09</TD>
+            <TD class="right">13.35</TD>
+            <TD class="right">66.57</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">CDnow</TD>
+            <TD colspan="6" class="right">amazon.comと同じ</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Barnes&amp;Noble (2007/5/6)</TD>
+            <TD class="right">13.99</TD>
+            <TD class="right">13.99</TD>
+            <TD class="right"><FONT color="#009900">11.19</FONT></TD>
+            <TD class="right">13.29</TD>
+            <TD class="right">12.95</TD>
+            <TD class="right">65.41</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">HMV</TD>
+            <TD class="right" colspan="6">日本への出荷無し</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Tower records (2007/5/6)</TD>
+            <TD class="right"><FONT color="#ff0000">8.99</FONT></TD>
+            <TD class="right">12.58</TD>
+            <TD class="right"><FONT color="#ff0000">8.99</FONT></TD>
+            <TD class="right"><FONT color="#009900">12.15</FONT></TD>
+            <TD class="right">11.69</TD>
+            <TD class="right"><FONT color="#ff0000">54.40</FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Borders</TD>
+            <TD colspan="6" class="right">amazon.comと同じ</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Virgin Mega Store</TD>
+            <TD class="right" colspan="6">amazon.comと同じ</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">CDconnection (2007/5/6)</TD>
+            <TD class="right"><FONT color="#009900">10.39</FONT></TD>
+            <TD class="right"><FONT color="#000099">11.99</FONT></TD>
+            <TD class="right">13.16</TD>
+            <TD class="right">13.88</TD>
+            <TD class="right">12.13</TD>
+            <TD class="right">61.55</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">mymusic (2007/5/6)</TD>
+            <TD class="right">10.98</TD>
+            <TD class="right">16.99</TD>
+            <TD class="right">16.99</TD>
+            <TD class="right">14.99</TD>
+            <TD class="right"><FONT color="#ff0000">10.99</FONT></TD>
+            <TD class="right"><FONT color="#1f25a5">70.94</FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">CD Quest (2007/5/6)</TD>
+            <TD class="right">12.08</TD>
+            <TD class="right">13.82</TD>
+            <TD class="right">13.82</TD>
+            <TD class="right">16.62</TD>
+            <TD class="right">13.82</TD>
+            <TD class="right">70.16</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Playcentric (2007/5/6))</TD>
+            <TD class="right">34.67</TD>
+            <TD class="right">43.21</TD>
+            <TD class="right">n/a</TD>
+            <TD class="right">n/a</TD>
+            <TD class="right">n/a</TD>
+            <TD class="right">77.88 (2枚)</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Collector's Choice Music (2007/5/6)</TD>
+            <TD class="right">11.88</TD>
+            <TD class="right">13.98</TD>
+            <TD class="right">13.98</TD>
+            <TD class="right"><FONT color="#1f25a5">12.04</FONT></TD>
+            <TD class="right">13.99</TD>
+            <TD class="right">65.87</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">Djangos (2007/5/6)</TD>
+            <TD class="right">11.18</TD>
+            <TD class="right">13.49</TD>
+            <TD class="right"><FONT color="#009900">11.19</FONT></TD>
+            <TD class="right"><FONT color="#ff0000">15.18</FONT></TD>
+            <TD class="right"><FONT color="#1f25a5">11.19</FONT></TD>
+            <TD class="right"><FONT color="#ff0000">62.23</FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">(Djangos used:中古) (2007/5/6)</TD>
+            <TD class="right">2.69</TD>
+            <TD class="right">8.99</TD>
+            <TD class="right">9.99(在庫無し)</TD>
+            <TD class="right">9.99</TD>
+            <TD class="right">7.95</TD>
+            <TD class="right">39.61</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">DeepDiscountCD (2007/5/6)</TD>
+            <TD>10.99</TD>
+            <TD><FONT color="#ff0000">11.97</FONT></TD>
+            <TD>11.47</TD>
+            <TD>13.97</TD>
+            <TD><FONT color="#009900">11.47</FONT></TD>
+            <TD><FONT color="#009900">59.87</FONT></TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">ARTISTdirect (2007/5/6)</TD>
+            <TD>11.99</TD>
+            <TD><FONT color="#000099">11.99</FONT></TD>
+            <TD>11.99</TD>
+            <TD>14.99</TD>
+            <TD>11.99</TD>
+            <TD>62.95</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">CD-WOW (送料込み) UK ￡(2007/5/6)</TD>
+            <TD>8.25</TD>
+            <TD>6.99</TD>
+            <TD>7.99</TD>
+            <TD>6.99</TD>
+            <TD>7.99</TD>
+            <TD>38.21</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">chapters.indigo.ca(2007/5/6) Canada$</TD>
+            <TD>14.99</TD>
+            <TD>16.99</TD>
+            <TD>14.99</TD>
+            <TD>17.99</TD>
+            <TD>14.99</TD>
+            <TD>79.95</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">DVD Empire(2007/5/6)</TD>
+            <TD>n/a</TD>
+            <TD>13.99</TD>
+            <TD>11.37</TD>
+            <TD>n/a</TD>
+            <TD>n/a</TD>
+            <TD>25.36(2枚)</TD>
+          </TR>
+          <TR class="jp1">
+            <TD colspan="2">eil.com (2005/10/15) UK￡</TD>
+            <TD>n/a</TD>
+            <TD>12.99</TD>
+            <TD>13.99</TD>
+            <TD>12.99</TD>
+            <TD>12.99</TD>
+            <TD>52.96 (4枚)</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      </TD>
+    </TR>
+    <TR>
+      <TD><!-- TG-Affiliate Banner Space --><A href="http://ad.trafficgate.net/e/m.pl?h=54220&g=20&m=45&t=img" target="_blank"><IMG src="http://srv.trafficgate.net/e/b.pl?h=54220&g=20&m=45" border="0"></A> <!-- /TG-Affiliate Banner Space --></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#fcefbe"><!-- #BeginLibraryItem "/Library/MailTo1.lbi" --><B><FONT size="-1" face="Times New Roman,Times,Times NewRoman">Email: <A href="mailto:info@planetKY.com"><FONT size="+1">info@planetKY.com</FONT></A></FONT></B><!-- #EndLibraryItem --><SCRIPT src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </SCRIPT> <SCRIPT type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</SCRIPT></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#fcefbe"><FONT size="-1" face="Times New Roman,Times,Times NewRoman"><B>Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" --><font size="-1" face="Times New Roman,Times,Times NewRoman">2008</font><!-- #EndLibraryItem --> planet.KY. All rights reserved.</B></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>

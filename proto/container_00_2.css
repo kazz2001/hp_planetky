@@ -1,0 +1,199 @@
+@charset "Shift_JIS";
+
+body{
+    background-color: #fff;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    color: #595757;
+    font: 12px/1.4 "ヒラギノ角ゴ Pro W3" , "ＭＳ Ｐゴシック" , "Hiragino Kaku Gothic Pro" , "MS PGothic" , sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+body.hpb-layoutset-02{
+    position: relative;
+    border-top: none;
+}
+
+span.en{
+    display: none;
+}
+
+/* スキップリンクの非表示 */
+#hpb-skip{
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+body.hpb-layoutset-02 #hpb-skip{
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+/* ヘッダー */
+#hpb-headerMain{
+    display: none;
+}
+
+#hpb-headerExtra1{
+    display: none;
+}
+
+#hpb-headerExtra2{
+    display: none;
+}
+
+#hpb-headerNav{
+    display: none;
+}
+
+/* インナー */
+#hpb-inner{
+    padding: 0;
+}
+
+/* タイトル */
+#hpb-title{
+    margin: 0;
+    padding: 0;
+    color: #898989;
+}
+
+.hpb-layoutset-02 #hpb-title{
+    padding-top: 12px;
+}
+
+.hpb-layoutset-02 #hpb-title h2{
+    background: #fff;
+    border-bottom: 1px solid #727171;
+    margin: 0;
+    padding: 3px 15px;
+    font-weight: normal;
+    line-height: 1.0;
+    overflow: hidden;
+}
+
+.hpb-layoutset-02 #hpb-title h2 span.en, .hpb-layoutset-02 #hpb-title h2 span.ja{
+    float: left;
+    display: block;
+    padding-bottom: 2px;
+    font-size: 23px;
+}
+
+.hpb-layoutset-02 #hpb-title h2 span.en{
+    display: none;
+}
+
+.hpb-layoutset-02 #hpb-title h2 span.ja
+{
+}
+
+/* ナビゲーション */
+h3.hpb-c-index{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+}
+
+/* メインコンテンツ */
+.hpb-layoutset-02 #hpb-main{
+    padding: 12px 0 0;
+}
+
+img, img a{
+    border: none;
+}
+
+/* footer */
+#hpb-footer{
+    margin-top: 30px;
+}
+
+.hpb-layoutset-01 #hpb-footer{
+    margin-top: 20px;
+}
+
+#hpb-footerExtra1{
+    padding-top: 0px;
+}
+
+#hpb-footerExtra1 ul{
+    margin: 5px auto;
+    padding: 0;
+    text-align: center;
+    list-style: disc;
+    overflow: hidden;
+}
+
+#hpb-footerExtra1 ul li{
+    display: inline-block;
+    padding: 7px 10px;
+}
+
+.hpb-layoutset-01 #hpb-footerNav{
+    display: none;
+}
+
+#hpb-footerMain p{
+    background-color: #231815;
+    margin: 0;
+    padding: 6px 0;
+    font: 10px/1.0 'Helvetica' , 'Arial' , sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#hpb-aside{
+    margin: 35px 0px 10px 0px;
+}
+
+#hpb-aside h3, #hpb-aside h4, #hpb-aside p, #hpb-aside img{
+    padding-left: 15px;
+}
+
+#banner ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#banner ul li{
+    width: 100%;
+    line-height: 1.0;
+    overflow: hidden;
+}
+
+#banner ul li:nth-child(odd){
+    background-color: #e6e6e6;
+    background-image : url(nav_arrow_00_2.png);
+    background-position: 15px 17px;
+    background-repeat: no-repeat;
+}
+
+#banner ul li:nth-child(even){
+    background-color: #f5f5f5;
+    background-image : url(nav_arrow_00_2.png);
+    background-position: 15px 17px;
+    background-repeat: no-repeat;
+}
+
+#banner ul li a{
+    display: block;
+    height: 33px;
+    padding: 11px 15px 0 25px;
+    color: #727171;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 22px;
+}
