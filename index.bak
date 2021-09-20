@@ -30,7 +30,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <table class="t1" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
   <tbody>
     <tr valign="TOP" align="LEFT">
-      <td width="160" bgcolor="#000000" rowspan="4" align="center" nowrap valign="middle"><a href="index.html"><img id="Picture88" height="134" width="116" src="flipwhiteh.gif" vspace="0" hspace="0" align="top" border="0"></a></td>
+      <td width="160" class="td-g-black" rowspan="4" valign="middle"><a href="index.html"><img id="Picture88" height="134" width="116" src="flipwhiteh.gif" vspace="0" hspace="0" align="top" border="0"></a></td>
       <td bgcolor="#000000" colspan="3"><a href="index.html"><img src="lo2.gif" height="76" border="0" vspace="3"></a></td>
     </tr>
     <tr>
@@ -97,11 +97,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
       <td nowrap width="30"><!-- #BeginLibraryItem "/Library/BMCOntent2.lbi" --><!-- #EndLibraryItem --></td>
     </tr>
     <tr>
-      <td bgcolor="#408080" align="center"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica">Site Contents</font></font></td>
+      <td class="td-g-green"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica">Site Contents</font></font></td>
       <td colspan="3" bgcolor="#dedede" class="section1"><font class="header1-g" color="#408080">&nbsp;News</font></td>
     </tr>
     <tr>
-      <td bgcolor="#000000" rowspan="7" valign="top" align="center"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
+      <td class="td-g-centertop-black" rowspan="7"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
 <table width="90%">
   <tr>
     <td align="center" bgcolor="#000000"><p class="p-white">
@@ -225,6 +225,30 @@ document.write('Last updated at ', document.lastModified);
       <td colspan="2">
       <table border="0">
         <tbody>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="wrd1.htm">WRD / The Hit</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+          </tr>
+          <tr>
+            <td><a href="wrd1.htm"><img src="gif/wrd1M.jpg" border="0" alt="[WRD / The Hit]" width="75"></a></td>
+            <td>Greyboy AllstarsのRobert Walter(org), The New MastersoundsののEddie Roberts(g), LettucedのAdam Deitch(ds)によるTrio、WRDの初アルバム。バンド名は3人の頭文字をとったもの。Adam DeitchあたりはHip-Hop Artistとの共演もあったりするが、こちらの作品はヴィンテージ感たっぷりのファンクでソウルフルなものであり、全曲、Insturumentalでの構成であり、曲調もUpでのりのよいものばかりである。高度なテクニックに裏打ちされる3人の演奏が紡ぎだすグルーブが心地よく、ライブハウスで一杯傾けながら、聞けたら、最高だと思う。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="brockhampton2.htm">Brockhampton / Roadrunner: New Light, New Machine</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+          </tr>
+          <tr>
+            <td><a href="brockhampton2.htm"><img src="gif/brockhampton2M.jpg" border="0" alt="[Brockhampton / Roadrunner: New Light, New Machine]" width="75"></a></td>
+            <td>自称Boys BandのBrockhampton、2年ぶりの6作目。Netでリリースしてきた曲を中心にまとめたものらしい。Danny Brown, JPEGMAFIA, A$ap Rockyなどをゲストに迎えたこともあり、今までよりHip-Hop色が濃くなっている。それだけでなく、Rockを前面に押し出した曲もあるし、Charile Wilsonをフィーチャーしたファンクな⑦など、曲調は様々で、相変わらずの賑やかさである。また、穏やかなヒーリング曲の⑩では久々にChad Hugoの名前をクレジットに見かけた。全般的には明るくてPopではあるが、乱射事件を取り上げた⑪、もろゴスペルでほぼアカペラな⑫、メランコリックな⑬とつづくあたりで、それだけではないところも示している。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
           <tr>
             <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="gallant2.htm">Gallant / Neptune</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
           </tr>
