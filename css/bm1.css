@@ -1,10 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500;700&display=swap');
-
 /*
 @import url('./ibm-plex-sans-jp.css');
 */
-
 @font-face {
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
@@ -29,157 +27,210 @@
   font-weight: 500;
   src: local("IBM Plex Sans JP Medium"), local("IBMPlexSansJP-Medium"), url("../fonts//IBM-Plex-Sans-JP/fonts/complete/woff2/hinted/IBMPlexSansJP-Medium.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-JP/fonts/complete/woff/hinted/IBMPlexSansJP-Medium.woff") format("woff"); 
 }
-
 /* a:link    { color:#408070; }
 a:visited { color:#2593c7; }
 a:active  { color:#2111EF; }
 a:hover   { color:#ca0000; } */
 
 .size{
-  font-weight : normal;
-  font-size : 1em;
-  line-height : 1.2rem;
-  font-family: IBM Plex Sans;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.2rem;
+	font-family: IBM Plex Sans;
 }
 
 .size2{
-  font-size : 0.8rem;
-  font-family : Verdana,Arial,sans-serif;
-  color : white;
+	font-size: 0.8rem;
+	font-family: Verdana,Arial,sans-serif;
+	color: white;
 }
 
 .jp1{
-  font-size : 10pt;
+	font-size: 10pt;
 }
 
 .title{
-  font-size : 14pt;
-  font-family : Arial,sans-serif;
-  font-weight : bold;
-  text-decoration : underline;
+	font-size: 14pt;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .small1{
-  font-size : 10pt;
-  color : white;
+	font-size: 10pt;
+	color: white;
 }
+
 .small2{
-  font-size : 8pt;
+	font-size: 8pt;
 }
+
 .small3{
-  font-size : 10pt;
-  font-family : Times New Roman,Times,Times NewRoman;
+	font-size: 10pt;
+	font-family: Times New Roman,Times,Times NewRoman;
 }
 
 .td-left {
-  text-align : light;
-  vertical-align : top;
+	text-align: light;
+	vertical-align: top;
 }
+
 .td-left480 {
-  text-align : light;
-  vertical-align : top;
-  width: 400px;
+	text-align: light;
+	vertical-align: top;
+	width: 400px;
 }
+
 select{
-  font-size : 1.3rem;
-  width: 300px;
+	font-size: 1.3rem;
+	width: 300px;
 }
+
 .td-right{
-  text-align : right;
-  vertical-align : top;
+	text-align: right;
+	vertical-align: top;
 }
+
+.td-right-mid{
+	text-align: right;
+	vertical-align: middle;
+}
+
 .td-center, .td-center170, .td-centertop, .td-center170-gray, .td-centertop-black, .td-g-centertop-black{
-  text-align : center;
+	text-align: center;
 }
+
 .td-center170, .td-center170-gray{
-  width: 170px;
+	width: 170px;
 }
+
 .td-center170-gray{
-  background-color: #dedede;
+	background-color: #dedede;
 }
+
 .td-centertop, .td-centertop-black, .td-g-centertop-black{
-  vertical-align : top;
+	vertical-align: top;
 }
+
 .td-centertop-black, .td-g-centertop-black{
-  background-color: #000000;
+	background-color: #000000;
 }
+
 .td-gray, .td-gray-left, .td-gray-right{
-  background-color: #dedede;
-	}
+	background-color: #dedede;
+}
+
 .td-gray-left{
-  text-align : left;
-	}
+	text-align: left;
+}
+
 .td-gray-right{
-  text-align : right;
-	}
+	text-align: right;
+}
+
 .td-white{
-  background-color: #ffffff;
-	}
+	background-color: #ffffff;
+}
+
 .td-black{
-  background-color: #000000;
-	}
+	background-color: #000000;
+}
+
 .tr-left{
-  text-align : left;
-  vertical-align : top;
+	text-align: left;
+	vertical-align: top;
 }
+
 .tr-center{
-  text-align : center;
-  vertical-align : middle;
+	text-align: center;
+	vertical-align: middle;
 }
+
 .t2{
 	width: 95%;
 	border: 0px;
 	border-spacing: 3;
-	border-collapse:collapse;
-	padding:0;
-	}
+	border-collapse: collapse;
+	padding: 0;
+}
+
 .t3, .t4, .t5{
 	border-spacing: 0;
-	border-collapse:collapse;
-	padding:2;
-  font-weight : normal;
-  font-size : 1rem;
- 	}
+	border-collapse: collapse;
+	padding: 2;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
 .t3{
 	width: 95%;
-  border: 0px;
- 	font-family: IBM Plex Sans;
-	}
+	border: 0px;
+	font-family: IBM Plex Sans;
+}
 
 .t3-p td{
-  padding-top : 7px;
+	padding-top: 7px;
 }
 
 .t4{
 	width: 100%;
-  border: 0px;
- 	font-family: IBM Plex Sans JP;
-	}
+	border: 0px;
+	font-family: IBM Plex Sans JP;
+}
 
 .t5{
-  width: 100%;
-  border: 1px #000000 solid;
-  font-family: IBM Plex Sans;
-  font-weight : 400;
-  font-size : 1.2rem;
-  }
+	width: 100%;
+	border: 1px #000000 solid;
+	font-family: IBM Plex Sans;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
 .t5 td{
-  padding : 10px 5px 5px;
-  border: 1px #000000 solid;
- }
+	padding: 10px 5px 5px;
+	border: 1px #000000 solid;
+}
 /*
  .t6{
   	background-color: #000000;
 	border: 0px;
 	}
 */
-.td-left480 a:link, .t2 a:link, .t3 a:link, .t4 a:link, .t5 a:link{
-  color:#408070;
-  }
-.td-left480 a:visited, .t2 a:visited, .t3 a:visited, .t4 a:visited, .t5 a:visited{
-  color:#2593c7;
-  }
 
+.td-left480 a:link, .t2 a:link, .t3 a:link, .t4 a:link, .t5 a:link{
+	color: #408070;
+}
+
+.td-left480 a:visited, .t2 a:visited, .t3 a:visited, .t4 a:visited, .t5 a:visited{
+	color: #2593c7;
+}
+
+.img-CD-L{
+	width: 30px;
+	height: 30px;
+	border: 0px;
+}
+.img-CD-M{
+	width: 20px;
+	height: 20px;
+	border: 0px;
+}
+.img-CD-S{
+	width: 15px;
+	height: 15px;
+	border: 0px;
+}
+.img-CD-bar{
+	width: 170px;
+	height: 30px;
+	border: 0px;
+}
+.img-new{
+	width: 23px;
+	height: 11px;
+	border: 0px;
+	vertical-align : top;
+}
 @media only screen and (max-width: 820px) {
 body{
 	color: black;
@@ -188,8 +239,8 @@ body{
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-  font-family: 'IBM Plex Sans JP'; 
-  font-size : 1.3rem;
+  	font-family: 'IBM Plex Sans JP'; 
+  	font-size : 1.3rem;
 	}
 .t1{
 	border: 0px;
@@ -210,8 +261,8 @@ body{
 
 .td-m{
 	border: 0px;
-  background-color : #dedede;
-  vertical-align : middle;
+  	background-color : #dedede;
+  	vertical-align : middle;
   }  
 A{
   font-family : 'IBM Plex Sans' ;
@@ -337,14 +388,14 @@ A{
 }
 
 .t-block {
-  display: block; 
+	display: block;
 }
 
 .section1 {
-  font-size : 1.5rem;
-  font-family : 'IBM Plex Sans', sans-serif;
-  color : #408080;
-  background-color : #dedede;
+	font-size: 1.5rem;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: #408080;
+	background-color: #dedede;
 }
 
 .section2 {
@@ -355,68 +406,76 @@ A{
 }
 
 .test1{
-  font-weight : normal;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans';
+	font-weight: normal;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans';
 }
 
 .test2{
-  font-weight : normal;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: normal;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
 
 .test3{
-  font-weight : normal;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .test4{
-  font-weight : normal;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP', sans-serif;
 }
 
 .test2-100{
-  font-weight : 100;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 100;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-100s{
-  font-weight : 100;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 100;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-200{
-  font-weight : 200;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 200;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-300{
-  font-weight : 300;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 300;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-400{
-  font-weight : 400;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 400;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-500{
-  font-weight : 500;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 500;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-600{
-  font-weight : 600;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 600;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-700{
-  font-weight : 700;
-  font-size : 1rem;
-  font-family : 'IBM Plex Sans JP';
+	font-weight: 700;
+	font-size: 1rem;
+	font-family: 'IBM Plex Sans JP';
 }
+
 .test2-p{
-  font-family : 'IBM Plex Sans JP';
+	font-family: 'IBM Plex Sans JP';
 }
