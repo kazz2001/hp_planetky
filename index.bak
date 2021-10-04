@@ -226,7 +226,34 @@ document.write('Last updated at ', document.lastModified);
       <table border="0">
         <tbody>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="wrd1.htm">WRD / The Hit</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="stvincent1.htm">St. Vincent, Daddy's Home</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+          </tr>
+          <tr>
+            <td><a href="stvincent1.htm"><img src="gif/stvincent1M.jpg" border="0" alt="[St. Vincent, Daddy's Home]" width="75"></a></td>
+            <td><!-- #BeginEditable "Y" -->2000年代から活躍する女性Singer, Song WriterのSt. Vincentの3年半ぶりのアルバム。バンドではギターも弾き、Drum担当のJack
+            Antonoffとともに全曲Produceしている。知能犯として収監されていた父親の釈放を契機に、その父親と過ごした70年代へのオマージュをコンセプトにしたアルバムになっており、本人もInspireされた70年代の楽曲をSpotifyで公開している(Black
+            MusicではStevie Wonder, Nina Simmon, Pointer Sisterあたりが含まれている)。そんなノスタルジック感溢れるレイドバックした作品で、RockをベースにR&amp;B,
+            Popsっぽい曲も少々。全体的にミディアム-スロー中心で、抑え気味でときどきEmotionalになるSt. Vincentの唄と一体となっている。Lyricはプライベート感が強いものが多そうだ</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="greenteapeng1.htm">Greentea Pang / Man Made</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="greenteapeng1.htm"><img src="gif/greenteapeng1M.jpg" border="0" alt="[Greentea Peng / Man Made]" width="75"></a></td>
+            <td>London近郊Bermondsey出身のSinger, Greentea Pengのデビューアルバム。年齢は25-26歳@2021とのこと。アラブ人の父とアフリカ人の母を持ち、風貌や音楽性からは父の血筋の影響も窺える。自身で作風をpsychedelic R&amp;Bと表現しているが、日本でいうようなサイケというより、エスニックな印象を受ける。敢えて例えるなら、呪術性を弱めたErykah Baduといった感じで、本人も影響について言及している。ゆったりとして揺らいだような曲が多く、5人編成のバンドによるTrackはよくよく聞くとジャズ、レゲエ、インド音楽、エレクトロなどのジャンルをまたがった多彩なもの。これにGreantea Pengの抑えたVocalが加わり、中毒性を強めている。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="wrd1.htm">WRD / The Hit</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="wrd1.htm"><img src="gif/wrd1M.jpg" border="0" alt="[WRD / The Hit]" width="75"></a></td>
@@ -238,7 +265,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="brockhampton2.htm">Brockhampton / Roadrunner: New Light, New Machine</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="brockhampton2.htm">Brockhampton / Roadrunner: New Light, New Machine</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="brockhampton2.htm"><img src="gif/brockhampton2M.jpg" border="0" alt="[Brockhampton / Roadrunner: New Light, New Machine]" width="75"></a></td>
@@ -250,7 +277,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="gallant2.htm">Gallant / Neptune</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="gallant2.htm">Gallant / Neptune</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="gallant2.htm"><img src="gif/gallant2M.jpg" border="0" alt="[Gallant / Neptune]" width="75"></a></td>
@@ -262,7 +289,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="her1.htm">H.E.R. / Back Of My Mind</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="her1.htm">H.E.R. / Back Of My Mind</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="her1.htm"><img src="gif/her1M.jpg" border="0" alt="[H.E.R. / Back Of My Mind]" width="75"></a></td>
@@ -277,7 +304,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="madlib1.htm">Madlib / Sound Ancestors</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="madlib1.htm">Madlib / Sound Ancestors</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="madlib1.htm"><img src="gif/madlib1M.jpg" border="0" alt="[Madlib / Sound Ancestors]" width="75"></a></td>
@@ -289,7 +316,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="dojacat1.htm">Doja Cat / Planet Her</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="dojacat1.htm">Doja Cat / Planet Her</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="dojacat1.htm"><img src="gif/dojacat1M.jpg" border="0" alt="[Doja Cat / Planet Her]" width="75"></a></td>
@@ -302,7 +329,7 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="ceelo4.htm">CeeLo Green / CeeLo Green Is Thomas Callaway</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="ceelo4.htm">CeeLo Green / CeeLo Green Is Thomas Callaway</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="ceelo4.htm"><img src="gif/ceelo4M.jpg" border="0" alt="[CeeLo Green / CeeLo Green Is Thomas Callaway]" width="75"></a></td>
@@ -315,76 +342,12 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="tyler5.htm">Tyler, The Creator / Call Me If You Get Lost</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="tyler5.htm">Tyler, The Creator / Call Me If You Get Lost</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
           </tr>
           <tr>
             <td><a href="tyler5.htm"><img src="gif/tyler5M.jpg" width="75" border="0" alt="[Tyler, The Creator / Call Me If You Get Lost]"></a></td>
             <td>前作ではGrammyも獲得し、現代Hip-Hopにおける最重要人物の一人となっているTyler, The Creatorの2年振り6作目。その高評価だった前作と、全体感はそうは変わらないが、唄からRapへと軸足を戻したのが最大の特徴となっている。また、DJ
             Dramaが各所で煽りを入れていて、彼のMix TapeシリーズのGangsta Grillzへのオマージュであることも判る。Trackはホラーな部分も少し残っているが、全般的にはメローで、Fluteを使った曲などノスタルジックなものが多く、リラックスした印象を受ける。Lyricでは、これまでと打って変わって、成功した自分をテーマにした曲が多い。Rapのほうは撚れたというか惚けたというかで、こちらは今まで通りだ。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="hiatuskaiyote2.htm">Hiatus Kaiyote / Mood Valiant</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
-          </tr>
-          <tr>
-            <td><a href="hiatuskaiyote2.htm"><img src="gif/hiatuskaiyote2M.jpg" width="75" border="0" alt="[Hiatus Kaiyote / Mood Valiant]"></a></td>
-            <td>前作の2作目が高評価で一気にメジャーな存在になったHiatus Kaiyoteの6年ぶりの3rd。ライブの忙殺されたり、VoのNai Palmの病気があったり、コロナ禍があったりと大分インターバルが空いてしまったが、そのぶんじっくりと制作に時間をかけたアルバムになっているようだ。Rock,
-            Jazz, Funk, R&amp;Bをミックスしたようなサウンドはそのまま、ブラジルからArthur VelocaiをGuestに加えて、⑥などではストリングスを採用して、変化をつけている。昔の曲、ライブで使っている曲、最近の曲など様々だが、結成ほぼ10年ということで、かなりの一体感のある作品であり、バンド演奏とは思えない凝った構成と演奏でのテクニックは流石である。今まで以上に、力強さや意思のようなものも感じられる。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="genesisowusu1.htm">Genesis Owusu / Smiling With No Teeth</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
-          </tr>
-          <tr>
-            <td><a href="genesisowusu1.htm"><img src="gif/genesisowusu1M.jpg" width="75" border="0" alt="[Genesis Owusu / Smiling With No Teeth]"></a></td>
-            <td>Ghana生まれで2歳の時にAustraliaに移住したというGenesis Owusuのデビューアルバム。アルバムジャケットのインパクトに引けをとらない、押し出しの強さを持った作品になっている。敢えてジャンル分けするとアフロパンクになるのだが、曲調のふり幅は相当に広い。軽快なロック、メローなR&amp;B、キャッチーなポップ、メロディアスな曲に、オルタナっぽい曲など、本当に多様な構成になっていて、それでいて、どれも判りやすいので、万人受けしそうな印象を受ける。Rapと唄が半々くらいであるが、こちらは割と控えめで、Rapはややゆるめで唄うような感じ。唄はファルセットを多く、一部エフェクトを使ったりと飽きさせない工夫が施されている。今年(2021年)に23歳になるようなので、今後がまだまだ期待される。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="slowthai2.htm">Slowthai / Tyron</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
-          </tr>
-          <tr>
-            <td><a href="slowthai2.htm"><img src="gif/slowthai2M.jpg" width="75" border="0" alt="[Slowthai / Tyron]"></a></td>
-            <td>デビュー作が高評価だったSlowthaiの2年ぶりとなる2作目。本人の1st nameをタイトルにしている。2部作になっていて、大文字タイトルの前半は前作同様、社会への不満やDrugなどをテーマにした曲が続く。後半は、自身の内面に向き合った曲が多い。サウンドは引き続き不穏な印象ではあるが、特に後半、優しい印象のTrackが増えたように思える。Slowthaiのすこしよれ気味の語り掛けるようなRapには、そんなTrackが合っている。Guestはこれも引き続きのSKeptaやJames
-            BlakeといったUK勢に加え、A$ap RockyにDenzel CurryとUSへの進出も視野にいれていそうだ。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="joycewrice1.htm">Joyce Wruce / Overgrown</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
-          </tr>
-          <tr>
-            <td><a href="joycewrice1.htm"><img src="gif/joycewrice1M.jpg" width="75" border="0" alt="[Joyce Wrice / Overgrown]"></a></td>
-            <td>LA出身のSinger, Song Writer, Joyce Wriceの初フルバム。自身のインディレーベルからのリリースである。母親が日本人ということで、表情には日本人の面影が残っている。ただ、サウンドのほうは今どきの王道R&amp;Bで、アップ、ミディアム、スローがバランス良く配されている。D'Mileがメインプロデューサーなので、Trackのクオリティは安定しており、その中で尖った曲も数曲あって、飽きさせない。また、Lucky
-            Daye, Freddie Gibbs, Westside Gunn, KAYTRANADA, MndsgnといったGusetも通好みでアルバムに幅を持たせている。既に28歳ということで、若くてキラキラという感じではないが、透き通って芯のある歌声はなにものにも代えがたいし表現も豊かだと思う。⑬で突然、日本語の歌詞がでてきて、あ、そうだったんだなと思うが、それ以外は和なところはない</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" border="0" width="23" height="11" align="top"><a href="serpentwithfeet2.htm">Serpentwithfeet / Deacon</a><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
-          </tr>
-          <tr>
-            <td><a href="serpentwithfeet2.htm"><img src="gif/serpentwithfeet2M.jpg" width="75" border="0" alt="[Serpentwithfeet / Deacon]"></a></td>
-            <td>Serpentwithfeetの3年ぶり、2作目。前作に比べて、インダストリアル色はなくなり、エクスペリメンタルなところも抑えめと、大分、印象が変わり、穏やかで、聴きやすい作品になっている。本人もソフトで優しいものを作りたかったと言っているが、まさにその通りのアルバムである。ただ、アンビエントで荘厳な雰囲気と高音のVocalにゴスペルチックはコーラスは前作から踏襲されており、前半は、特にその印象を受ける。クラシックがかった部分も少し残っている。後半の⑥あたりから、より、Popになり、⑪なんかはラテンぽいところもある。Produceは前作にUKより、引き続き、SamphaとさらにLil
-            SIlvaも参加している。本人とボーイフレンドが登場する、ゲイを前面に押し出したジャケットにひるまずに、良質なR&amp;B作として是非、聴いてほしい。</td>
           </tr>
           <tr>
             <td colspan="2">

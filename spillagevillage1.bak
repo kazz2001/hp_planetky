@@ -1,10 +1,13 @@
 <!DOCTYPE HTML >
-<HTML><!-- #BeginTemplate "/Templates/CDREVIEW.dwt" --><!-- DW6 -->
+<HTML><!-- #BeginTemplate "/Templates/CDREVIEWU.dwt" --><!-- DW6 -->
 <HEAD>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54911-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'UA-54911-2');
 </script>
 <meta name="viewport" content="width=device-width">
@@ -14,7 +17,7 @@
 <meta name="description" content="CD review of Spillage Village / Spilligion">
 <meta name="ABSTRACT" content="Spillage Village / Spilligion">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Spillage Village / Spilligion -CD Review-</title>
 <!-- #EndEditable --> 
 <STYLE>
@@ -37,7 +40,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 //-->
 </SCRIPT>
 <LINK rel="stylesheet" href="css/bm1.css" type="text/css">
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </HEAD>
 <body >
 <table class="t1" >
@@ -50,7 +53,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   </TR>
   <TR> 
       <TD rowspan="4" width="60">&nbsp;</TD>
-      <TD colspan="2" height="3">@</TD>
+      <TD colspan="2" height="3">ã€€</TD>
   </TR>
   <TR> 
     <TD class="td-left" colspan="2">
@@ -103,33 +106,33 @@ google_color_url = "008000";
         <option value="cd2000.htm">2000</option>
         <option value="cd1999.htm">1999</option>
         <option value="cd1998.htm">1998</option>
-        </select></form>
+</select></form>
         <FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
-        <option selected>Best 50 : Select Year </option>
-        <option value="best2020.htm">2020</option>
-        <option value="best2019.htm">2019</option>
-        <option value="best2018.htm">2018</option>
-        <option value="best2017.htm">2017</option>
-        <option value="best2016.htm">2016</option>
-        <option value="best2015.htm">2015</option>
-        <option value="best2014.htm">2014</option>
-        <option value="best2013.htm">2013</option>
-        <option value="best2012.htm">2012</option>
-        <option value="best2011.htm">2011</option>
-        <option value="best2010.htm">2010</option>
-        <option value="best2009.htm">2009</option>
-        <option value="best2008.htm">2008</option>
-        <option value="best2007.htm">2007</option>
-        <option value="best2006.htm">2006</option>
-        <option value="best2005.htm">2005</option>
-        <option value="best2004.htm">2004</option>
-        <option value="best2003.htm">2003</option>
-        <option value="best2002.htm">2002</option>
-        <option value="best2001.htm">2001</option>
-        <option value="best2000.htm">2000</option>
-        <option value="best1999.htm">1999</option>
-        <option value="best1998.htm">1998</option>
-        </SELECT></FORM><!-- #EndLibraryItem --></TD>
+          <option selected>Best 50 : Select Year </option>
+          <option value="best2020.htm">2020</option>
+          <option value="best2019.htm">2019</option>
+          <option value="best2018.htm">2018</option>
+          <option value="best2017.htm">2017</option>
+          <option value="best2016.htm">2016</option>
+          <option value="best2015.htm">2015</option>
+          <option value="best2014.htm">2014</option>
+          <option value="best2013.htm">2013</option>
+          <option value="best2012.htm">2012</option>
+          <option value="best2011.htm">2011</option>
+          <option value="best2010.htm">2010</option>
+          <option value="best2009.htm">2009</option>
+          <option value="best2008.htm">2008</option>
+          <option value="best2007.htm">2007</option>
+          <option value="best2006.htm">2006</option>
+          <option value="best2005.htm">2005</option>
+          <option value="best2004.htm">2004</option>
+          <option value="best2003.htm">2003</option>
+          <option value="best2002.htm">2002</option>
+          <option value="best2001.htm">2001</option>
+          <option value="best2000.htm">2000</option>
+          <option value="best1999.htm">1999</option>
+          <option value="best1998.htm">1998</option>
+</SELECT></FORM><!-- #EndLibraryItem --></TD>
       <TD width="60" class="td-left"><!-- #BeginLibraryItem "/Library/BMCOntent2.lbi" --><!-- #EndLibraryItem --></TD>
   </TR>
   <TR> 
@@ -144,88 +147,89 @@ google_color_url = "008000";
           imgFile = window.location.href.split('/').pop().split('.').shift()+"M.jpg";
           imgFile2 = "<img src=gif/"+imgFile+" width=75>"
           document.write(imgFile2);
-			  </script>
+		</script>
         </div>
     </td>
 	</TR>
   <TR>
 		<td class="td-g-centertop-black">
 <!-- #BeginLibraryItem "/Library/BMMenu2.lbi" --><table><tbody><tr>
-      <td class="td-g-black" valign="top">
-      <p class="p-white">
+	<td class="td-g-black" valign="top">
+		<p class="p-white">
 			<br>
-      Black Music Album Best 50<br>
-      <a href="best2020.htm" class="size3">2020</a><br>
-      <a href="best2019.htm" class="size3">2019</a><br>
-      <a href="best2018.htm" class="size3">2018</a><br>
-      <a href="best2017.htm" class="size3">2017</a><br>
-      <a href="best2016.htm" class="size3">2016</a><br>
-      <a href="best2015.htm" class="size3">2015</a><br>
-      <a href="best2014.htm" class="size3">2014</a><br>
-      <a href="best2013.htm" class="size3">2013</a><br>
-      <a href="best2012.htm" class="size3">2012</a><br>
-      <a href="best2011.htm" class="size3">2011</a><br>
-      <a href="best2010.htm" class="size3">2010</a><br>
-      <a href="best2009.htm" class="size3">2009</a><br>
-      <a href="best2008.htm" class="size3">2008</a><br>
-      <a href="best2007.htm" class="size3">2007</a><br>
-      <a href="best2006.htm" class="size3">2006</a><br>
-      <a href="best2005.htm" class="size3">2005</a><br>
-      <a href="best2004.htm" class="size3">2004</a><br>
-      <a href="best2003.htm" class="size3">2003</a><br>
-      <a href="best2002.htm" class="size3">2002</a><br>
-      <a href="best2001.htm" class="size3">2001</a><br>
-      <a href="best2000.htm" class="size3">2000</a><br>
-      <a href="best1999.htm" class="size3">1999</a><br>
-      <a href="best1998.htm" class="size3">1998</a><br>
-      <br>
-      Album Review<br>
-      <a href="cd.htm" class="size3">2021</a><br>
-      <a href="cd2020.htm" class="size3">2020</a><br>
-      <a href="cd2019.htm" class="size3">2019</a><br>
-      <a href="cd2018.htm" class="size3">2018</a><br>
-      <a href="cd2017.htm" class="size3">2017</a><br>
-      <a href="cd2016.htm" class="size3">2016</a><br>
-      <a href="cd2015.htm" class="size3">2015</a><br>
-      <a href="cd2014.htm" class="size3">2014</a><br>
-      <a href="cd2013.htm" class="size3">2013</a><br>
-      <a href="cd2012.htm" class="size3">2012</a><br>
-      <a href="cd2011.htm" class="size3">2011</a><br>
-      <a href="cd2010.htm" class="size3">2010</a><br>
-      <a href="cd2009.htm" class="size3">2009</a><br>
-      <a href="cd2008.htm" class="size3">2008</a><br>
-      <a href="cd2007.htm" class="size3">2007</a><br>
-      <a href="cd2006.htm" class="size3">2006</a><br>
-      <a href="cd2005.htm" class="size3">2005</a><br>
-      <a href="cd2004.htm" class="size3">2004</a><br>
-      <a href="cd2003.htm" class="size3">2003</a><br>
-      <a href="cd2002.htm" class="size3">2002</a><br>
-      <a href="cd2001.htm" class="size3">2001</a><br>
-      <a href="cd2000.htm" class="size3">2000</a><br>
-      <a href="cd1999.htm" class="size3">1999</a><br>
-      <a href="cd1998.htm" class="size3">1998</a><br>
-      <br>
-      <a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a> <br>
-      <br>
-      <a href="liveshot.html" class="size2">Live Shot</a><br>
-      <br>
-      <a href="mag.htm" class="size2">Hip-Hop Magazine Review</a> <br>
-      <br>
-      <a href="http://planetky.com" class="size2">planet.KY home </a><br>
-      <br>
-      <br>
-      </p>
-      <p class="size2"><script language="JavaScript">
+			Black Music Album Best 50<br>
+			<a href="best2020.htm" class="size3">2020</a><br>
+			<a href="best2019.htm" class="size3">2019</a><br>
+			<a href="best2018.htm" class="size3">2018</a><br>
+			<a href="best2017.htm" class="size3">2017</a><br>
+			<a href="best2016.htm" class="size3">2016</a><br>
+			<a href="best2015.htm" class="size3">2015</a><br>
+			<a href="best2014.htm" class="size3">2014</a><br>
+			<a href="best2013.htm" class="size3">2013</a><br>
+			<a href="best2012.htm" class="size3">2012</a><br>
+			<a href="best2011.htm" class="size3">2011</a><br>
+			<a href="best2010.htm" class="size3">2010</a><br>
+			<a href="best2009.htm" class="size3">2009</a><br>
+			<a href="best2008.htm" class="size3">2008</a><br>
+			<a href="best2007.htm" class="size3">2007</a><br>
+			<a href="best2006.htm" class="size3">2006</a><br>
+			<a href="best2005.htm" class="size3">2005</a><br>
+			<a href="best2004.htm" class="size3">2004</a><br>
+			<a href="best2003.htm" class="size3">2003</a><br>
+			<a href="best2002.htm" class="size3">2002</a><br>
+			<a href="best2001.htm" class="size3">2001</a><br>
+			<a href="best2000.htm" class="size3">2000</a><br>
+			<a href="best1999.htm" class="size3">1999</a><br>
+			<a href="best1998.htm" class="size3">1998</a><br>
+			<br>
+			Album Review<br>
+			<a href="cd.htm" class="size3">2021</a><br>
+			<a href="cd2020.htm" class="size3">2020</a><br>
+			<a href="cd2019.htm" class="size3">2019</a><br>
+			<a href="cd2018.htm" class="size3">2018</a><br>
+			<a href="cd2017.htm" class="size3">2017</a><br>
+			<a href="cd2016.htm" class="size3">2016</a><br>
+			<a href="cd2015.htm" class="size3">2015</a><br>
+			<a href="cd2014.htm" class="size3">2014</a><br>
+			<a href="cd2013.htm" class="size3">2013</a><br>
+			<a href="cd2012.htm" class="size3">2012</a><br>
+			<a href="cd2011.htm" class="size3">2011</a><br>
+			<a href="cd2010.htm" class="size3">2010</a><br>
+			<a href="cd2009.htm" class="size3">2009</a><br>
+			<a href="cd2008.htm" class="size3">2008</a><br>
+			<a href="cd2007.htm" class="size3">2007</a><br>
+			<a href="cd2006.htm" class="size3">2006</a><br>
+			<a href="cd2005.htm" class="size3">2005</a><br>
+			<a href="cd2004.htm" class="size3">2004</a><br>
+			<a href="cd2003.htm" class="size3">2003</a><br>
+			<a href="cd2002.htm" class="size3">2002</a><br>
+			<a href="cd2001.htm" class="size3">2001</a><br>
+			<a href="cd2000.htm" class="size3">2000</a><br>
+			<a href="cd1999.htm" class="size3">1999</a><br>
+			<a href="cd1998.htm" class="size3">1998</a><br>
+			<br>
+			<a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a> <br>
+			<br>
+			<a href="liveshot.html" class="size2">Live Shot</a><br>
+			<br>
+			<a href="mag.htm" class="size2">Hip-Hop Magazine Review</a> <br>
+			<br>
+			<a href="http://planetky.com" class="size2">planet.KY home </a><br>
+			<br>
+			<br>
+		</p>
+		<p class="size2"><script language="JavaScript">
 			document.write('Last updated at ', document.lastModified);
-			</script> </p>
-      <br>
-      <br>
-			</td>
+			</script>
+		</p>
+		<br>
+		<br>
+	</td>
 </tr></tbody></table><!-- #EndLibraryItem --><!-- #BeginEditable "EditRegion1" --><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=webky&marketplace=amazon&amp;region=US&placement=B08HPDWQFH&asins=B08HPDWQFH&linkId=fd9671cd19e95dbe737fa91705568f0b&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"> </iframe><!-- #EndEditable -->
 			</td>
-		      <TD>@</TD>
-		      <td colspan="2" class="td-left" width="480">
-		      <!-- #BeginEditable "X" --><a href="best2020.htm">2020 Black Music Best50 26ˆÊ</a><br>
+		      <TD>ã€€</TD>
+		      <td colspan="2" class="td-left480">
+		      <!-- #BeginEditable "X" --><a href="best2020.htm">2020 Black Music Best50 26ä½</a><br>
       <iframe src="https://embed.music.apple.com/us/album/spilligion/1531011516?app=music&amp;itsct=music_box&amp;itscg=30200&amp;at=11lcug&amp;ct=albums_spilligion&amp;ls=1" height="250px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe><br>
       <!-- #EndEditable --> 
 		      <TABLE class="t2">
@@ -235,29 +239,29 @@ google_color_url = "008000";
        			      <TD colspan="3" class="header1">Score Card</TD>
      		      </TR>
      		      <TR class="size1"> 
-       			      <TD class="td-left">ƒ‰ƒbƒv(rap oriented)</TD>
+       			      <TD class="td-left">ãƒ©ãƒƒãƒ—(rap oriented)</TD>
        			      <TD class="td-center170"><!-- #BeginEditable "C" --><img src="4.gif" width="170" height="30" border="0"><!-- #EndEditable --></TD>
-       			      <TD class="td-right">‰Ì(song oriented)</TD>
+       			      <TD class="td-right">æ­Œ(song oriented)</TD>
      		      </TR>
      		      <TR class="size1"> 
-       			      <TD class="td-gray-left">ƒA[ƒoƒ“(urban)</TD>
+       			      <TD class="td-gray-left">ã‚¢ãƒ¼ãƒãƒ³(urban)</TD>
        			      <TD class="td-center170-gray"><!-- #BeginEditable "D" --><img src="4.gif" width="170" height="30" border="0"><!-- #EndEditable --></TD>
-       			      <TD class="td-gray-right">ƒA[ƒV[(earthy)</TD>
+       			      <TD class="td-gray-right">ã‚¢ãƒ¼ã‚·ãƒ¼(earthy)</TD>
      		      </TR>
      		      <TR class="size1"> 
-       			      <TD class="td-left">’®‚«‚â‚·‚¢(familiar)</TD>
+       			      <TD class="td-left">è´ãã‚„ã™ã„(familiar)</TD>
        			      <TD class="td-center170"><!-- #BeginEditable "E" --><img src="1.gif" width="170" height="30" border="0"><!-- #EndEditable --></TD>
-       			      <TD class="td-right">ƒŠƒXƒi[‚ğ‘I‚Ô(serious)</TD>
+       			      <TD class="td-right">ãƒªã‚¹ãƒŠãƒ¼ã‚’é¸ã¶(serious)</TD>
      		      </TR>
      		      <TR class="size1"> 
-       			      <TD class="td-gray-left">•]“_(rating)</TD>
+       			      <TD class="td-gray-left">è©•ç‚¹(rating)</TD>
        			      <TD class="td-center170-gray"><!-- #BeginEditable "F" --><img src="biz3_b3.gif" width="30" height="30" border="0"><img src="biz3_b3.gif" width="30" height="30" border="0"><img src="biz3_b3.gif" width="30" height="30" border="0"><img src="biz3_b3.gif" width="30" height="30" border="0"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><!-- #EndEditable --></TD>
-						      <TD class="td-gray-right">i5“_–“_ fullmark :5j</TD>
+						      <TD class="td-gray-right">ï¼ˆ5ç‚¹æº€ç‚¹ fullmark :5ï¼‰</TD>
      		      </TR>
 				      <tr class="size1">
-         	      <td colspan="3">      <!-- #BeginEditable "Y" -->J. Cole‚ÌDreamvilleŠ‘®AATL‚ÌCollective, Spillage Village‚ÌƒƒWƒƒ[Eƒfƒrƒ…[ìBŒ‹¬‚Í2010”N‚ÆˆÓŠO‚ÆŠˆ“®—ğ‚Í’·‚­A“–‚Ìƒƒ“ƒo[‚ÍEarthGang‚Ì“ñl,
-            JID, Jurdan Bryant, Hollywood JB‚ÅAŒ»İ‚Í‚±‚ê‚É OG Maco, 6LACK(vo), Marian Mereba(vo)‚ª‰Á‚í‚Á‚Ä‚¢‚é‚æ‚¤‚¾BŒÂXl‚Å‚àŠˆ“®‚µ‚Ä‚¢‚él‚½‚¿‚Å‚ ‚èACollective‚Æ•\‚í‚³‚ê‚Ä‚¢‚é‚±‚Æ‚à‚ ‚Á‚ÄADangeon
-            Family‚Ì‚æ‚¤‚ÈŒ`‘Ô‚ğ‚Æ‚Á‚Ä‚¢‚é‚Æv‚í‚êA•µˆÍ‹C‚à‹ß‚¢‚à‚Ì‚ª‚ ‚éBƒWƒƒƒPƒbƒg‚©‚ç‚Íƒzƒ‰[‚Á‚Û‚¢‚Ì‚©‚È‚Æv‚Á‚Ä’®‚«n‚ß‚½‚ªA3‹È–Ú‚ ‚½‚è‚©‚çAƒtƒ@ƒ“ƒN‚©‚ÂƒA[ƒV[‚³‚ª‘O–Ê‚É‰Ÿ‚µo‚³‚êA‰S‚Ì”äd‚ª‘‚µ‚ÄA‰â‘R‚ÆŠy‚µ‚­‚È‚Á‚Ä‚­‚éBGospel‚Á‚Û‚¢‹È‚âƒXƒsƒŠƒ`ƒ…ƒAƒ‹‚È‚Æ‚±‚ë‚àŠ´‚¶‚ç‚êA‚æ‚­‚æ‚­CDƒ^ƒCƒgƒ‹‚â‹È–¼‚ğŒ©‚é‚Æ@‹³‚ÆŠñ‚è“Y‚¤ì•i‚Å‚ ‚é‚±‚Æ‚ª”»‚Á‚Ä‚­‚éB‘¼‚É‚àJazz‚âFolk‚Ì—v‘f‚à‚ ‚Á‚ÄAŒÂX‚Ì‹È‚ªƒ†ƒj[ƒN‚©‚ÂAƒƒƒfƒB[‚ÍƒLƒƒƒbƒ`[‚Å–Ê”’‚¢BƒWƒFƒPƒbƒg‚©‚ç’®‚©‚¸Œ™‚¢‚µ‚Ä‚Í‚¢‚¯‚È‚¢‚ÆÄ”F¯‚³‚¹‚ç‚ê‚éA‚»‚ñ‚ÈƒAƒ‹ƒoƒ€‚Å‚ ‚éB<!-- #EndEditable --> </TD>
+         	      <td colspan="3">      <!-- #BeginEditable "Y" -->J. Coleã®Dreamvilleæ‰€å±ã€ATLã®Collective, Spillage Villageã®ãƒ¡ã‚¸ãƒ£ãƒ¼ãƒ»ãƒ‡ãƒ“ãƒ¥ãƒ¼ä½œã€‚çµæˆã¯2010å¹´ã¨æ„å¤–ã¨æ´»å‹•æ­´ã¯é•·ãã€å½“æ™‚ã®ãƒ¡ãƒ³ãƒãƒ¼ã¯EarthGangã®äºŒäºº,
+            JID, Jurdan Bryant, Hollywood JBã§ã€ç¾åœ¨ã¯ã“ã‚Œã« OG Maco, 6LACK(vo), Marian Mereba(vo)ãŒåŠ ã‚ã£ã¦ã„ã‚‹ã‚ˆã†ã ã€‚å€‹ã€…äººã§ã‚‚æ´»å‹•ã—ã¦ã„ã‚‹äººãŸã¡ã§ã‚ã‚Šã€Collectiveã¨è¡¨ã‚ã•ã‚Œã¦ã„ã‚‹ã“ã¨ã‚‚ã‚ã£ã¦ã€Dangeon
+            Familyã®ã‚ˆã†ãªå½¢æ…‹ã‚’ã¨ã£ã¦ã„ã‚‹ã¨æ€ã‚ã‚Œã€é›°å›²æ°—ã‚‚è¿‘ã„ã‚‚ã®ãŒã‚ã‚‹ã€‚ã‚¸ãƒ£ã‚±ãƒƒãƒˆã‹ã‚‰ã¯ãƒ›ãƒ©ãƒ¼ã£ã½ã„ã®ã‹ãªã¨æ€ã£ã¦è´ãå§‹ã‚ãŸãŒã€3æ›²ç›®ã‚ãŸã‚Šã‹ã‚‰ã€ãƒ•ã‚¡ãƒ³ã‚¯ã‹ã¤ã‚¢ãƒ¼ã‚·ãƒ¼ã•ãŒå‰é¢ã«æŠ¼ã—å‡ºã•ã‚Œã€å”„ã®æ¯”é‡ãŒå¢—ã—ã¦ã€ä¿„ç„¶ã¨æ¥½ã—ããªã£ã¦ãã‚‹ã€‚Gospelã£ã½ã„æ›²ã‚„ã‚¹ãƒ”ãƒªãƒãƒ¥ã‚¢ãƒ«ãªã¨ã“ã‚ã‚‚æ„Ÿã˜ã‚‰ã‚Œã€ã‚ˆãã‚ˆãCDã‚¿ã‚¤ãƒˆãƒ«ã‚„æ›²åã‚’è¦‹ã‚‹ã¨å®—æ•™ã¨å¯„ã‚Šæ·»ã†ä½œå“ã§ã‚ã‚‹ã“ã¨ãŒåˆ¤ã£ã¦ãã‚‹ã€‚ä»–ã«ã‚‚Jazzã‚„Folkã®è¦ç´ ã‚‚ã‚ã£ã¦ã€å€‹ã€…ã®æ›²ãŒãƒ¦ãƒ‹ãƒ¼ã‚¯ã‹ã¤ã€ãƒ¡ãƒ­ãƒ‡ã‚£ãƒ¼ã¯ã‚­ãƒ£ãƒƒãƒãƒ¼ã§é¢ç™½ã„ã€‚ã‚¸ã‚§ã‚±ãƒƒãƒˆã‹ã‚‰è´ã‹ãšå«Œã„ã—ã¦ã¯ã„ã‘ãªã„ã¨å†èªè­˜ã•ã›ã‚‰ã‚Œã‚‹ã€ãã‚“ãªã‚¢ãƒ«ãƒãƒ ã§ã‚ã‚‹ã€‚<!-- #EndEditable --> </TD>
 				      </TR>
 			      </TBODY> 	
 		      </TABLE>
@@ -265,8 +269,8 @@ google_color_url = "008000";
 			      <col span="5">
    		      <tbody>
 				      <TR> 
-   				      <td colspan="5" class="header1">Tracks <FONT size=-2>—A“ü”Õ@ 
-   				      <!-- #BeginEditable "G" -->‰ÌŒ•s–¾ <font face="Arial" color="#FFBF00">49</font><font color="#409FFF" face="Arial"> minutes</font><font color="#409FFF" face="Arial">seconds</font><!-- #EndEditable --></FONT></TD>
+   				      <td colspan="5" class="header1">Tracks <FONT size=-2>è¼¸å…¥ç›¤ã€€ 
+   				      <!-- #BeginEditable "G" -->æ­Œè©ä¸æ˜ <font face="Arial" color="#FFBF00">49</font><font color="#409FFF" face="Arial"> minutes</font><font color="#409FFF" face="Arial">seconds</font><!-- #EndEditable --></FONT></TD>
  				      </TR>
 				      <TR>
 					      <TD colspan="5">
@@ -432,12 +436,10 @@ google_color_url = "008000";
         </tr>
     <tr>					 
  	    <TD class="td-g-black"><BR></TD>
- 	    <TD class="td-white">@</TD>
+ 	    <TD class="td-white">ã€€</TD>
  	    <TD class="td-gray" colspan="2"><p><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2021<!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></p>
-		    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script>
-		    <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script>
 	    </TD>
-	      </TR>
+	</TR>
   </TBODY> 
 </TABLE>
 </BODY>
