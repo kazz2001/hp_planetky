@@ -51,7 +51,7 @@
         </td>
       </tr>
       <tr>
-        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->        <form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
           <option selected>Album Review : Select Year </option>
           <option value="../cd.htm">2021</option>
           <option value="../cd2020.htm">2020</option>
@@ -77,9 +77,9 @@
           <option value="../cd2000.htm">2000</option>
           <option value="../cd1999.htm">1999</option>
           <option value="../cd1998.htm">1998</option>
-</select></form>
-        <FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
-          <option selected>Best 50 : Select Year </option>
+</select></form> 
+				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+				  <option selected>Best 50 : Select Year </option>
           <option value="../best2020.htm">2020</option>
           <option value="../best2019.htm">2019</option>
           <option value="../best2018.htm">2018</option>
