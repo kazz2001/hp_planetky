@@ -44,8 +44,10 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <tbody>
     <tr class="tr-left">
       <td class="td-g-black" width="180" rowspan="5" valign="middle"><!-- #BeginEditable "A" --><img src="gif/jorjasmith1L.jpg" width="139" height="139" border="0"><br>
-      <font color="#FFFFFF" size="-1">(label : FAMM)<br>
-      </font><a target="_blank" href="https://amzn.to/2PvRg3a"><font color="#ffffff" size="-1" style="font-size : 83%;">Jorja Smith's album list</font></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=webky&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"><!-- #EndEditable --></td>
+      <p class="small-white">(label : FAMM)<br>
+    	<a target="_blank" href="https://amzn.to/3w0l3ak" class="small-white">Jorja Smith's album list</a></p>
+      <br>
+      <!-- #EndEditable --></td>
       <td class="td-black" colspan="3"><a href="index.html"><img src="lo2.gif" width="474" height="76" border="0"></a></td>
     </tr>
     <tr>
@@ -251,7 +253,7 @@ google_color_url = "008000";
           </tr>
           <tr class="size1">
             <td class="td-gray-left">評点(rating)</td>
-            <td class="td-center170-gray"><!-- #BeginEditable "F" --><img src="biz3_b3.gif" class="img-CD-L"<img src="biz3_b3.gif" class="img-CD-L"<img src="biz3_b3.gif" class="img-CD-L"<img src="biz3_b3.gif" class="img-CD-L"<img src="biz3_b3h.GIF" width="20" height="20" border="0"><!-- #EndEditable --></td>
+            <td class="td-center170-gray"><!-- #BeginEditable "F" --><img src="biz3_b3.gif" class="img-CD-L"><img src="biz3_b3.gif" class="img-CD-L"><img src="biz3_b3.gif" class="img-CD-L"><img src="biz3_b3.gif" class="img-CD-L"><img src="biz3_b3h.GIF" width="20" height="20" border="0"><!-- #EndEditable --></td>
             <td class="td-gray-right">（5点満点 fullmark :5）</td>
           </tr>
           <tr class="size1">
@@ -279,28 +281,28 @@ google_color_url = "008000";
                   <td>Time</td>
                 </tr>
                 <tr>
-                  <td align="right">1</td>
+                  <td class="td-right-mid">1</td>
                   <td>Lost &amp; Found</td>
                   <td>Jorja Smith / Charlie Perry</td>
                   <td>Jorja Smith </td>
                   <td>5:15</td>
                 </tr>
                 <tr>
-                  <td align="right">2</td>
+                  <td class="td-right-mid">2</td>
                   <td>Teenage Fantasy</td>
                   <td>Jorja Smith / Peter Meredith / Charlie Perry</td>
                   <td>Jorja Smith </td>
                   <td>3:46</td>
                 </tr>
                 <tr>
-                  <td align="right">3</td>
+                  <td class="td-right-mid">3</td>
                   <td>Where Did I Go?</td>
                   <td>Jorja Smith / Oliver Rodigan / Michael Stafford / Sam Wills</td>
                   <td>Jorja Smith </td>
                   <td>3:11</td>
                 </tr>
                 <tr>
-                  <td align="right">4</td>
+                  <td class="td-right-mid">4</td>
                   <td>February 3rd</td>
                   <td>Jorja Smith / Jeff Kleinman / Jason Pounds / Michael Stafford / Michael
                   Uzowuru</td>
@@ -308,28 +310,28 @@ google_color_url = "008000";
                   <td>4:01</td>
                 </tr>
                 <tr>
-                  <td align="right">5</td>
+                  <td class="td-right-mid">5</td>
                   <td>On Your Own</td>
                   <td>Jorja Smith / Jason Pounds</td>
                   <td>Jorja Smith </td>
                   <td>4:02</td>
                 </tr>
                 <tr>
-                  <td align="right">6</td>
+                  <td class="td-right-mid">6</td>
                   <td>The One</td>
                   <td>Joel Compass / Amanda Ghost / Jorja Smith / Maaike Kito Lebbing / Ed Thomas</td>
                   <td>Jorja Smith </td>
                   <td>3:17</td>
                 </tr>
                 <tr>
-                  <td align="right">7</td>
+                  <td class="td-right-mid">7</td>
                   <td>Wandering Romance</td>
                   <td>Jorja Smith / Felix Joseph / Michael Stafford</td>
                   <td>Jorja Smith </td>
                   <td>4:35</td>
                 </tr>
                 <tr>
-                  <td align="right">8</td>
+                  <td class="td-right-mid">8</td>
                   <td>Blue Lights</td>
                   <td>Guy Bonnet / Nicholas Detnon / Jorja Smith / Ben Joyce / Dylan Mills /
                   Roland Romanelli</td>
@@ -337,28 +339,28 @@ google_color_url = "008000";
                   <td>4:10</td>
                 </tr>
                 <tr>
-                  <td align="right">9</td>
+                  <td class="td-right-mid">9</td>
                   <td>Lifeboats (Freestyle)</td>
                   <td>Jorja Smith / Tom Misch</td>
                   <td>Jorja Smith </td>
                   <td>2:52</td>
                 </tr>
                 <tr>
-                  <td align="right">10</td>
+                  <td class="td-right-mid">10</td>
                   <td>Goodbyes</td>
                   <td>Jorja Smith / Ed Thomas</td>
                   <td>Jorja Smith </td>
                   <td>3:50</td>
                 </tr>
                 <tr>
-                  <td align="right">11</td>
+                  <td class="td-right-mid">11</td>
                   <td>Tomorrow</td>
                   <td>Jorja Smith / Michael Stafford / Ed Thomas</td>
                   <td>Jorja Smith </td>
                   <td>3:52</td>
                 </tr>
                 <tr>
-                  <td align="right">12</td>
+                  <td class="td-right-mid">12</td>
                   <td>Don't Watch Me Cry</td>
                   <td>Jorja Smith </td>
                   <td>Jorja Smith </td>
