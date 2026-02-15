@@ -112,9 +112,9 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     </tr>
     <tr>
       <td class="td-g-centertop-black" rowspan="7"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
-<table width="90%">
+      <table width="90%">
   <tr>
-    <td align="center" bgcolor="#000000"><p class="p-white">
+          <td align="center" bgcolor="#000000"><p class="p-white">
 	            <br>
               Black Music Album Best 50<br>
 							<a href="best2025.htm" class="size3">2025</a><br>
@@ -190,9 +190,9 @@ document.write('Last updated at ', document.lastModified);
                     </script>
               </font></p>
         <p></p></td>
-  </tr>
+        </tr>
 </table>
-<!-- #EndLibraryItem --><br>
+      <!-- #EndLibraryItem --><br>
       <br>
       <table border="0" cellspacing="1" bgcolor="#999999">
         <tbody>
@@ -247,11 +247,12 @@ document.write('Last updated at ', document.lastModified);
       <table class="t4">
         <tbody>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="nourishedbytime1.htm">Nourished By Time / The Passionate Ones</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="nourishedbytime1.htm">Nourished By Time / The Passionate Ones</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
           </tr>
           <tr>
             <td><a href="nourishedbytime1.htm"><img src="gif/nourishedbytime1M.jpg" border="0" alt="[Nourished By Time / The Passionate Ones]" width="75"></a></td>
-            <td>Marcus Brownによるソロプロジェクト、Nourished By Timeの2ndアルバム。Baltimore出身ながらLondonを拠点に活動しているので、全体感はUK寄りに思える。全曲、Song WritingとProduceも自分でこなし、DIY的に作ったものだが、完成度と統一感の高い作品になっている。シンセポップをベースに、ヒップホップ、R&B、Jazz、エレクトロなど様々なものをミックスしたジャンルレスな作風で、ミディアム中心にポップでメロディアスな曲が多数。都会の夜を想起させる印象だ。Vocalも、少し濁った唄声で軽やかにアンニョイに唄っており、特徴になっている。</td>
+            <td>Marcus Brownによるソロプロジェクト、Nourished By Timeの2ndアルバム。Baltimore出身ながらLondonを拠点に活動しているので、全体感はUK寄りに思える。全曲、Song
+            WritingとProduceも自分でこなし、DIY的に作ったものだが、完成度と統一感の高い作品になっている。シンセポップをベースに、ヒップホップ、R&amp;B、Jazz、エレクトロなど様々なものをミックスしたジャンルレスな作風で、ミディアム中心にポップでメロディアスな曲が多数。都会の夜を想起させる印象だ。Vocalも、少し濁った唄声で軽やかにアンニョイに唄っており、特徴になっている。</td>
           </tr>
           <tr>
             <td colspan="2">
