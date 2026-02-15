@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://purl.org/rss/1.0/">
-  <channel rdf:about="file:///D:/hpb/hp_planetky/planetky.com/index.rdf">
+  <channel rdf:about="planetky.com/index.rdf">
     <title>Planetky Top Page</title>
     <link>planetky.com\index.rdf</link>
     <description><![CDATA[Homepage for black music fun]]></description>
-    <dc:date>2020-11-29T05:57:53+00:00</dc:date>
+    <dc:date>2023-02-05T06:31:20+00:00</dc:date>
     <items>
       <rdf:Seq>
         <rdf:li resource="http://bm.planetky.com/steviewonder1.htm"></rdf:li>

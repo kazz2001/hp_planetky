@@ -1,26 +1,30 @@
 <META http-equiv="Content-Type" content="text/html; charset=SHIFT_JIS">      <FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
-        <OPTION selected>Select Another Year </OPTION>
-        <OPTION value="../best1998.htm">1998 </OPTION>
-        <OPTION value="../best1999.htm">1999 </OPTION>
-        <OPTION value="../best2000.htm">2000 </OPTION>
-        <OPTION value="../best2001.htm">2001 </OPTION>
-        <OPTION value="../best2002.htm">2002 </OPTION>
-        <OPTION value="../best2003.htm">2003 </OPTION>
-		<OPTION value="../best2004.htm">2004 </OPTION>
-		<OPTION value="../best2005.htm">2005 </OPTION>
-		<OPTION value="../best2006.htm">2006 </OPTION>
-		<OPTION value="../best2007.htm">2007 </OPTION>
-		<OPTION value="../best2008.htm">2008 </OPTION>
-		<OPTION value="../best2009.htm">2009 </OPTION>
-		<OPTION value="../best2010.htm">2010 </OPTION>
-		<OPTION value="../best2011.htm">2011 </OPTION>
-		<OPTION value="../best2012.htm">2012 </OPTION>
-		<OPTION value="../best2013.htm">2013 </OPTION>
-		<OPTION value="../best2014.htm">2014 </OPTION>
-		<OPTION value="../best2015.htm">2015 </OPTION>
-		<OPTION value="../best2016.htm">2016 </OPTION>
-		<OPTION value="../best2017.htm">2017 </OPTION>
-		<OPTION value="../best2018.htm">2018 </OPTION>
-		<OPTION value="../best2019.htm">2019 </OPTION>
-		<OPTION value="../best2020.htm">2020 </OPTION>
-      </SELECT></FORM>
+	<OPTION selected>Select Another Year </OPTION>
+	<OPTION value="../best1998.htm">1998 </OPTION>
+	<OPTION value="../best1999.htm">1999 </OPTION>
+	<OPTION value="../best2000.htm">2000 </OPTION>
+	<OPTION value="../best2001.htm">2001 </OPTION>
+	<OPTION value="../best2002.htm">2002 </OPTION>
+	<OPTION value="../best2003.htm">2003 </OPTION>
+	<OPTION value="../best2004.htm">2004 </OPTION>
+	<OPTION value="../best2005.htm">2005 </OPTION>
+	<OPTION value="../best2006.htm">2006 </OPTION>
+	<OPTION value="../best2007.htm">2007 </OPTION>
+	<OPTION value="../best2008.htm">2008 </OPTION>
+	<OPTION value="../best2009.htm">2009 </OPTION>
+	<OPTION value="../best2010.htm">2010 </OPTION>
+	<OPTION value="../best2011.htm">2011 </OPTION>
+	<OPTION value="../best2012.htm">2012 </OPTION>
+	<OPTION value="../best2013.htm">2013 </OPTION>
+	<OPTION value="../best2014.htm">2014 </OPTION>
+	<OPTION value="../best2015.htm">2015 </OPTION>
+	<OPTION value="../best2016.htm">2016 </OPTION>
+	<OPTION value="../best2017.htm">2017 </OPTION>
+	<OPTION value="../best2018.htm">2018 </OPTION>
+	<OPTION value="../best2019.htm">2019 </OPTION>
+	<OPTION value="../best2020.htm">2020 </OPTION>
+	<OPTION value="../best2021.htm">2021 </OPTION>
+	<OPTION value="../best2022.htm">2022 </OPTION>
+	<OPTION value="../best2023.htm">2023 </OPTION>
+	<OPTION value="../best2024.htm">2024 </OPTION>
+</SELECT></FORM>

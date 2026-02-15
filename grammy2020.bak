@@ -9,11 +9,18 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <title>Black Music CD Review - Grammy Award Info 2018 (Only Black Music)</title>
 <script language="JavaScript">
+<!--
 function fc(w){
         if(w == "")return;
         document.menu0.url.selectedIndex = 0;
         location.href=w;
 }
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
 </script>
 <link rel="stylesheet" href="css/grammy.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rdf">
@@ -33,97 +40,143 @@ function fc(w){
       <td align="left" colspan="2"><a href="http://clickserve.cc-dt.com/link/click?lid=41000000001175235"><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=planetkycom-22&o=9&p=13&l=ur1&category=music2&banner=04TVF0T0WBC49XJFQXR2&f=ifr" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe> </a></td>
     </tr>
     <tr>
-      <td nowrap width="475"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" --><!-- #EndLibraryItem --></td>
+      <td nowrap width="475"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+        <option selected>Album Review : Select Year </option>
+        <option value="cd.htm">2023</option>
+        <option value="cd2022.htm">2022</option>
+        <option value="cd2021.htm">2021</option>
+        <option value="cd2020.htm">2020</option>
+        <option value="cd2019.htm">2019</option>
+        <option value="cd2018.htm">2018</option>
+        <option value="cd2017.htm">2017</option>
+        <option value="cd2016.htm">2016</option>
+        <option value="cd2015.htm">2015</option>
+        <option value="cd2014.htm">2014</option>
+        <option value="cd2013.htm">2013</option>
+        <option value="cd2012.htm">2012</option>
+        <option value="cd2011.htm">2011</option>
+        <option value="cd2010.htm">2010</option>
+        <option value="cd2009.htm">2009</option>
+        <option value="cd2008.htm">2008</option>
+        <option value="cd2007.htm">2007</option>
+        <option value="cd2006.htm">2006</option>
+        <option value="cd2005.htm">2005</option>
+        <option value="cd2004.htm">2004</option>
+        <option value="cd2003.htm">2003</option>
+        <option value="cd2002.htm">2002</option>
+        <option value="cd2001.htm">2001</option>
+        <option value="cd2000.htm">2000</option>
+        <option value="cd1999.htm">1999</option>
+        <option value="cd1998.htm">1998</option>
+</select></form> 
+				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+				  <option selected>Best 50 : Select Year </option>
+          <option value="best2022.htm">2022</option>
+          <option value="best2021.htm">2021</option>
+          <option value="best2020.htm">2020</option>
+          <option value="best2019.htm">2019</option>
+          <option value="best2018.htm">2018</option>
+          <option value="best2017.htm">2017</option>
+          <option value="best2016.htm">2016</option>
+          <option value="best2015.htm">2015</option>
+          <option value="best2014.htm">2014</option>
+          <option value="best2013.htm">2013</option>
+          <option value="best2012.htm">2012</option>
+          <option value="best2011.htm">2011</option>
+          <option value="best2010.htm">2010</option>
+          <option value="best2009.htm">2009</option>
+          <option value="best2008.htm">2008</option>
+          <option value="best2007.htm">2007</option>
+          <option value="best2006.htm">2006</option>
+          <option value="best2005.htm">2005</option>
+          <option value="best2004.htm">2004</option>
+          <option value="best2003.htm">2003</option>
+          <option value="best2002.htm">2002</option>
+          <option value="best2001.htm">2001</option>
+          <option value="best2000.htm">2000</option>
+          <option value="best1999.htm">1999</option>
+          <option value="best1998.htm">1998</option>
+</SELECT></FORM><!-- #EndLibraryItem --></td>
       <td nowrap width="30"><!-- #BeginLibraryItem "/Library/BMCOntent2.lbi" --><!-- #EndLibraryItem --></td>
     </tr>
     <tr>
       <td bgcolor="#408080" align="center"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica"><font color="#FFFFFF" size="-1" face="Trebuchet MS,Arial,Helvetica">Site Contents</font></font></td>
-      <td colspan="3" bgcolor="#dedede"><b><font color="#408080" face="Times New Roman,Times,Times NewRoman" size="4"><u><u class="title">2020 The 63rd Grammy Nominees&nbsp; (only Black Music)</u></u></font></b></td>
+      <td colspan="3" bgcolor="#dedede"><b><font color="#408080" face="Times New Roman,Times,Times NewRoman" size="4"><u><u class="title">2020 The 62nd Grammy Nominees&nbsp; (only Black Music)</u></u></font></b></td>
     </tr>
     <tr>
       <td bgcolor="#000000" rowspan="8" valign="top" align="center"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
 <table width="90%">
   <tr>
-    <td align="center" bgcolor="#000000"><p><a href="blackmsc.html"><font color="#FFFFFF" class="size">Black
-            Music Home</font></a><br>
-                          <br>
-                          <font color="#FFFFFF" class="size">Black Music <BR>Album Best
-                          50</font><br>
+    <td align="center" bgcolor="#000000"><p class="p-white">
+	            <br>
+              Black Music Album Best 50<br>
+							<a href="best2022.htm" class="size3">2022</a><br>
+						  <a href="best2021.htm" class="size3">2021</a><br>													
 						  <a href="best2020.htm" class="size3">2020</a><br>
 						  <a href="best2019.htm" class="size3">2019</a><br>
 						  <a href="best2018.htm" class="size3">2018</a><br>
 						  <a href="best2017.htm" class="size3">2017</a><br>
 						  <a href="best2016.htm" class="size3">2016</a><br>
-                          <a href="best2015.htm" class="size3">2015</a><br>
-                          <a href="best2014.htm" class="size3">2014</a><br>
-                          <a href="best2013.htm" class="size3">2013</a><br>
-                          <a href="best2012.htm" class="size3">2012</a><br>
-                          <a href="best2011.htm" class="size3">2011</a><br>
-                          <a href="best2010.htm" class="size3">2010</a><br>
-                          <a href="best2009.htm" class="size3">2009</a><br>
-                          <a href="best2008.htm" class="size3">2008</a><br>
-                          <a href="best2007.htm" class="size3">2007</a><br>
-                          <a href="best2006.htm" class="size3">2006</a><br>
-                          <a href="best2005.htm" class="size3">2005</a><br>
-                          <a href="best2004.htm" class="size3">2004</a><br>
-                          <a href="best2003.htm" class="size3">2003</a><br>
-                          <a href="best2002.htm" class="size3">2002</a><br>
-                          <a href="best2001.htm" class="size3">2001</a><br>
-                          <a href="best2000.htm" class="size3">2000</a><br>
-                          <a href="best1999.htm" class="size3">1999</a><br>
-                          <a href="best1998.htm" class="size3">1998</a><br>
-                          <br>
-                          <font color="#FFFFFF" class="size">CD Review</font><br>
-                          <a href="cd.htm" class="size3">2021</a><br>
-						  <a href="cd2020.htm" class="size3">2020</a><br>
+              <a href="best2015.htm" class="size3">2015</a><br>
+              <a href="best2014.htm" class="size3">2014</a><br>
+              <a href="best2013.htm" class="size3">2013</a><br>
+              <a href="best2012.htm" class="size3">2012</a><br>
+              <a href="best2011.htm" class="size3">2011</a><br>
+              <a href="best2010.htm" class="size3">2010</a><br>
+              <a href="best2009.htm" class="size3">2009</a><br>
+              <a href="best2008.htm" class="size3">2008</a><br>
+              <a href="best2007.htm" class="size3">2007</a><br>
+              <a href="best2006.htm" class="size3">2006</a><br>
+              <a href="best2005.htm" class="size3">2005</a><br>
+              <a href="best2004.htm" class="size3">2004</a><br>
+              <a href="best2003.htm" class="size3">2003</a><br>
+              <a href="best2002.htm" class="size3">2002</a><br>
+              <a href="best2001.htm" class="size3">2001</a><br>
+              <a href="best2000.htm" class="size3">2000</a><br>
+              <a href="best1999.htm" class="size3">1999</a><br>
+              <a href="best1998.htm" class="size3">1998</a><br>
+              <br>
+              CD Review<br>
+              <a href="cd.htm" class="size3">2023</a><br>
+							<a href="cd2022.htm" class="size3">2022</a><br>
+						  <a href="cd2021.htm" class="size3">2021</a><br>
+							<a href="cd2020.htm" class="size3">2020</a><br>
 						  <a href="cd2019.htm" class="size3">2019</a><br>
 						  <a href="cd2018.htm" class="size3">2018</a><br>
 						  <a href="cd2017.htm" class="size3">2017</a><br>
 						  <a href="cd2016.htm" class="size3">2016</a><br>
-                          <a href="cd2015.htm" class="size3">2015</a><br>
-                          <a href="cd2014.htm" class="size3">2014</a><br>
-                          <a href="cd2013.htm" class="size3">2013</a><br>
-                          <a href="cd2012.htm" class="size3">2012</a><br>
-                          <a href="cd2011.htm" class="size3">2011</a><br>
-                          <a href="cd2010.htm" class="size3">2010</a><br>
-                          <a href="cd2009.htm" class="size3">2009</a><br>
-                          <a href="cd2008.htm" class="size3">2008</a><br>
-                          <a href="cd2007.htm" class="size3">2007</a><br>
-                          <a href="cd2006.htm" class="size3">2006</a><br>
-                          <a href="cd2005.htm" class="size3">2005</a><br>
-                          <a href="cd2004.htm" class="size3">2004</a><br>
-                          <a href="cd2003.htm" class="size3">2003</a><br>
-                          <a href="cd2002.htm" class="size3">2002</a><br>
-                          <a href="cd2001.htm" class="size3">2001</a><br>
-                          <a href="cd2000.htm" class="size3">2000</a><br>
-                          <a href="cd1999.htm" class="size3">1999</a><br>
-                          <a href="cd1998.htm" class="size3">1998</a><br>
-                          <br>
-                          <a href="http://bm.planetky.com/SearchBeta2.php" class="size3">CD
-                          Search(beta)</a> <br>
-                          <br>
-                          <font color="#ffffff"><a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a></font><br>
-                          <br>
-                          <font color="#FFFFFF"><a href="liveshot.html" class="size2">Live
-                          Shot</a></font><br>
-                          <br>
-                          <font color="#FFFFFF"><a href="mag.htm" class="size2">Hip-Hop
-                          Magazine Review</a></font><br>
-                        <br>
-                        <font color="#FFFFFF"><a href="http://bm.planetky.com/blog/index.php?blog=6" class="size2">Webmaster's
-                        Blog</a></font><br>
-                        <br>
-                        <font color="#FFFFFF"><a href="http://planetky.com/cdshop.htm" class="size2">CD
-                        online shop list</a></font><br>
-                        <br>
-                        <font color="#FFFFFF"><a href="http://planetky.com/index.html" class="size2">planet.KY
-                        home</a></font><br>
-                            <br>
-                            <font size="-2" color="#FFFFFF">
+              <a href="cd2015.htm" class="size3">2015</a><br>
+              <a href="cd2014.htm" class="size3">2014</a><br>
+              <a href="cd2013.htm" class="size3">2013</a><br>
+              <a href="cd2012.htm" class="size3">2012</a><br>
+              <a href="cd2011.htm" class="size3">2011</a><br>
+              <a href="cd2010.htm" class="size3">2010</a><br>
+              <a href="cd2009.htm" class="size3">2009</a><br>
+              <a href="cd2008.htm" class="size3">2008</a><br>
+              <a href="cd2007.htm" class="size3">2007</a><br>
+              <a href="cd2006.htm" class="size3">2006</a><br>
+              <a href="cd2005.htm" class="size3">2005</a><br>
+              <a href="cd2004.htm" class="size3">2004</a><br>
+              <a href="cd2003.htm" class="size3">2003</a><br>
+              <a href="cd2002.htm" class="size3">2002</a><br>
+              <a href="cd2001.htm" class="size3">2001</a><br>
+              <a href="cd2000.htm" class="size3">2000</a><br>
+              <a href="cd1999.htm" class="size3">1999</a><br>
+              <a href="cd1998.htm" class="size3">1998</a><br>
+              <br>
+              <font color="#ffffff"><a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="liveshot.html" class="size2">Live Shot</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="mag.htm" class="size2">Hip-Hop Magazine Review</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="http://planetky.com/index.html" class="size2">planet.KY home</a></font><br>
+              <br>
+              <font size="-2" color="#FFFFFF">
                             <script language="JavaScript">
 document.write('Last updated at ', document.lastModified);
                     </script>
-                          </font></p>
+              </font></p>
         <p></p></td>
   </tr>
 </table>
@@ -144,28 +197,31 @@ document.write('Last updated at ', document.lastModified);
       </td>
       <td nowrap>&nbsp;</td>
       <td colspan="2" class="size1"><!-- #BeginLibraryItem "/Library/grammy.lbi" --><B>Grammy Nominees / Winners&nbsp; (only Black Music) </B><BR>
-      <a href="grammy2020.html">2020 The 63rd</a>&nbsp;
-      <a href="grammy2019.html">2019 The 62nd</a>&nbsp;
-      <a href="grammy2018.html">2018 The 61st</a>&nbsp;
-      <a href="grammy2017.html">2017 The 60th</a>&nbsp;
-	  <a href="grammy2016.html">2016 The 59th</a>&nbsp;
-      <a href="grammy2015.html">2015 The 58th</a>&nbsp;
-	  <a href="grammy2014.html">2014 The 57th</a>&nbsp;
-	  <a href="grammy2013.html">2013 The 56th</a>&nbsp;
-	  <A href="grammy2012.html">2012 The 55th</A>&nbsp;
-	  <A href="grammy2011.html">2011 The 54th</A>&nbsp;
-	  <A href="grammy2010.html">2010 The 53rd</A>&nbsp;
-	  <A href="grammy2009.html">2009 The 52nd</A>&nbsp;
-	  <A href="grammy2008.html">2008 The 51st</A>&nbsp;
-	  <A href="grammy2007.html">2007 The 50th</A>&nbsp;
-	  <A href="grammy2006.html">2006 The 49th</A>&nbsp;
-	  <A href="grammy2005.html">2005 The 48th</A>&nbsp;
-	  <A href="grammy2004.html">2004 The 47th</A>&nbsp;
-	  <A href="grammy2003.html">2003 The 46th</A>&nbsp;
-	  <A href="grammy2002.html">2002 The 45th</A>&nbsp;
-	  <A href="grammy2001.html">2001 The 44th</A>&nbsp;
-	  <A href="grammy2000.html">2000 The 43rd</A>&nbsp;
-	  <A href="grammy1999.html">1999 The 42nd</A>
+      <a href="grammy2024.html">2023 The 66th</a>&nbsp;
+			<a href="grammy2023.html">2023 The 65th</a>&nbsp;
+      <a href="grammy2022.html">2022 The 64th</a>&nbsp;
+      <a href="grammy2021.html">2021 The 63rd</a>&nbsp;
+      <a href="grammy2020.html">2000 The 62nd</a>&nbsp;
+      <a href="grammy2019.html">2019 The 61st</a>&nbsp;
+      <a href="grammy2018.html">2018 The 60th</a>&nbsp;
+		  <a href="grammy2017.html">2017 The 59th</a>&nbsp;
+      <a href="grammy2016.html">2016 The 58th</a>&nbsp;
+		  <a href="grammy2015.html">2015 The 57th</a>&nbsp;
+		  <a href="grammy2014.html">2014 The 56th</a>&nbsp;
+	  	<A href="grammy2013.html">2013 The 55th</A>&nbsp;
+		  <A href="grammy2012.html">2012 The 54th</A>&nbsp;
+		  <A href="grammy2011.html">2011 The 53rd</A>&nbsp;
+		  <A href="grammy2010.html">2010 The 52nd</A>&nbsp;
+		  <A href="grammy2009.html">2009 The 51st</A>&nbsp;
+		  <A href="grammy2008.html">2008 The 50th</A>&nbsp;
+		  <A href="grammy2007.html">2007 The 49th</A>&nbsp;
+		  <A href="grammy2006.html">2006 The 48th</A>&nbsp;
+		  <A href="grammy2005.html">2005 The 47th</A>&nbsp;
+		  <A href="grammy2004.html">2004 The 46th</A>&nbsp;
+		  <A href="grammy2003.html">2003 The 45th</A>&nbsp;
+		  <A href="grammy2003.html">2002 The 44th</A>&nbsp;
+		  <A href="grammy2001.html">2001 The 43rd</A>&nbsp;
+		  <A href="grammy2000.html">2000 The 42nd</A>
   <!-- #EndLibraryItem --></td>
     </tr>
     <tr>
@@ -186,642 +242,634 @@ document.write('Last updated at ', document.lastModified);
             <td colspan="2">Record Of The Year</td>
           </tr>
           <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0">&nbsp;</td>
+            <td><font size="+1">Bad Guy</font><br>
+Billie Eilish<br>
+            Finneas O'Connell, producer; Rob Kinelski &amp; Finneas O'Connell, engineers/mixers; John Greenham, mastering engineer</td>
+          </tr>
+          <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">BLACK PARADE</font><br>
-Beyoncé<br>
-Beyoncé &amp; Derek Dixie, producers; Stuart White, engineer/mixer; Colin Leonard, mastering engineer</td>
+            <td><font size="+1">7 RINGS</font><br>
+            Ariana Grande<br>
+            Charles Anderson, Tommy Brown, Michael Foster &amp;<br>
+            Victoria Monet, producers; Serban Ghenea, John Hanes,<br>
+            Billy Hickey &amp; Brendan Morawski, engineers/mixers;<br>
+            Randy Merrill, mastering engineer<br>
+            Track from : <a href="arianagrande5.htm">thank u, next</a></td>
           </tr>
           <tr>
             <td></td>
-            <td><font size="+1">ROCKSTAR</font><br>
-DaBaby Featuring Roddy Ricch<br>
-SethinTheKitchen, producer; Derek &quot;MixedByAli&quot; Ali, Chris Dennis, Liz Robson &amp; Chris West, engineers/mixers; Glenn A Tabor III, mastering engineer</td>
+            <td><font size="+1">HARD PLACE</font><br>
+            H.E.R.<br>
+            Rodney “Darkchild” Jerkins, producer; Joseph Hurtado, Jaycen Joshua, Derek
+            Keota &amp; Miki Tsutsumi, engineers/mixers; Colin Leonard, mastering engineer</td>
           </tr>
           <tr>
             <td>&nbsp;&nbsp;</td>
-            <td><font size="+1">SAY SO</font><br>
-Doja Cat<br>
-Tyson Trax, producer; Clint Gibbs, engineer/mixer; Mike Bozzi, mastering engineer</td>
+            <td><font size="+1">TALK</font><br>
+            Khalid<br>
+            Disclosure &amp; Denis Kosiak, producers; Ingmar Carlson, Jon Castelli,
+            Josh Deguzman, John Kercy, Denis Kosiak, Guy Lawrence &amp; Michael Romero,
+            engineers/mixers; Dale Becker, mastering engineer<br>
+            Track from: <a href="khalid2.htm">Free Spirit</a></td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">CIRCLES</font><br>
-Post Malone<br>
-            Louis Bell, Frank Dukes &amp; Post Malone, producers; Louis Bell &amp; Manny Marroquin, engineers/mixers; Mike Bozzi, mastering engineer<br>
-            Track from: <a href="postmalone2.htm">Hollywood's Bleeding</a></td>
+            <td><span style="display: inline !important; float: none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: polaris; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 300; letter-spacing: normal; line-height: inherit; list-style-image : url(https://www.grammy.com/grammys/news/none); list-style-position: outside; list-style-type: disc; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"></span><font size="+1">OLD TOWN ROAD</font><br>
+            Lil Nas X Featuring Billy Ray Cyrus<br>
+            Andrew &quot;VoxGod&quot; Bolooki, Jocelyn “Jozzy” Donald &amp; YoungKio,
+            producers; Andrew &quot;VoxGod&quot; Bolooki, Cinco &amp; Joe Grasso, engineers/mixers;
+            Eric Lagg, mastering engineer</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">SAVAGE</font><br>
-Megan Thee Stallion Featuring Beyoncé<br>
-Beyoncé &amp; J. White Did It, producers; Stuart White, engineer/mixer; Colin Leonard, mastering engineer</td>
+            <td><span style="display: inline !important; float: none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: polaris; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 300; letter-spacing: normal; line-height: inherit; list-style-image : url(https://www.grammy.com/grammys/news/none); list-style-position: outside; list-style-type: disc; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"></span><font size="+1">TRUTH HURTS</font><br>
+Lizzo<br>
+Ricky Reed &amp; Tele, producers; Chris Galland, Manny Marroquin &amp; Ethan Shumaker, engineers/mixers; Chris Gehringer, mastering engineer<br>
+            Track from: <a href="lizzo1.htm">Cuz I Love You</a></td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">EVERYTHING I WANTED</font><br>
-Billie Eilish<br>
-Finneas O'Connell, producer; Rob Kinelski &amp; Finneas O'Connell, engineers/mixers; John Greenham, mastering engineer</td>
+            <td>&nbsp;</td>
+            <td><font size="+1">SUNFLOWER</font><br>
+Post Malone &amp; Swae Lee<br>
+            Louis Bell &amp; Carter Lang, producers; Louis Bell &amp; Manny Marroquin, engineers/mixers; Mike Bozzi, mastering engineer<br>
+            Track from: <a href="postmalone2.htm">Hollywood's bleeding</a></td>
           </tr>
           <tr>
             <td colspan="2">Album Of The Year</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1"><a href="jheneaiko1.htm">CHILOMBO</a></font><br>
-Jhené Aiko<br>
-Fisticuffs &amp; Julian-Quán Việt Lê, producers; Fisticuffs, Julian-Quán Việt Lê, Zeke Mishanec, Christian Plata &amp; Gregg Rominiecki, engineers/mixers; Jhené Aiko Efuru Chilombo, Julian-Quán Việt Lê, Maclean Robinson &amp; Brian Keith Warfield, songwriters; Dave Kutch, mastering engineer</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1"><a href="postmalone2.htm">HOLLYWOOD'S BLEEDING</a></font><br>
-Post Malone<br>
-Louis Bell &amp; Frank Dukes, producers; Louis Bell &amp; Manny Marroquin, engineers/mixers; Louis Bell, Adam Feeney, Austin Post &amp; Billy Walsh, songwriters; Mike Bozzi, mastering engineer</td>
-          </tr>
-          <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">FOLKLORE</font><br>
-Taylor Swift<br>
-Jack Antonoff, Aaron Dessner &amp; Taylor Swift, producers; Jack Antonoff, Aaron Dessner, Serban Ghenea, John Hanes, Jonathan Low &amp; Laura Sisk, engineers/mixers; Aaron Dessner &amp; Taylor Swift, songwriters; Randy Merrill, mastering engineer</td>
+            <td><font size="+1">When We All Fall Asleep, Where Do We Go?</font><br>
+Billie Eilish<br>
+            Finneas O'Connell, producer; Rob Kinelski &amp; Finneas O'Connell, engineers/mixers;
+            Billie Eilish O'Connell &amp; Finneas O'Connell, songwriters; John Greenham,
+            mastering engineer&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1"><a href="arianagrande5.htm">THANK U, NEXT</a></font><br>
+Ariana Grande<br>
+Tommy Brown, Ilya, Max Martin &amp; Victoria Monet, producers; Serban Ghenea, Sam Holland &amp; Brendan Morawski, engineers/mixers; Tommy Brown, Ariana Grande, Savan Kotecha, Max Martin, Victoria Monet, Tayla Parx &amp; Ilya Salmanzadeh, songwriters; Randy Merrill, mastering engineer</td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">I USED TO KNOW HER</font><br>
+H.E.R.<br>
+David &quot;Swagg R'Celious&quot; Harris, H.E.R., Walter Jones &amp; Jeff Robinson, producers; Miki Tsutsumi, engineer/mixer; Sam Ashworth, Jeff “Gitty” Gitelman, David &quot;Swagg R'Celious&quot; Harris &amp; H.E.R., songwriters; Dave Kutch, mastering engineer</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><font size="+1">7</font><br>
+Lil Nas X<br>
+Joe Grasso, engineer/mixer; Montero Lamar Hill, songwriter; Eric Lagg, mastering engineer</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><a href="lizzo1.htm">CUZ I LOVE YOU (DELUXE)</a><br>
+Lizzo<br>
+Ricky Reed, producer; Manny Marroquin &amp; Ethan Shumaker, engineers/mixers; Eric Frederic &amp; Melissa Jefferson, songwriters; Chris Gehringer, mastering engineer</td>
           </tr>
           <tr>
             <td colspan="2">Song Of The Year</td>
           </tr>
           <tr>
+            <td align="center">&nbsp;<img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">Bad Guy</font><br>
+            Billie Eilish O'Connell &amp; Finneas O'Connell, songwriters (Billie Eilish)</td>
+          </tr>
+          <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">THE BOX</font><br>
-Larrance Dopson, Samuel Gloade, Rodrick Moore, Adarius Moragne, Eric Sloan &amp; Khirye Anthony Tyler, songwriters (Roddy Ricch)</td>
+            <td><font size="+1">HARD PLACE</font><br>
+Ruby Amanfu, Sam Ashworth, D. Arcelious Harris, H.E.R. &amp; Rodney Jerkins, songwriters (H.E.R.)</td>
           </tr>
           <tr>
             <td align="center"></td>
-            <td><font size="+1">CIRCLES</font><br>
-            Louis Bell, Adam Feeney, Kaan Gunesberk, Austin Post &amp; Billy Walsh, songwriters (Post Malone)<br>            Track from: <a href="postmalone2.htm">Hollywood's Bleeding</a></td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">I CAN'T BREATHE</font><br>
-Dernst Emile II, H.E.R. &amp; Tiara Thomas, songwriters (H.E.R.)</td>
+            <td><font size="+1">TRUTH HURTS</font><br>
+            Steven Cheung, Eric Frederic, Melissa Jefferson &amp; Jesse Saint John, songwriters (Lizzo)<br>
+            Track from: <a href="lizzo1.htm">Cuz I Love You</a></td>
           </tr>
           <tr>
             <td align="left" colspan="2">Best New Artist&nbsp;</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">D SMOKE</font></td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">DOJA CAT</font></td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">KAYTRANADA</font></td>
-          </tr>
-          <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">MEGAN THEE STALLION</font>&nbsp;</td>
+            <td><font size="+1">Billie Eilish</font></td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">LIL NAS X</font></td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">LIZZO</font></td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">TANK AND THE BANGAS</font></td>
           </tr>
           <tr>
             <td align="left" colspan="2">Best Pop Solo Performance</td>
           </tr>
           <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">SAY SO</font><br>
-Doja Cat</td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">WATERMELON SUGAR</font><br>
-            Harry Styles</td>
-          </tr>
-          <tr>
-            <td align="left" colspan="2">Best Pop Duo/Group Performance</td>
+            <td><font size="+1">SPIRIT</font><br>
+Beyoncé</td>
           </tr>
           <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">INTENTIONS</font><br>
-Justin Bieber Featuring Quavo</td>
+            <td><font size="+1">7 RINGS</font><br>
+            Ariana Grande<br>            Track from : <a href="arianagrande5.htm">thank u, next</a></td>
           </tr>
           <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">RAIN ON ME</font><br>
-Lady Gaga with Ariana Grande</td>
+            <td><font size="+1">TRUTH HURTS</font><br>
+            Lizzo<br>Track from: <a href="lizzo1.htm">Cuz, I Love You</a></td>
+          </tr>
+          <tr>
+            <td colspan="2">Best Pop Duo/Group Performance</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">BOYFRIEND</font><br>
+Ariana Grande &amp; Social House</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">OLD TOWN ROAD</font><br>
+Lil Nas X Featuring Billy Ray Cyrus</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">SUNFLOWER</font><br>
+            Post Malone &amp; Swae Lee<br>            Track from: <a href="postmalone2.htm">Hollywood's bleeding</a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">SEÑORITA</font><br>
+            Shawn Mendes &amp; Camila Cabello<br>
+            Track from: <a href="camilacabello2.htm">Romance</a></td>
+          </tr>
+          <tr>
+            <td colspan="2">Best Traditional Pop Vocal Album</td>
+          </tr>
+          <tr>
+            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">Look Now</font><br>
+Elvis Costello &amp; The Imposters</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">A LEGENDARY CHRISTMAS</font><br>
+John Legend</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="left">Best Pop Vocal Album</td>
+          </tr>
+          <tr>
+            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">When We All Fall Asleep, Where Do We Go?</font><br>
+Billie Eilish</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">THE LION KING: THE GIFT</font><br>
+Beyoncé</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><a href="arianagrande5.htm"><font size="+1">THANK U, NEXT</font></a><br>
+Ariana Grande</td>
           </tr>
           <tr>
             <td colspan="2" align="left">Best Dance Recording</td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">ON MY MIND</font><br>
-Diplo &amp; SIDEPIECE<br>
-Diplo &amp; SIDEPIECE, producers; Luca Pretolesi, mixer</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">10%</font><br>
-Kaytranada Featuring Kali Uchis<br>
-Kaytranada, producer; Neal H. Pogue, mixer</td>
-          </tr>
-          <tr>
-            <td colspan="2">Best Dance/Electronic Album</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">BUBBA</font><br>
-Kaytranada</td>
-          </tr>
-          <tr>
-            <td colspan="2">Best Rock Album</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">Got To Keep On</font><br>
+The Chemical Brothers<br>
+            The Chemical Brothers, producers; Steve Dub Jones &amp; Tom Rowlands, mixers</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">KIWANUKA</font><br>
-Michael Kiwanuka</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">THE NEW ABNORMAL</font><br>
-The Strokes</td>
+            <td><font size="+1">MIDNIGHT HOUR</font><br>
+Skrillex, Boys Noize &amp; Ty Dolla $ign<br>
+Boys Noize &amp; Skrillex, producers; Tom Norris &amp; Skrillex, mixers</td>
           </tr>
           <tr>
             <td colspan="2">Best R&amp;B Performance</td>
           </tr>
           <tr>
             <td>&nbsp;&nbsp;</td>
-            <td><font size="+1">LIGHTNING &amp; THUNDER</font><br>
-            Jhené Aiko Featuring John Legend<br>
-            Track from: <a href="jheneaiko1.htm">Chilombo</a></td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">BLACK PARADE</font><br>
-Beyoncé</td>
+            <td><font size="+1">LOVE AGAIN</font><br>
+            Daniel Caesar &amp; Brandy<br>
+            Track from: <a href="brandy5.htm">B7</a></td>
           </tr>
           <tr>
             <td>&nbsp;&nbsp;</td>
-            <td><font size="+1">ALL I NEED</font><br>
-Jacob Collier Featuring Mahalia &amp; Ty Dolla $ign</td>
+            <td><font size="+1">COULD'VE BEEN</font><br>
+H.E.R. Featuring Bryson Tiller</td>
+          </tr>
+          <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td><font size="+1">EXACTLY HOW I FEEL</font><br>
+            Lizzo Featuring Gucci Mane<br>
+            Track from: <a href="lizzo1.htm">Cuz I Love You</a></td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">GOAT HEAD</font><br>
-Brittany Howard</td>
+            <td><font size="+1">ROLL SOME MO</font><br>
+Lucky Daye</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">SEE ME</font><br>
-Emily King</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">COME HOME</font><br>
+            Anderson .Paak Featuring André 3000<br>
+            Track from: <a href="andersonpaak4.htm">Ventura</a></td>
           </tr>
           <tr>
             <td colspan="2">Best Traditional R&amp;B Performance</td>
           </tr>
           <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">SIT ON DOWN</font><br>
-The Baylor Project Featuring Jean Baylor &amp; Marcus Baylor</td>
+            <td>TIME TODAY<br>
+BJ The Chicago Kid</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">WONDER WHAT SHE THINKS OF ME</font><br>
-            Chloe X Halle<br>
-            Track from: <a href="chloexhalle1.htm">Ungodly Hour</a></td>
+            <td>STEADY LOVE<br>
+India.Arie</td>
           </tr>
           <tr>
-            <td align="center"></td>
-            <td><font size="+1">LET ME GO</font><br>
-            Mykal Kilgore</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td>JEROME<br>
+            Lizzo<br>Track from: <a href="lizzo1.htm">Cuz I Love You</a></td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">ANYTHING FOR YOU</font><br>
-Ledisi</td>
+            <td></td>
+            <td>REAL GAMES<br>
+Lucky Daye</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">DISTANCE</font><br>
-Yebba</td>
+            <td>BUILT FOR LOVE<br>
+            PJ Morton Featuring Jazmine Sullivan<br>
+            Track from: <a href="pjmorton1.htm">Paul</a></td>
           </tr>
           <tr>
             <td colspan="2">Best R&amp;B Song</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">BETTER THAN I IMAGINE</font><br>
-Robert Glasper, Meshell Ndegeocello &amp; Gabriella Wilson, songwriters (Robert Glasper Featuring H.E.R. &amp; Meshell Ndegeocello)</td>
+            <td>&nbsp;</td>
+            <td><font size="+1">COULD'VE BEEN</font><br>
+Dernst Emile II, David “Swagg R’Celious” Harris, H.E.R. &amp; Hue “Soundzfire” Strother, songwriters (H.E.R. Featuring Bryson Tiller)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">BLACK PARADE</font><br>
-Denisia Andrews, Beyoncé, Stephen Bray, Shawn Carter, Brittany Coney, Derek James Dixie, Akil King, Kim &quot;Kaydence&quot; Krysiuk &amp; Rickie &quot;Caso&quot; Tice, songwriters (Beyoncé)</td>
+            <td><font size="+1">LOOK AT ME NOW</font><br>
+Emily King &amp; Jeremy Most, songwriters (Emily King)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">COLLIDE</font><br>
-Sam Barsh, Stacey Barthe, Sonyae Elise, Olu Fann, Akil King, Josh Lopez, Kaveh Rastegar &amp; Benedetto Rotondi, songwriters (Tiana Major9 &amp; EARTHGANG)</td>
+            <td><font size="+1">NO GUIDANCE</font><br>
+Chris Brown, Tyler James Bryant, Nija Charles, Aubrey Graham, Anderson Hernandez, Michee Patrick Lebrun, Joshua Huizar, Noah Shebib &amp; Teddy Walton, songwriters (Chris Brown Featuring Drake)</td>
           </tr>
           <tr>
             <td align="center"></td>
-            <td><font size="+1">DO IT</font><br>
-            Chloe Bailey, Halle Bailey, Anton Kuhl, Victoria Monét, Scott Storch &amp; Vincent Van Den Ende, songwriters (Chloe X Halle)<br>
-            Track from: <a href="chloexhalle1.htm">Ungodly Hour</a></td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">SLOW DOWN</font><br>
-Nasri Atweh, Badriia Bourelly, Skip Marley, Ryan Williamson &amp; Gabriella Wilson, songwriters (Skip Marley &amp; H.E.R.)</td>
-          </tr>
-          <tr>
-            <td colspan="2">Best Progressive R&amp;B Album</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1"><a href="jheneaiko1.htm">CHILOMBO</a></font><br>
-Jhené Aiko</td>
-          </tr>
-          <tr>
-            <td align="center"></td>
-            <td><font size="+1"><a href="chloexhalle1.htm">UNGODLY HOUR</a></font><br>
-Chloe X Halle</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">FREE NATIONALS</font><br>
-Free Nationals</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1"><a href="robertglasper2.htm">F*** YO FEELINGS</a></font><br>
-Robert Glasper</td>
+            <td><font size="+1">ROLL SOME MO</font><br>
+David Brown, Dernst Emile II &amp; Peter Lee Johnson, songwriters (Lucky Daye)</td>
           </tr>
           <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1"><a href="thundercat2.htm">IT IS WHAT IT IS</a></font><br>
-            Thundercat</td>
+            <td><font size="+1">SAY SO</font><br>
+            PJ Morton, songwriter (PJ Morton Featuring JoJo)<br>            Track from: <a href="pjmorton1.htm">Paul</a></td>
+          </tr>
+          <tr>
+            <td colspan="2">Best Urban Contemporary Album</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">APOLLO XXI</font><br>
+Steve Lacy</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><a href="lizzo1.htm"><font size="+1">CUZ I LOVE YOU (DELUXE)</font></a><br>
+Lizzo</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1"><a href="georgiaannemuldrow.htm">OVERLOAD</a></font><br>
+Georgia Anne Muldrow</td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">SATURN</font><br>
+NAO</td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td><font size="+1">BEING HUMAN IN PUBLIC</font><br>
+Jessie Reyez</td>
           </tr>
           <tr>
             <td colspan="2">Best R&amp;B Album</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">HAPPY 2 BE HERE</font><br>
-            Ant Clemons</td>
+            <td><font size="+1">1123</font><br>
+BJ The Chicago Kid</td>
           </tr>
           <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">TAKE TIME</font><br>
-Giveon</td>
+            <td><font size="+1">PAINTED</font><br>
+Lucky Daye</td>
           </tr>
           <tr>
             <td align="center">&nbsp;</td>
-            <td><font size="+1">TO FEEL LOVE/D</font><br>
-Luke James</td>
+            <td><font size="+1"><a href="ellamai1.htm">ELLA MAI</a></font><br>
+Ella Mai</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1"><a href="johnlegend6.htm">BIGGER LOVE</a></font><br>
-John Legend</td>
+            <td>&nbsp;</td>
+            <td><a href="pjmorton1.htm"><font size="+1">PAUL</font></a><br>
+PJ Morton</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">ALL RISE</font><br>
-Gregory Porter</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1"><a href="andersonpaak4.htm">VENTURA<br>
+            </a></font>Anderson .Paak</td>
           </tr>
           <tr>
             <td colspan="2">Best Rap Performance</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">DEEP REVERENCE</font><br>
-            Big Sean Featuring Nipsey Hussle</td>
+            <td><font size="+1">MIDDLE CHILD</font><br>
+J. Cole</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">BOP</font><br>
-            DaBaby&nbsp;</td>
+            <td><font size="+1">SUGE</font><br>
+DaBaby</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">WHAT'S POPPIN</font><br>
-Jack Harlow</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">THE BIGGER PICTURE</font><br>
-Lil Baby</td>
+            <td><font size="+1">DOWN BAD</font><br>
+Dreamville Featuring J.I.D, Bas, J. Cole, EARTHGANG &amp; Young Nudy</td>
           </tr>
           <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">SAVAGE</font><br>
-Megan Thee Stallion Featuring Beyoncé</td>
+            <td><font size="+1">RACKS IN THE MIDDLE</font><br>
+Nipsey Hussle Featuring Roddy Ricch &amp; Hit-Boy</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">DIOR</font><br>
-            Pop Smoke<br>            Track from: <a href="popsmoke1.htm">Meet The Woo 2</a></td>
+            <td><font size="+1">CLOUT</font><br>
+Offset Featuring Cardi B</td>
           </tr>
           <tr>
-            <td colspan="2">Best Melodic Rap Performance</td>
+            <td colspan="2">Best Rap/Sung Collaboration</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">ROCKSTAR</font><br>
-            DaBaby Featuring Roddy Ricch</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">LAUGH NOW CRY LATER</font><br>
-Drake Featuring Lil Durk</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">LOCKDOWN</font><br>
-Anderson .Paak</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">HIGHER</font><br>
+DJ Khaled Featuring Nipsey Hussle &amp; John Legend</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">THE BOX</font><br>
-Roddy Ricch</td>
+            <td><font size="+1">DRIP TOO HARD</font><br>
+Lil Baby &amp; Gunna</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">HIGHEST IN THE ROOM</font><br>
-Travis Scott</td>
+            <td><font size="+1">PANINI</font><br>
+Lil Nas X</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">BALLIN</font><br>
+Mustard Featuring Roddy Ricch</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">THE LONDON</font><br>
+Young Thug Featuring J. Cole &amp; Travis Scott</td>
           </tr>
           <tr>
             <td colspan="2">Best Rap Song</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">THE BIGGER PICTURE</font><br>
-Dominique Jones, Noah Pettigrew &amp; Rai'shaun Williams, songwriters (Lil Baby)</td>
+            <td><font size="+1">BAD IDEA</font><br>
+Chancelor Bennett, Cordae Dunston, Uforo Ebong &amp; Daniel Hackett, songwriters (YBN Cordae Featuring Chance The Rapper)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">THE BOX</font><br>
-Larrance Dopson, Samuel Gloade, Rodrick Moore, Adarius Moragne, Eric Sloan &amp; Khirye Anthony Tyler, songwriters (Roddy Ricch)</td>
+            <td><font size="+1">GOLD ROSES</font><br>
+Noel Cadastre, Aubrey Graham, Anderson Hernandez, Khristopher Riddick-Tynes, William Leonard Roberts II, Joshua Quinton Scruggs, Leon Thomas III &amp; Ozan Yildirim, songwriters (Rick Ross Featuring Drake)</td>
+          </tr>
+          <tr>
+            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">A LOT</font><br>
+Jermaine Cole, Dacoury Natche, 21 Savage &amp; Anthony White, songwriters (21 Savage Featuring J. Cole)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">LAUGH NOW CRY LATER</font><br>
-Durk Banks, Rogét Chahayed, Aubrey Graham, Daveon Jackson, Ron LaTour &amp; Ryan Martinez, songwriters (Drake Featuring Lil Durk)</td>
+            <td><font size="+1">RACKS IN THE MIDDLE</font><br>
+Ermias Asghedom, Dustin James Corbett, Greg Allen Davis, Chauncey Hollis, Jr. &amp; Rodrick Moore, songwriters (Nipsey Hussle Featuring Roddy Ricch &amp; Hit-Boy)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">ROCKSTAR</font><br>
-            Jonathan Lyndale Kirk, Ross Joseph Portaro IV &amp; Rodrick Moore, songwriters (DaBaby Featuring Roddy Ricch)</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0">&nbsp;</td>
-            <td><font size="+1">SAVAGE</font><br>
-Beyoncé, Shawn Carter, Brittany Hazzard, Derrick Milano, Terius Nash, Megan Pete, Bobby Session Jr., Jordan Kyle Lanier Thorpe &amp; Anthony White, songwriters (Megan Thee Stallion Featuring Beyoncé)</td>
+            <td><font size="+1">SUGE</font><br>
+DaBaby, Jetsonmade &amp; Pooh Beatz, songwriters (DaBaby)</td>
           </tr>
           <tr>
             <td colspan="2">Best Rap Album</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1"><a href="dsmoke1.htm">BLACK HABITS</a></font><br>
-            D SMOKE</td>
+            <td><font size="+1">REVENGE OF THE DREAMERS III</font><br>
+Dreamville</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1"><a href="fgibbsalchemist1.htm">ALFREDO</a></font><br>
-Freddie Gibbs &amp; The Alchemist</td>
+            <td><font size="+1">CHAMPIONSHIPS</font><br>
+Meek Mill</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1"><a href="jayelectronica1.htm">A WRITTEN TESTIMONY</a></font><br>
-Jay Electronica</td>
+            <td><font size="+1">I AM &gt; I WAS</font><br>
+21 Savage</td>
           </tr>
           <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">KING'S DISEASE</font><br>
-Nas</td>
+            <td><font size="+1"><a href="tyler4.htm">IGOR</a></font><br>
+Tyler, The Creator</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">THE ALLEGORY</font><br>
-Royce 5’9&quot;</td>
+            <td><font size="+1">THE LOST BOY</font><br>
+YBN Cordae</td>
+          </tr>
+          <tr>
+            <td colspan="2">Best Jazz Vocal Album</td>
+          </tr>
+          <tr>
+            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1"><a href="espalding3.htm">12 LITTLE SPELLS</a></font><br>
+Esperanza Spalding</td>
           </tr>
           <tr>
             <td colspan="2">Best Gospel Performance/Song</td>
           </tr>
           <tr>
-            <td></td>
-            <td><font size="+1">COME TOGETHER</font><br>
-Rodney &quot;Darkchild&quot; Jerkins Present: The Good News; Rodney &quot;Darkchild&quot; Jerkins &amp; Jazz Nixon, producers; Lashawn Daniels, Rodney Jerkins, Lecrae Moore &amp; Jazz Nixon, songwriters</td>
-          </tr>
-          <tr>
             <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">MOVIN' ON</font><br>
-Jonathan McReynolds &amp; Mali Music; Darryl L. Howell, Jonathan Caleb McReynolds, Kortney Jamaal Pollard &amp; Terrell Demetrius Wilson, songwriters</td>
+            <td><font size="+1">LOVE THEORY</font><br>
+Kirk Franklin; Kirk Franklin, songwriter</td>
           </tr>
           <tr>
             <td colspan="2">Best Gospel Album</td>
           </tr>
           <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">GOSPEL ACCORDING TO PJ</font><br>
-            PJ Morton</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">KIERRA</font><br>
-Kierra Sheard</td>
-          </tr>
-          <tr>
-            <td align="left" colspan="2">Best Contemporary Christian Music Album</td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1"><a href="kanyewest10.htm">JESUS IS KING</a></font><br>
-Kanye West</td>
-          </tr>
-          <tr>
-            <td align="left" colspan="2">Best American Roots Performance&nbsp;</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">I'LL BE GONE</font><br>
-Norah Jones &amp; Mavis Staples</td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">I REMEMBER EVERYTHING</font><br>
-John Prine</td>
-          </tr>
-          <tr>
-            <td align="left" colspan="2">Best Traditional Blues Album</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">YOU MAKE ME FEEL</font><br>
-Don Bryant</td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">RAWER THAN RAW</font><br>
-            Bobby Rush</td>
-          </tr>
-          <tr>
-            <td align="left" colspan="2">Best Contemporary Blues Album</td>
-          </tr>
-          <tr>
-            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">HAVE YOU LOST YOUR MIND YET?</font><br>
-Fantastic Negrito</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">BLACKBIRDS</font><br>
-Bettye LaVette</td>
+            <td><font size="+1">LONG LIVE LOVE</font><br>
+Kirk Franklin</td>
           </tr>
           <tr>
             <td colspan="2">Best Reggae Album</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">UPSIDE DOWN 2020</font><br>
-            Buju Banton</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">RAPTURE</font><br>
+Koffee</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">HIGHER PLACE</font><br>
-Skip Marley</td>
+            <td><font size="+1">AS I AM</font><br>
+Julian Marley</td>
           </tr>
           <tr>
             <td></td>
-            <td><font size="-1">IT ALL COMES BACK TO LOVE</font><br>
-Maxi Priest</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">GOT TO BE TOUGH</font><br>
-Toots &amp; The Maytals</td>
+            <td><font size="+1">THE FINAL BATTLE: SLY &amp; ROBBIE VS. ROOTS RADICS</font><br>
+Sly &amp; Robbie &amp; Roots Radics</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">ONE WORLD</font><br>
-The Wailers</td>
-          </tr>
-          <tr>
-            <td colspan="2">Best Score Soundtrack For Visual Media</td>
+            <td><font size="+1">MASS MANIPULATION</font><br>
+Steel Pulse</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">BECOMING</font><br>
-Kamasi Washington, composer</td>
+            <td><font size="+1">MORE WORK TO BE DONE</font><br>
+Third World</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">JOKER</font><br>
-Hildur Guðnadóttir, composer</td>
+            <td colspan="2">Best Song Written For Visual Media</td>
           </tr>
           <tr>
-            <td colspan="2">Best Arrangement, Instruments and Vocals&nbsp;</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">FROM THIS PLACE</font><br>
-            Alan Broadbent &amp; Pat Metheny, arrangers (Pat Metheny Featuring Meshell Ndegeocello)</td>
-          </tr>
-          <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">HE WON'T HOLD YOU</font><br>
-Jacob Collier, arranger (Jacob Collier Featuring Rapsody)</td>
-          </tr>
-          <tr>
-            <td colspan="2">Best Recording Package</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">I'll Never Love Again (Film Version)</font><br>
+Natalie Hemby, Lady Gaga, Hillary Lindsey &amp; Aaron Raitiere, songwriters (Lady Gaga &amp; Bradley Cooper)<br>
+Track From: A Star Is Born</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">FUNERAL</font><br>
-            Kyle Goen &amp; Alex Kalatschinow, art directors (Lil Wayne)</td>
+            <td><font size="+1">SPIRIT</font><br>
+Beyoncé Knowles-Carter, Timothy McKenzie &amp; Ilya Salmanzadeh, songwriters (Beyoncé)<br>
+Track from: The Lion King</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">VOLS. 11 &amp; 12</font><br>
-Doug Cunningham &amp; Jason Noto, art directors (Desert Sessions)</td>
+            <td colspan="2">Best Engineered Album, Non-Classical</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">When We All Fall Asleep, Where Do We Go?</font><br>
+            Rob Kinelski &amp; Finneas O'Connell, engineers; John Greenham, mastering engineer (Billie Eilish)</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><a href="ellamai1.htm"><font size="+1">ELLA MAI</font></a><br>
+Chris &quot;Shaggy&quot; Ascher, Jaycen Joshua &amp; David Pizzimenti, engineers; Chris Athens, mastering engineer (Ella Mai)</td>
           </tr>
           <tr>
             <td colspan="2">Producer Of The Year, Non-Classical</td>
           </tr>
           <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">Fineas</font><br>
+Finneas</td>
+          </tr>
+          <tr>
             <td>&nbsp;</td>
             <td><font size="+1">JACK ANTONOFF</font><br>
-• August (Taylor Swift) (T)<br>
-• Gaslighter (The Chicks) (A)<br>
-• Holy Terrain (FKA Twigs Featuring Future) (T)<br>
-• Mirrorball (Taylor Swift) (T)<br>
-• This Is Me Trying (Taylor Swift) (T)<br>
-• Together (Sia) (S)</td>
+• Arizona Baby (Kevin Abstract) (A)<br>
+• Lover (Taylor Swift) (A)<br>
+• Norman F***ing Rockwell! (Lana Del Rey) (A)<br>
+• Red Hearse (Red Hearse) (A)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">DAN AUERBACH</font><br>
-• Cypress Grove (Jimmy &quot;Duck&quot; Holmes) (A)<br>
-• El Dorado (Marcus King) (A)<br>
-• Is Thomas Callaway (CeeLo Green) (A)<br>
-• Singing For My Supper (Early James) (A)<br>
-• Solid Gold Sounds (Kendell Marvel) (A)<br>
-• Years (John Anderson) (A</td>
+            <td><font size="+1">JOHN HILL</font><br>
+• Heat Of The Summer (Young The Giant) (T)<br>
+• Hundred (Khalid) (T)<br>
+• No Drug Like Me (Carly Rae Jepsen) (T)<br>
+• Outta My Head (Khalid With John Mayer) (T)<br>
+• Social Cues (Cage The Elephant) (A)<br>
+• Superposition (Young The Giant) (T)<br>
+• Too Much (Carly Rae Jepsen) (T)<br>
+• Vertigo (Khalid) (T)<br>
+• Zero (From &quot;Ralph Breaks The Internet&quot;) (Imagine Dragons) (T)</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><font size="+1">FLYING LOTUS</font><br>
-            • <a href="thundercat2.htm">It Is What It Is</a> (Thundercat) (A)</td>
+            <td><font size="+1">RICKY REED</font><br>
+• Almost Free (Fidlar) (A)<br>
+• Burning (Maggie Rogers) (T)<br>
+• Confidence (X Ambassadors Featuring K.Flay) (T)<br>
+• Juice (Lizzo) (T)<br>
+• Kingdom Of One (Maren Morris) (T)<br>
+• Power Is Power (SZA Featuring The Weeknd &amp; Travis Scott) (T)<br>
+• Tempo (Lizzo Featuring Missy Elliott) (T)<br>
+• Truth Hurts (Lizzo) (T)<br>
+• The Wrong Man (Ross Golan) (A)</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">ANDREW WATT</font><br>
-• Break My Heart (Dua Lipa) (T)<br>
-• Me And My Guitar (A Boogie Wit Da Hoodie) (T)<br>
-• Midnight Sky (Miley Cyrus) (S)<br>
-• Old Me (5 Seconds Of Summer) (T)<br>
-• Ordinary Man (Ozzy Osbourne Featuring Elton John) (T)<br>
-• Take What You Want (Post Malone Featuring Ozzy Osbourne &amp; Travis Scott) (T)<br>
-• Under The Graveyard (Ozzy Osbourne) (T)</td>
+            <td colspan="2">Best Remixed Recording</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">I Rise (Tracy Young's Pride Intro Radio Remix)</font><br>
+            Tracy Young, remixer (Madonna)</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><font size="+1">THE ONE (HIGH CONTRAST REMIX)</font><br>
+            Lincoln Barrett, remixer (Jorja Smith)</td>
           </tr>
           <tr>
             <td colspan="2">Best Music Video</td>
           </tr>
           <tr>
-            <td><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">BROWN SKIN GIRL</font><br>
-Beyoncé<br>
-Beyoncé Knowles-Carter &amp; Jenn Nkiru, video directors; Astrid Edwards, Aya Kaido, Jean Mougin, Nathan Scherrer &amp; Erinn Williams, video producers</td>
+            <td></td>
+            <td><font size="+1">CELLOPHANE</font><br>
+FKA twigs<br>
+Andrew Thomas Huang, video director; Alex Chamberlain, video producer</td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">LIFE IS GOOD</font><br>
-Future Featuring Drake<br>
-Julien Christian Lutz, video director; Harv Glazer, video producer</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><font size="+1">LOCKDOWN</font><br>
-Anderson .Paak<br>
-Dave Meyers, video director; Nathan Scherrer, video producer</td>
+            <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
+            <td><font size="+1">OLD TOWN ROAD (OFFICIAL MOVIE)</font><br>
+Lil Nas X &amp; Billy Ray Cyrus<br>
+Calmatic, video director; Candice Dragonas, Melissa Larsen &amp; Saul Levitz, video producers</td>
           </tr>
           <tr>
             <td colspan="2" align="left">Best Music Film</td>
           </tr>
           <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">BEASTIE BOYS STORY</font><br>
-Beastie Boys<br>
-Spike Jonze, video director; Amanda Adelson, Jason Baum &amp; Spike Jonze, video producers</td>
-          </tr>
-          <tr>
-            <td align="center">&nbsp;</td>
-            <td><font size="+1">BLACK IS KING</font><br>
-Beyoncé<br>
-Emmanuel Adjei, Blitz Bazawule, Beyonce Knowles Carter &amp; Kwasi Fordjour, video directors; Lauren Baker, Akin Omotoso, Nathan Scherrer, Jeremy Sullivan &amp; Erinn Williams, video producers</td>
-          </tr>
-          <tr>
             <td align="center"><img src="grammy-winner.gif" width="22" height="22" border="0"></td>
-            <td><font size="+1">LINDA RONSTADT: THE SOUND OF MY VOICE</font><br>
-Linda Ronstadt<br>
-Rob Epstein &amp; Jeffrey Friedman, video directors; Michele Farinola &amp; James Keach, video producers</td>
+            <td><font size="+1">HOMECOMING<br>
+            </font>Beyoncé<br>
+            Beyoncé Knowles-Carter &amp; Ed Burke, video directors; Steve Pamon &amp; Erinn Williams, video producers</td>
           </tr>
         </tbody>
       </table>
@@ -844,7 +892,7 @@ Rob Epstein &amp; Jeffrey Friedman, video directors; Michele Farinola &amp; Jame
     </tr>
     <tr>
       <td></td>
-      <td colspan="2"><b><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" --><font size="-1" face="Times New Roman,Times,Times NewRoman">2021</font><!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></b> <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script></td>
+      <td colspan="2"><b><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2023<!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></b> <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script></td>
     </tr>
   </tbody>
 </table>

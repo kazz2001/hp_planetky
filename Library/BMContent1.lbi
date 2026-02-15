@@ -1,6 +1,10 @@
 				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
 					<option selected>Album Review : Select Year </option>
-					<option value="../cd.htm">2021</option>
+					<option value="../cd.htm">2025</option>
+					<option value="../cd2024.htm">2024</option>
+					<option value="../cd2023.htm">2023</option>
+					<option value="../cd2022.htm">2022</option>
+					<option value="../cd2021.htm">2021</option>
 					<option value="../cd2020.htm">2020</option>
 					<option value="../cd2019.htm">2019</option>
 					<option value="../cd2018.htm">2018</option>
@@ -27,6 +31,11 @@
 				</select></form> 
 				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
 					<option selected>Best 50 : Select Year </option>
+					<option value="../best2025.htm">2025</option>
+					<option value="../best2024.htm">2024</option>
+					<option value="../best2023.htm">2023</option>
+					<option value="../best2022.htm">2022</option>
+					<option value="../best2021.htm">2021</option>
 					<option value="../best2020.htm">2020</option>
 					<option value="../best2019.htm">2019</option>
 					<option value="../best2018.htm">2018</option>

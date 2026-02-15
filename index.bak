@@ -30,7 +30,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <table class="t1" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
   <tbody>
     <tr valign="TOP" align="LEFT">
-      <td width="160" class="td-g-black" rowspan="4" valign="middle"><a href="index.html"><img id="Picture88" height="134" width="116" src="flipwhiteh.gif" vspace="0" hspace="0" align="top" border="0"></a></td>
+      <td width="160" class="td-g-black" rowspan="4" valign="middle"><a href="index.html"><br>
+      <img id="Picture88" height="134" width="116" src="flipwhiteh.gif" vspace="0" hspace="0" align="top" border="0"></a></td>
       <td bgcolor="#000000" colspan="3"><a href="index.html"><img src="lo2.gif" height="76" border="0" vspace="3"></a></td>
     </tr>
     <tr>
@@ -41,9 +42,13 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
       <td align="left" colspan="2"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2249009&pid=887194706" rel="nofollow"><img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2249009&pid=887194706" border="0"></a></td>
     </tr>
     <tr>
-      <td nowrap><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->        <form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+      <td nowrap><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
         <option selected>Album Review : Select Year </option>
-        <option value="cd.htm">2021</option>
+        <option value="cd.htm">2025</option>
+        <option value="cd2024.htm">2024</option>
+        <option value="cd2023.htm">2023</option>
+        <option value="cd2022.htm">2022</option>
+        <option value="cd2021.htm">2021</option>
         <option value="cd2020.htm">2020</option>
         <option value="cd2019.htm">2019</option>
         <option value="cd2018.htm">2018</option>
@@ -67,9 +72,14 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
         <option value="cd2000.htm">2000</option>
         <option value="cd1999.htm">1999</option>
         <option value="cd1998.htm">1998</option>
-</select></form>
-        <FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
-          <option selected>Best 50 : Select Year </option>
+</select></form> 
+				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+				  <option selected>Best 50 : Select Year </option>
+          <option value="best2025.htm">2025</option>
+          <option value="best2024.htm">2024</option>
+          <option value="best2023.htm">2023</option>
+          <option value="best2022.htm">2022</option>
+          <option value="best2021.htm">2021</option>
           <option value="best2020.htm">2020</option>
           <option value="best2019.htm">2019</option>
           <option value="best2018.htm">2018</option>
@@ -105,75 +115,81 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <table width="90%">
   <tr>
     <td align="center" bgcolor="#000000"><p class="p-white">
-	                      <br>
-                          Black Music Album Best 50<br>
+	            <br>
+              Black Music Album Best 50<br>
+							<a href="best2025.htm" class="size3">2025</a><br>
+							<a href="best2024.htm" class="size3">2024</a><br>
+							<a href="best2023.htm" class="size3">2023</a><br>
+							<a href="best2022.htm" class="size3">2022</a><br>
+						  <a href="best2021.htm" class="size3">2021</a><br>													
 						  <a href="best2020.htm" class="size3">2020</a><br>
 						  <a href="best2019.htm" class="size3">2019</a><br>
 						  <a href="best2018.htm" class="size3">2018</a><br>
 						  <a href="best2017.htm" class="size3">2017</a><br>
 						  <a href="best2016.htm" class="size3">2016</a><br>
-                          <a href="best2015.htm" class="size3">2015</a><br>
-                          <a href="best2014.htm" class="size3">2014</a><br>
-                          <a href="best2013.htm" class="size3">2013</a><br>
-                          <a href="best2012.htm" class="size3">2012</a><br>
-                          <a href="best2011.htm" class="size3">2011</a><br>
-                          <a href="best2010.htm" class="size3">2010</a><br>
-                          <a href="best2009.htm" class="size3">2009</a><br>
-                          <a href="best2008.htm" class="size3">2008</a><br>
-                          <a href="best2007.htm" class="size3">2007</a><br>
-                          <a href="best2006.htm" class="size3">2006</a><br>
-                          <a href="best2005.htm" class="size3">2005</a><br>
-                          <a href="best2004.htm" class="size3">2004</a><br>
-                          <a href="best2003.htm" class="size3">2003</a><br>
-                          <a href="best2002.htm" class="size3">2002</a><br>
-                          <a href="best2001.htm" class="size3">2001</a><br>
-                          <a href="best2000.htm" class="size3">2000</a><br>
-                          <a href="best1999.htm" class="size3">1999</a><br>
-                          <a href="best1998.htm" class="size3">1998</a><br>
-                          <br>
-                          CD Review<br>
-                          <a href="cd.htm" class="size3">2021</a><br>
-						  <a href="cd2020.htm" class="size3">2020</a><br>
+              <a href="best2015.htm" class="size3">2015</a><br>
+              <a href="best2014.htm" class="size3">2014</a><br>
+              <a href="best2013.htm" class="size3">2013</a><br>
+              <a href="best2012.htm" class="size3">2012</a><br>
+              <a href="best2011.htm" class="size3">2011</a><br>
+              <a href="best2010.htm" class="size3">2010</a><br>
+              <a href="best2009.htm" class="size3">2009</a><br>
+              <a href="best2008.htm" class="size3">2008</a><br>
+              <a href="best2007.htm" class="size3">2007</a><br>
+              <a href="best2006.htm" class="size3">2006</a><br>
+              <a href="best2005.htm" class="size3">2005</a><br>
+              <a href="best2004.htm" class="size3">2004</a><br>
+              <a href="best2003.htm" class="size3">2003</a><br>
+              <a href="best2002.htm" class="size3">2002</a><br>
+              <a href="best2001.htm" class="size3">2001</a><br>
+              <a href="best2000.htm" class="size3">2000</a><br>
+              <a href="best1999.htm" class="size3">1999</a><br>
+              <a href="best1998.htm" class="size3">1998</a><br>
+              <br>
+              CD Review<br>
+              <a href="cd.htm" class="size3">2025</a><br>
+							<a href="cd2024.htm" class="size3">2024</a><br>
+							<a href="cd2023.htm" class="size3">2023</a><br>
+							<a href="cd2022.htm" class="size3">2022</a><br>
+						  <a href="cd2021.htm" class="size3">2021</a><br>
+							<a href="cd2020.htm" class="size3">2020</a><br>
 						  <a href="cd2019.htm" class="size3">2019</a><br>
 						  <a href="cd2018.htm" class="size3">2018</a><br>
 						  <a href="cd2017.htm" class="size3">2017</a><br>
 						  <a href="cd2016.htm" class="size3">2016</a><br>
-                          <a href="cd2015.htm" class="size3">2015</a><br>
-                          <a href="cd2014.htm" class="size3">2014</a><br>
-                          <a href="cd2013.htm" class="size3">2013</a><br>
-                          <a href="cd2012.htm" class="size3">2012</a><br>
-                          <a href="cd2011.htm" class="size3">2011</a><br>
-                          <a href="cd2010.htm" class="size3">2010</a><br>
-                          <a href="cd2009.htm" class="size3">2009</a><br>
-                          <a href="cd2008.htm" class="size3">2008</a><br>
-                          <a href="cd2007.htm" class="size3">2007</a><br>
-                          <a href="cd2006.htm" class="size3">2006</a><br>
-                          <a href="cd2005.htm" class="size3">2005</a><br>
-                          <a href="cd2004.htm" class="size3">2004</a><br>
-                          <a href="cd2003.htm" class="size3">2003</a><br>
-                          <a href="cd2002.htm" class="size3">2002</a><br>
-                          <a href="cd2001.htm" class="size3">2001</a><br>
-                          <a href="cd2000.htm" class="size3">2000</a><br>
-                          <a href="cd1999.htm" class="size3">1999</a><br>
-                          <a href="cd1998.htm" class="size3">1998</a><br>
-                          <br>
-                          <font color="#ffffff"><a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a></font><br>
-                          <br>
-                          <font color="#FFFFFF"><a href="liveshot.html" class="size2">Live
-                          Shot</a></font><br>
-                          <br>
-                          <font color="#FFFFFF"><a href="mag.htm" class="size2">Hip-Hop
-                          Magazine Review</a></font><br>
-                        <br>
-                        <font color="#FFFFFF"><a href="http://planetky.com/index.html" class="size2">planet.KY
-                        home</a></font><br>
-                            <br>
-                            <font size="-2" color="#FFFFFF">
+              <a href="cd2015.htm" class="size3">2015</a><br>
+              <a href="cd2014.htm" class="size3">2014</a><br>
+              <a href="cd2013.htm" class="size3">2013</a><br>
+              <a href="cd2012.htm" class="size3">2012</a><br>
+              <a href="cd2011.htm" class="size3">2011</a><br>
+              <a href="cd2010.htm" class="size3">2010</a><br>
+              <a href="cd2009.htm" class="size3">2009</a><br>
+              <a href="cd2008.htm" class="size3">2008</a><br>
+              <a href="cd2007.htm" class="size3">2007</a><br>
+              <a href="cd2006.htm" class="size3">2006</a><br>
+              <a href="cd2005.htm" class="size3">2005</a><br>
+              <a href="cd2004.htm" class="size3">2004</a><br>
+              <a href="cd2003.htm" class="size3">2003</a><br>
+              <a href="cd2002.htm" class="size3">2002</a><br>
+              <a href="cd2001.htm" class="size3">2001</a><br>
+              <a href="cd2000.htm" class="size3">2000</a><br>
+              <a href="cd1999.htm" class="size3">1999</a><br>
+              <a href="cd1998.htm" class="size3">1998</a><br>
+              <br>
+              <font color="#ffffff"><a href="reggaejazz.html" class="size2">Reggae &amp; Jazz</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="liveshot.html" class="size2">Live Shot</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="mag.htm" class="size2">Hip-Hop Magazine Review</a></font><br>
+              <br>
+              <font color="#FFFFFF"><a href="http://planetky.com/index.html" class="size2">planet.KY home</a></font><br>
+              <br>
+              <font size="-2" color="#FFFFFF">
                             <script language="JavaScript">
 document.write('Last updated at ', document.lastModified);
                     </script>
-                          </font></p>
-        </td>
+              </font></p>
+        <p></p></td>
   </tr>
 </table>
 <!-- #EndLibraryItem --><br>
@@ -193,28 +209,33 @@ document.write('Last updated at ', document.lastModified);
       </td>
       <td class="td-g">　</td>
       <td colspan="2" class="td-g-left"><!-- #BeginLibraryItem "/Library/grammy.lbi" --><B>Grammy Nominees / Winners&nbsp; (only Black Music) </B><BR>
-      <a href="grammy2020.html">2020 The 63rd</a>&nbsp;
-      <a href="grammy2019.html">2019 The 62nd</a>&nbsp;
-      <a href="grammy2018.html">2018 The 61st</a>&nbsp;
-      <a href="grammy2017.html">2017 The 60th</a>&nbsp;
-	  <a href="grammy2016.html">2016 The 59th</a>&nbsp;
-      <a href="grammy2015.html">2015 The 58th</a>&nbsp;
-	  <a href="grammy2014.html">2014 The 57th</a>&nbsp;
-	  <a href="grammy2013.html">2013 The 56th</a>&nbsp;
-	  <A href="grammy2012.html">2012 The 55th</A>&nbsp;
-	  <A href="grammy2011.html">2011 The 54th</A>&nbsp;
-	  <A href="grammy2010.html">2010 The 53rd</A>&nbsp;
-	  <A href="grammy2009.html">2009 The 52nd</A>&nbsp;
-	  <A href="grammy2008.html">2008 The 51st</A>&nbsp;
-	  <A href="grammy2007.html">2007 The 50th</A>&nbsp;
-	  <A href="grammy2006.html">2006 The 49th</A>&nbsp;
-	  <A href="grammy2005.html">2005 The 48th</A>&nbsp;
-	  <A href="grammy2004.html">2004 The 47th</A>&nbsp;
-	  <A href="grammy2003.html">2003 The 46th</A>&nbsp;
-	  <A href="grammy2002.html">2002 The 45th</A>&nbsp;
-	  <A href="grammy2001.html">2001 The 44th</A>&nbsp;
-	  <A href="grammy2000.html">2000 The 43rd</A>&nbsp;
-	  <A href="grammy1999.html">1999 The 42nd</A>
+      <a href="grammy2026.html">2026 The 68th</a>&nbsp;
+      <a href="grammy2025.html">2025 The 67th</a>&nbsp;
+		  <a href="grammy2024.html">2024 The 66th</a>&nbsp;
+			<a href="grammy2023.html">2023 The 65th</a>&nbsp;
+      <a href="grammy2022.html">2022 The 64th</a>&nbsp;
+      <a href="grammy2021.html">2021 The 63rd</a>&nbsp;
+      <a href="grammy2020.html">2000 The 62nd</a>&nbsp;
+      <a href="grammy2019.html">2019 The 61st</a>&nbsp;
+      <a href="grammy2018.html">2018 The 60th</a>&nbsp;
+		  <a href="grammy2017.html">2017 The 59th</a>&nbsp;
+      <a href="grammy2016.html">2016 The 58th</a>&nbsp;
+		  <a href="grammy2015.html">2015 The 57th</a>&nbsp;
+		  <a href="grammy2014.html">2014 The 56th</a>&nbsp;
+	  	<A href="grammy2013.html">2013 The 55th</A>&nbsp;
+		  <A href="grammy2012.html">2012 The 54th</A>&nbsp;
+		  <A href="grammy2011.html">2011 The 53rd</A>&nbsp;
+		  <A href="grammy2010.html">2010 The 52nd</A>&nbsp;
+		  <A href="grammy2009.html">2009 The 51st</A>&nbsp;
+		  <A href="grammy2008.html">2008 The 50th</A>&nbsp;
+		  <A href="grammy2007.html">2007 The 49th</A>&nbsp;
+		  <A href="grammy2006.html">2006 The 48th</A>&nbsp;
+		  <A href="grammy2005.html">2005 The 47th</A>&nbsp;
+		  <A href="grammy2004.html">2004 The 46th</A>&nbsp;
+		  <A href="grammy2003.html">2003 The 45th</A>&nbsp;
+		  <A href="grammy2003.html">2002 The 44th</A>&nbsp;
+		  <A href="grammy2001.html">2001 The 43rd</A>&nbsp;
+		  <A href="grammy2000.html">2000 The 42nd</A>
   <!-- #EndLibraryItem --></td>
     </tr>
     <tr>
@@ -226,23 +247,11 @@ document.write('Last updated at ', document.lastModified);
       <table class="t4">
         <tbody>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jamandlewis1.htm">Jam &amp; Lewis / Volume One</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="nourishedbytime1.htm">Nourished By Time / The Passionate Ones</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
-            <td><a href="jamandlewis1.htm"><img src="gif/jamandlewis1M.jpg" border="0" alt="[Jam & Lewis / Volume One]" width="75"></a></td>
-            <td>80年代より活躍し、Produser TeamとしてR&amp;B史を代表する輝かしい実績を築いてきたJam &amp; Lewisの意外にも初リーダー作。GrammyのProducer Of The Yearにも最多11回ノミネートされている(受賞は1回)。単なる懐古趣味的なアルバムだろうという先入観を大きく裏切る素晴らしい作品に仕上がっている。本人たちはProduce専門なので、人脈を駆使して、全曲、唄のGuestを迎えており、これが、これ以上望めない豪華なラインナップになっていて、しかも、全員が個性そのままに期待以上の仕事をしている。特にSounds Of BlackessやBoyz II Menあたりは懐かしい気もする。Trackは、かつての王道R&amp;Bそのもので、ファンクな曲、ソウルフルな曲、しっとりとしてR&amp;Bなど様々で、皆、きちんと作りこまれている。目新しさは皆無であるが、安定感は抜群で、たまにはこういうアルバムの良いと思う。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="littlesimz2.htm">Little Simz / Sometimes I Might Be Introvert</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="littlesimz2.htm"><img src="gif/littlesimz2M.jpg" border="0" alt="[Little Simz / Sometimes I Might Be Introvert]" width="75"></a></td>
-            <td>前作が高評価で、メジャーな存在となったLittle Simzの2年ぶりの4thアルバム。その前作に引き続き、Saultより、InfroがProducerとして参加し、今回は全曲Produceしている。いままでの路線を踏襲しつつもスケールが二回りくらい大きく、豊潤になった印象で、Hip-Hop, Soul, Funkをベースに、荘厳なオーケストラや、ElectricやAfroにと、振り幅は相当に広い。また、すべてのTrackがキャッチーでカッコ良く、それだけで楽しめる。Infroの才能は相当なレベルだと思う。Little SimzのRapは、基本、低体温で、ただ数曲では力強さも魅せている。また、これもSaultより、2ndのリリースが迫っているCleo SolがGuest参加し、透明感のあるVocalを披露している。対照的に、Album TitleにあるようにLyricは内向的/内省的で、その対比も興味深い。</td>
+            <td><a href="nourishedbytime1.htm"><img src="gif/nourishedbytime1M.jpg" border="0" alt="[Nourished By Time / The Passionate Ones]" width="75"></a></td>
+            <td>Marcus Brownによるソロプロジェクト、Nourished By Timeの2ndアルバム。Baltimore出身ながらLondonを拠点に活動しているので、全体感はUK寄りに思える。全曲、Song WritingとProduceも自分でこなし、DIY的に作ったものだが、完成度と統一感の高い作品になっている。シンセポップをベースに、ヒップホップ、R&B、Jazz、エレクトロなど様々なものをミックスしたジャンルレスな作風で、ミディアム中心にポップでメロディアスな曲が多数。都会の夜を想起させる印象だ。Vocalも、少し濁った唄声で軽やかにアンニョイに唄っており、特徴になっている。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -250,23 +259,11 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jorjasmith2.htm">Jorja Smith / Be Right Back</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="addisonrae1.htm">Addison Rae / Addison</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
-            <td><a href="jorjasmith2.htm"><img src="gif/jorjasmith2M.jpg" border="0" alt="[Jorja Smith / Be Right Back]" width="75"></a></td>
-            <td>デビュー作が高評価だったJorja Smithの8曲入りEP。予想外に間が空いて、3年ぶりのリリースとなる。前作と大きく方向性が変わっているわけではなく、ゆったりめでAccousticなサウンドにGuitarをフィーチャーしたTrackがメインとなっている。ただ、R&amp;B風味はうすれているかもしれない。抑制の効いて落ち着いたVocalは、前作よりアンニョイですこしダウナーなところはあるが、暗い感じでは無い。26分弱の小品ではあるが、魅力は十分に伝わってくるし、2ndアルバムを期待したいと思う。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="flyinglotus4.htm">Flying Lotus / Yasuke</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
-          </tr>
-          <tr>
-            <td><a href="flyinglotus4.htm"><img src="gif/flyinglotus4M.jpg" border="0" alt="[Flying Lotus / Yasuke]" width="75"></a></td>
-            <td>Flying Lotusの2年ぶり、7作目となるアルバムは、Netflixアニメ「弥助(Yasuke)」のサントラとなった。織田信長に仕えた黒人侍を主人公にして、当時の日本を舞台にし、ファンタジー要素を盛り込んだアニメである。なので、いつものFlying Lotusのエレクトロ/クラブな雰囲気に和風なメロディや和楽器風の音色など和風テイストが大胆に取り入れられている。また、輸入盤のCDジャケットの帯や背表紙も日本語になっている。全編、Programming, , SynthesizerによるTrackで、ところどころThundercatなどの楽器演奏が加わっており、サントラなので、唄やRapはほんの少々となっている。映像とともに楽しむべきではあるが、音楽だけでも、それなりに楽しめる作品となっている。</td>
+            <td><a href="addisonrae1.htm"><img src="gif/addisonrae1M.jpg" border="0" alt="[Addison Rae / Addison]" width="75"></a></td>
+            <td>Tik Tokのインフルエンサーとして活躍し、Netflixでの映画主演までこなしたAddison Raeのアルバムデビュー作。音楽面でのブレイクも果たし、2026年のグラミーでBest New Artistにもノミネートされている。そんな出自もあって、シンセを多用した軽快なエレクトロポップが中心となる。それだけでなく、ドリーミーな曲や、ダークなトーンの曲など曲調は様々。この辺は全曲ProduceしているElvira Anderfjärdの手腕のおかげか。Addisonは囁くようなエアリーな感じで都会的な孤独を感じさせる。年齢的に20年代半ばを迎えて、Lyricは意外と内省的なものも多い。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -274,23 +271,13 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="lauramvula3.htm">Laura Mvula / Pink Noise</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="billywoods2.htm">billy woods / GOLLIWOG</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
-            <td><a href="lauramvula3.htm"><img src="gif/lauramvula3M.jpg" border="0" alt="[Laura Mvula / Pink Noise]" width="75"></a></td>
-            <td>Laura Mvulaの5年振り、3枚目のスタジオアルバム。過去2作のJazz, Classic寄りで静謐な作風から、大きくイメチェンを図っており、全編、煌びやかで派手なシンセポップで、だいぶそっちに振り切った作品になっている。また、全体的にベースが強めなところも特徴的だ。構成は乗りの良いUp中心にMedium, Slowが少々。80年代R&amp;Bを想わせる曲が多く、⑨などは&quot;Billy Jean&quot;っぽいところもあったりしているし、⑧ではSimon NeilとのDuetで新しい側面を見せている。Lauraの力強く切れの良いVocalも以外に合ってると思うし、清々しさまで感じることができる。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jcole4.htm">J. Cole / The Off-Season</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="jcole4.htm"><img src="gif/jcole4M.jpg" border="0" alt="[J. Cole / The Off-Season]" width="75"></a></td>
-            <td>今や、Top Rapperの一人となったJ. Coleの3年ぶりとなる6作目。タイトルはプロスポーツなど使われるOff-Seasonのことで、休みをとって本番に備えて研ぎ澄ますみたいな意味のようだ。なので、過去の作品とは様相が違っていて、まずは外部ProducerやGuestを多く迎えている点があり、おかげで以前よりOpenな印象を受ける。LyricもStory Tellingな作風から、言葉遊びや高度なライムの組み立てに比重を移している。全体的にTrackは手堅いつくりのゆるめな感触で、メロウなものが多数。Rapでは、さらに磨かれた高度なスキルを披露しており、さらには余裕をも感じさせる。派手さは無いが、プロ好み、ディープなファン好みの作品である。</td>
+            <td><a href="billywoods2.htm"><img src="gif/billywoods2M.jpg" border="0" alt="[billy woods / GOLLIWOG]" width="75"></a></td>
+            <td>NYアンダーグラウンドの雄、billy woodsのソロとしては3年ぶりのアルバム。この間、Kenny Segalとの共作やArmand Hammerでの活動もあり、常にシーンを賑わしている。今回も、そのKenny
+            SegalやThe Alchemistなどお馴染みの人たちを制作に迎えたホラーコア作品になっている。GOLLIWOGは人種差別的キャラクターのことで、差別や暴力、個人的トラウマなどを自身のリアルや虚構を織り交ぜて、展開している。Trackはゆったりとした不穏で不吉なものばかりで、Lyricと合わせて、リスナーの不安感を煽ってくる。なお⑤のラストでは日本語のモノローグもサンプリングされている。<br>
+            2026/1/31のリキッドルームでのライブを見ましたが、照明暗めな閉塞的な空間にマッチしてました。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -298,14 +285,11 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="stvincent1.htm">St. Vincent / Daddy's Home</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="durandbernerr1.html">Durand Bernerr / BLOOM</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
-            <td><a href="stvincent1.htm"><img src="gif/stvincent1M.jpg" border="0" alt="[St. Vincent / Daddy's Home]" width="75"></a></td>
-            <td>2000年代から活躍する女性Singer, Song WriterのSt. Vincentの3年半ぶりのアルバム。バンドではギターも弾き、Drum担当のJack
-            Antonoffとともに全曲Produceしている。知能犯として収監されていた父親の釈放を契機に、その父親と過ごした70年代へのオマージュをコンセプトにしたアルバムになっており、本人もInspireされた70年代の楽曲をSpotifyで公開している(Black
-            MusicではStevie Wonder, Nina Simmon, Pointer Sisterあたりが含まれている)。そんなノスタルジック感溢れるレイドバックした作品で、RockをベースにR&amp;B,
-            Popsっぽい曲も少々。全体的にミディアム-スロー中心で、抑え気味でときどきEmotionalになるSt. Vincentの唄と一体となっている。Lyricはプライベート感が強いものが多そうだ</td>
+            <td><a href="durandbernerr1.html"><img src="gif/durandbernerr1M.jpg" border="0" alt="[Durand Bernerr / BLOOM]" width="75"></a></td>
+            <td>2000年代終盤より活動するOhio出身のSinger, Durand Bernerrの2025年春リリースのアルバム。リリース時で37歳と中堅の域にいるが、2020年代より客演で知られるようになり、2020年代にはいってアルバムが評価されて、当アルバムではグラミー3部門と日の目をみるまでに至った。サウンドはビンテージでオーソドックスなソウルをベースに、ファンクやロック寄りの曲もあり、曲調はミディアムが多めで、アップ、バラードと様々。1曲以外は5分以上であり、各曲をじっくり聞かせようという意思も感じられる。DurandのVocalは、表現力高く、ところどころ粘着質なところがあるのが特徴的だ。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -313,23 +297,11 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="greenteapeng1.htm">Greentea Pang / Man Made</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="fgibbsalchemist2.htm">Freddie Gibbs &amp; The Alchemist / Alfredo 2</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
           </tr>
           <tr>
-            <td><a href="greenteapeng1.htm"><img src="gif/greenteapeng1M.jpg" border="0" alt="[Greentea Peng / Man Made]" width="75"></a></td>
-            <td>London近郊Bermondsey出身のSinger, Greentea Pengのデビューアルバム。年齢は25-26歳@2021とのこと。アラブ人の父とアフリカ人の母を持ち、風貌や音楽性からは父の血筋の影響も窺える。自身で作風をpsychedelic R&amp;Bと表現しているが、日本でいうようなサイケというより、エスニックな印象を受ける。敢えて例えるなら、呪術性を弱めたErykah Baduといった感じで、本人も影響について言及している。ゆったりとして揺らいだような曲が多く、5人編成のバンドによるTrackはよくよく聞くとジャズ、レゲエ、インド音楽、エレクトロなどのジャンルをまたがった多彩なもの。これにGreantea Pengの抑えたVocalが加わり、中毒性を強めている。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="wrd1.htm">WRD / The Hit</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
-          </tr>
-          <tr>
-            <td><a href="wrd1.htm"><img src="gif/wrd1M.jpg" border="0" alt="[WRD / The Hit]" width="75"></a></td>
-            <td>Greyboy AllstarsのRobert Walter(org), The New MastersoundsののEddie Roberts(g), LettucedのAdam Deitch(ds)によるTrio、WRDの初アルバム。バンド名は3人の頭文字をとったもの。Adam DeitchあたりはHip-Hop Artistとの共演もあったりするが、こちらの作品はヴィンテージ感たっぷりのファンクでソウルフルなものであり、全曲、Insturumentalでの構成であり、曲調もUpでのりのよいものばかりである。高度なテクニックに裏打ちされる3人の演奏が紡ぎだすグルーブが心地よく、ライブハウスで一杯傾けながら、聞けたら、最高だと思う。</td>
+            <td><a href="fgibbsalchemist2.htm"><img src="gif/fgibbsalchemist2M.jpg" border="0" alt="[Freddie Gibbs &amp; The Alchemist / Alfredo 2]" width="75"></a></td>
+            <td>Freddie GibbsとAlchemistによるデュオ作の第2弾。前作より5年ぶりである。今回はアートワークが箸に日本式ラーメンになっており、&quot;アルフレード 二 Tokyo Crime Saga&quot;という映画のサントラの体裁をとっている。数曲の先頭では映画のセリフのような日本語のモノローグもはいっている。メローでありながら緊張感のあるTrackに。FreddieがGangstaなRapを繰り広げるストーリー仕立ての構成なっている。目新しさのようなものは期待できないが。2人の職人芸を堪能できるアルバムである。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -337,11 +309,11 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="brockhampton2.htm">Brockhampton / Roadrunner: New Light, New Machine</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="amaarae2.htm">Amaarae / Black Star</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
           </tr>
           <tr>
-            <td><a href="brockhampton2.htm"><img src="gif/brockhampton2M.jpg" border="0" alt="[Brockhampton / Roadrunner: New Light, New Machine]" width="75"></a></td>
-            <td>自称Boys BandのBrockhampton、2年ぶりの6作目。Netでリリースしてきた曲を中心にまとめたものらしい。Danny Brown, JPEGMAFIA, A$ap Rockyなどをゲストに迎えたこともあり、今までよりHip-Hop色が濃くなっている。それだけでなく、Rockを前面に押し出した曲もあるし、Charile Wilsonをフィーチャーしたファンクな⑦など、曲調は様々で、相変わらずの賑やかさである。また、穏やかなヒーリング曲の⑩では久々にChad Hugoの名前をクレジットに見かけた。全般的には明るくてPopではあるが、乱射事件を取り上げた⑪、もろゴスペルでほぼアカペラな⑫、メランコリックな⑬とつづくあたりで、それだけではないところも示している。</td>
+            <td><a href="amaarae2.htm"><img src="gif/amaarae2M.jpg" border="0" alt="[Amaarae / Black Star]" width="75"></a></td>
+            <td>Amaaraeの2年ぶりとなる3rdアルバム。アフロポップにバイリファンキやアマピアノ、デトロイトテクノなど世界各地の今のダンスビートを溶け込ませて、独自の世界観を魅せてくれていて、本人はこれをガーナ音楽の進化型と言っている。前作にも参加していたKyu Steedが全曲の制作に参加したトラックは、ダンサブルなミディアム〰アップ中心で、メロディを聞かせるものやトライバルなものまで様々。その上で、Amaaraeが可愛らしい声で際どいLyricもさらりと唄っている。</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -349,9 +321,88 @@ document.write('Last updated at ', document.lastModified);
             </td>
           </tr>
           <tr>
-            <td colspan="2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-hn+f-z-41+ax" data-ad-client="ca-pub-4043025554204603" data-ad-slot="1657155197"></ins><script>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="cardib2.htm">Cardi B / Am I The Drama?</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="cardib2.htm"><img src="gif/cardib2M.jpg" border="0" alt="[Cardi B / Am I The Drama]" width="75"></a></td>
+            <td>Cardi Bのなんと7年ぶりの2作目。前作での成功からのプレッシャーにより延期を重ねたということだが、これを埋めて余りある23曲70分強の大作になっている。(Ultimate Editionはさらに10曲追加)。曲数多めではあるが、聴きどころも多く、特に女性Vocal GuestのSummer Walkwe, Serena Gomez, Kehlani, Tylaは可憐な唄声を聴かせてくれる。そんなPopな曲もあり、Cardi BのRapが主役のHip-Hop曲やラテンぽい⑥もありと、バラエティに富んだ作品になっている。タイトルにあるように裁判、出産、離婚を経験したドラマティックな7年と攻撃的な姿勢を詰め込んだLyricは刺激的で、終始ハイテンションなアルバムになっている。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="sudanarchives3.htm">Sudan Archives / The BPM</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="sudanarchives3.htm"><img src="gif/sudanarchives3M.jpg" border="0" alt="[Sudan Archives / The BPM]" width="75"></a></td>
+            <td>Sudan Archivesの3年ぶりとなる3rdアルバム。前2作に比べてアフロ要素はだいぶ抑えめで、そのかわりにハウス(Chicago)、テクノ（Detroit）、ドラムンベース(UK)に目いっぱい近づいたダンサブルな作品に仕上がっている。引き続き、本人のViolinを含めてストリングスは多用されているが、それと気がつかないぐらいサイバーなTrackに溶け込んでいるのも特徴的である。CDジャケットにあるようにテクノロジーに生かされているGadget Girlというオルターエゴが設定されており、Sudan ArchivesのVocalも含めて、どこか冷んやりとした感覚をおぼえる作品である。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="dijon1.html">Dijon / Baby</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="dijon1.html"><img src="gif/dijon1M.jpg" border="0" alt="[Dijon / Baby]" width="75"></a></td>
+            <td>Washington生まれでLAを拠点に活動するProducer, Writer, SingerであるDijonの2ndアルバム。2010年代中盤より活動を始め、既に33歳であるが、今年(2025)、当アルバムで大ブレイクを果たし、Grammyでは当作とJustin BieberへのProduceでProducer Of The Yearにノミネートされている。まずノイジーでカオスなTrackに、シャウト気味で擦れているうえにエフェクトを効かせたボーカルが特徴的。メロディ自体はPopでメロディアスなものが多く、Track次第では全然違ったアルバムになったのだろうと想像する。ただ、当作での予測不能性と、くぐもった全体感を伴った違和感が耳を引き付けることは間違いない。Princeを彷彿させるところもあり、当面の間、目が離せなさそうだ。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="mavisstaples5.htm">Mavis Staples / Sad and Beautiful World</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="mavisstaples5.htm"><img src="gif/mavisstaples5M.jpg" border="0" alt="[Blood Orange / Sad and Beautiful World]" width="75"></a></td>
+            <td>今年(2025年),86歳になったMavis Staplesのオリジナルとしては6年振りとなるアルバム。オリジナルの④以外は、カバー曲で構成される。アメリカ国民としての自身の生き方や教訓に照らし合わせたような選曲であり、Tom Waits, Curtis MayfieldにFrank Oceanなど新旧様々である。バンド編成によるTrackはスロー曲が多く、ところどころのブラスが暖かみを加えている。Mavisの唄は往時の声の張りは期待できないが、60年以上唄い続けてきた人しか出せない優しさと癒しで現代人を包んでくれる、そんな染みるアルバムである。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="bloodorange5.htm">Blood Orange / Essex Honey</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="bloodorange5.htm"><img src="gif/bloodorange5M.jpg" border="0" alt="[Blood Orange / Essex Honey]" width="75"></a></td>
+            <td>Blood Orangeのオリジナルアルバムとしては7年ぶりとなる5作目。2023年に母を失った喪失感と幼少期を過ごしたUKのEssexをモチーフにしており、スローかつ静謐で切ない曲が続く。TrackもBlack Musicっぽいところはあまり無く、かつてないほどUKらしい印象で、ただ、ドラムンベース、Jazz、R&amp;Bなどの要素も感じられる。Pianoやアコースティックギターなど生楽器が茫洋としたサウンドの印象を決めているが、ところどころで奏でられるチェロによって物悲しさが押し寄せてくる。これに美しいメロディと柔らかいVocal、ゲストによるコーラスが加わり、よりエモーショナルな作品へと昇華している。最後の⑭で克服していこうという意思が感じられ、次へとつながっていくのだと思う。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="clipse3.htm">Clipse / Let God Sort Em Out</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="clipse3.htm"><img src="gif/clipse3M.jpg" border="0" alt="[Clipse / Let God Sort Em Out]" width="75"></a></td>
+            <td>Pusha T(弟)、Malice(兄)による兄弟Duoのなんと19年ぶりの3rdアルバム。Def Jamによる②でのKendrick LamarのLyricに検閲を嫌って自主制作によるリリースとなっている。二人の地元仲間Pharrellが全曲Produceし、相性の良さを示している。(残念なことにChadは裁判の関係ではずれている。)Trackは比較的シンプルでドラム、ベースを効かしたものが多く、Hip-Hopとしてのコアをはずしていないが、バラエティさには富んでいる。多くの曲でキャッチーなVocalが加わって、急にカラフルになるのはPharrellの真骨頂と言えそう。ゲストも豪華で前出のKendrickに加え、兄弟が母を失ったことを唄う①でのJohn LegendやThe-Dream, Nas, Tyler, The Cretor(自分が購入したCDでは除外されている。)など豪華で、①ではStevie Wonderによるモノローグも聴ける。36分強のアルバムによくぞここまで詰め込めたといえる濃厚なアルバムになっている。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="t4">
+        <tbody>
+          <tr>
+            <td><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-hn+f-z-41+ax" data-ad-client="ca-pub-4043025554204603" data-ad-slot="1657155197"></ins><script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;<!-- TG-Affiliate Banner Space --> <a href="https://ad2.trafficgate.net/t/r/2/6277/54220_54220"><img src="https://srv2.trafficgate.net/t/b/2/6277/54220_54220"> </a><!-- /TG-Affiliate Banner Space --></td>
           </tr>
         </tbody>
       </table>
@@ -370,7 +421,7 @@ document.write('Last updated at ', document.lastModified);
     </tr>
     <tr>
       <td></td>
-      <td colspan="2"><b><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2021<!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></b> <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script></td>
+      <td colspan="2"><b><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2026<!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></b> <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-54911-1";urchinTracker();</script></td>
     </tr>
   </tbody>
 </table>

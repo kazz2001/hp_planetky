@@ -1,28 +1,31 @@
 <META http-equiv="Content-Type" content="text/html; charset=SHIFT_JIS"><FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
-        <OPTION selected>Select Another Year </OPTION>
-        <OPTION value="../cd1998.htm">1998 </OPTION>
-        <OPTION value="../cd1999.htm">1999 </OPTION>
-        <OPTION value="../cd2000.htm">2000 </OPTION>
-        <OPTION value="../cd2001.htm">2001 </OPTION>
-        <OPTION value="../cd2002.htm">2002 </OPTION>
-        <OPTION value="../cd2003.htm">2003 </OPTION>
-		<OPTION value="../cd2004.htm">2004 </OPTION>
-		<OPTION value="../cd2005.htm">2005 </OPTION>
-	    <OPTION value="../cd2006.htm">2006 </OPTION>
-		<OPTION value="../cd2007.htm">2007 </OPTION>
-        <OPTION value="../cd2008.htm">2008 </OPTION>
-		<OPTION value="../cd2009.htm">2009 </OPTION>
-		<OPTION value="../cd2010.htm">2010</OPTION>
-		<OPTION value="../cd2011.htm">2011</OPTION>
-		<OPTION value="../cd2012.htm">2012</OPTION>
-		<OPTION value="../cd2013.htm">2013</OPTION>
-		<OPTION value="../cd2014.htm">2014</OPTION>
-		<OPTION value="../cd2015.htm">2015</OPTION>
-		<OPTION value="../cd2016.htm">2016</OPTION>
-		<OPTION value="../cd2017.htm">2017</OPTION>
-		<OPTION value="../cd2018.htm">2018</OPTION>
-		<OPTION value="../cd2019.htm">2019</OPTION>
-		<OPTION value="../cd2020.htm">2020</OPTION>
-		<OPTION value="../cd.htm">2021</OPTION>
-      </SELECT></FORM>
+	<OPTION selected>Select Another Year </OPTION>
+	<OPTION value="../cd1998.htm">1998 </OPTION>
+	<OPTION value="../cd1999.htm">1999 </OPTION>
+	<OPTION value="../cd2000.htm">2000 </OPTION>
+	<OPTION value="../cd2001.htm">2001 </OPTION>
+	<OPTION value="../cd2002.htm">2002 </OPTION>
+	<OPTION value="../cd2003.htm">2003 </OPTION>
+	<OPTION value="../cd2004.htm">2004 </OPTION>
+	<OPTION value="../cd2005.htm">2005 </OPTION>
+	<OPTION value="../cd2006.htm">2006 </OPTION>
+	<OPTION value="../cd2007.htm">2007 </OPTION>
+	<OPTION value="../cd2008.htm">2008 </OPTION>
+	<OPTION value="../cd2009.htm">2009 </OPTION>
+	<OPTION value="../cd2010.htm">2010 </OPTION>
+	<OPTION value="../cd2011.htm">2011 </OPTION>
+	<OPTION value="../cd2012.htm">2012 </OPTION>
+	<OPTION value="../cd2013.htm">2013 </OPTION>
+	<OPTION value="../cd2014.htm">2014 </OPTION>
+	<OPTION value="../cd2015.htm">2015 </OPTION>
+	<OPTION value="../cd2016.htm">2016 </OPTION>
+	<OPTION value="../cd2017.htm">2017 </OPTION>
+	<OPTION value="../cd2018.htm">2018 </OPTION>
+	<OPTION value="../cd2019.htm">2019 </OPTION>
+	<OPTION value="../cd2020.htm">2020 </OPTION>
+	<OPTION value="../cd2021.htm">2021 </OPTION>
+	<OPTION value="../cd2022.htm">2022 </OPTION>
+	<OPTION value="../cd2023.htm">2023 </OPTION> 
+	<OPTION value="../cd.htm">2024 </OPTION> 
+</SELECT></FORM>
       
