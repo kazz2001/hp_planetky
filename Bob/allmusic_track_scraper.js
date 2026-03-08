@@ -72,39 +72,65 @@ async function getTrackDetails(url) {
             }
         }
         
-        // Performer情報をtitleタグから抽出
-        // 例: <title>Luther - Kendrick Lamar, SZA | AllMusic</title>
+        // Performer情報を抽出
         let performer = "Unknown";
-        const titleMatch = html.match(/<title>([^<]+)<\/title>/);
-        if (titleMatch) {
-            const titleContent = titleMatch[1];
-            // "曲名 - アーティスト名 | AllMusic" の形式から抽出
-            const parts = titleContent.split('|')[0].trim(); // "Luther - Kendrick Lamar, SZA"
-            const artistPart = parts.split(' - ').slice(1).join(' - ').trim(); // "Kendrick Lamar, SZA"
+        let performers = [];
+        
+        // 方法1: performerクラスのdivから、次のクラス（composer, lyricist, producer等）が出現するまでの全テキストを取得
+        const performerMatch = html.match(/<div class="performer">([\s\S]*?)(?=<div class="(?:composer|lyricist|producer|arranger|engineer|mixing|mastering)"|<\/section>|<section)/);
+        if (performerMatch) {
+            const performerSection = performerMatch[1];
             
-            if (artistPart) {
-                // カンマで分割してアーティストを取得
-                const artists = artistPart.split(',').map(a => a.trim());
-                if (artists.length > 1) {
-                    // 複数アーティストの場合、Kendrick Lamarがいればメインアーティストとして優先
-                    let mainArtist;
-                    let featArtists;
-                    
-                    const kendrickIndex = artists.findIndex(a => a === 'Kendrick Lamar');
-                    if (kendrickIndex !== -1) {
-                        // Kendrick Lamarをメインアーティストに
-                        mainArtist = 'Kendrick Lamar';
-                        featArtists = artists.filter((a, i) => i !== kendrickIndex);
-                    } else {
-                        // Kendrick Lamarがいない場合は最初のアーティストをメインに
-                        mainArtist = artists[0];
-                        featArtists = artists.slice(1);
-                    }
-                    
-                    performer = `${mainArtist} feat: ${featArtists.join(', ')}`;
-                } else if (artists.length === 1) {
-                    performer = artists[0];
+            // 各パフォーマーの名前を抽出
+            performers = [...performerSection.matchAll(/<a[^>]*>([^<]+)<\/a>/g)]
+                .map(match => match[1].trim());
+        }
+        
+        // 方法2: Performerラベルから次のラベルまでを取得
+        if (performers.length === 0) {
+            const performerSectionMatch = html.match(/Performer[s]?<\/span>([\s\S]*?)(?=<span[^>]*>(?:Composer|Lyricist|Producer|Arranger|Engineer|Mixing|Mastering)|<\/section>)/);
+            if (performerSectionMatch) {
+                const performerSection = performerSectionMatch[1];
+                performers = [...performerSection.matchAll(/<a[^>]*>([^<]+)<\/a>/g)]
+                    .map(match => match[1].trim());
+            }
+        }
+        
+        // 方法3: より広範囲で検索（最大5000文字）
+        if (performers.length === 0) {
+            const performerSectionMatch = html.match(/Performer[s]?<\/span>([\s\S]{0,5000}?)(?=<div class="(?:composer|lyricist|producer)|<\/section>)/);
+            if (performerSectionMatch) {
+                const performerSection = performerSectionMatch[1];
+                performers = [...performerSection.matchAll(/<a[^>]*>([^<]+)<\/a>/g)]
+                    .map(match => match[1].trim());
+            }
+        }
+        
+        // 方法4: titleタグから抽出（フォールバック）
+        if (performers.length === 0) {
+            const titleMatch = html.match(/<title>([^<]+)<\/title>/);
+            if (titleMatch) {
+                const titleContent = titleMatch[1];
+                // "曲名 - アーティスト名 | AllMusic" の形式から抽出
+                const parts = titleContent.split('|')[0].trim();
+                const artistPart = parts.split(' - ').slice(1).join(' - ').trim();
+                
+                if (artistPart) {
+                    // カンマで分割
+                    performers = artistPart.split(',').map(a => a.trim());
                 }
+            }
+        }
+        
+        // Performerを "メインアーティスト feat: その他" の形式にフォーマット
+        if (performers.length > 0) {
+            if (performers.length === 1) {
+                performer = performers[0];
+            } else {
+                // 最初のアーティストをメインに、残りをfeat:で結合
+                const mainArtist = performers[0];
+                const featArtists = performers.slice(1);
+                performer = `${mainArtist} feat: ${featArtists.join(', ')}`;
             }
         }
         
@@ -261,6 +287,7 @@ async function main() {
         
         console.log(`${i + 1}/${tracks.length}: ${title}`);
         const { composer, performer } = await getTrackDetails(url);
+        console.log(`  → Performer: ${performer}`);
         
         trackData.push({
             no: i + 1,
