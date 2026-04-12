@@ -15,13 +15,16 @@ Genius.com のアルバムページから曲情報を自動取得し、planet.KY
 ## 使い方
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "<Genius アルバム URL>"
+powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "<Genius アルバム URL>" [-OutputFilePrefix "<ファイル名>"]
 ```
 
 ### 例
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "https://genius.com/albums/Jim-legxacy/Black-british-music-2025"
+
+# カスタムファイル名を指定する場合
+powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "https://genius.com/albums/Jim-legxacy/Black-british-music-2025" -OutputFilePrefix "jimlegxacy2"
 ```
 
 ---
@@ -31,13 +34,15 @@ powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUr
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `-AlbumUrl` | ✅ | Genius.com のアルバムページ URL（例: `https://genius.com/albums/Artist-Name/Album-Name`） |
+| `-OutputFilePrefix` | ❌ | 出力ファイル名のピリオドより前の部分（例: `jimlegxacy2`）。省略時はアーティスト名から自動生成（`{アーティスト名}1_tracks`） |
 
 ---
 
 ## 出力
 
-- 出力先: `Bob\output\{アーティスト名}1_tracks.htm`
-- ファイル名はアーティスト名から英数字のみ抽出して小文字化したもの（例: `jimlegxacy1_tracks.htm`）
+- 出力先: `Bob\output\{ファイル名}.htm`
+- `-OutputFilePrefix` 指定時: 指定した名前を使用（例: `-OutputFilePrefix "jimlegxacy2"` → `jimlegxacy2.htm`）
+- `-OutputFilePrefix` 省略時: アーティスト名から英数字のみ抽出して小文字化し、末尾に`1_tracks`を付加（例: `jimlegxacy1_tracks.htm`）
 - エンコーディング: UTF-8
 
 ---
@@ -113,16 +118,16 @@ Bob/
 ├── genius_album_to_html.ps1   # 本スクリプト
 ├── README_genius_album_to_html.md  # このファイル
 └── output/
-    └── {アーティスト}1_tracks.htm  # 生成された HTML
+    └── {ファイル名}.htm  # 生成された HTML
 ```
 
 ---
 
 ## 生成後の作業手順
 
-1. `Bob\output\{アーティスト}1_tracks.htm` を確認・編集
-2. `gif\` フォルダにアルバムジャケット画像（`{アーティスト}1L.jpg`, `{アーティスト}1M.jpg`）を配置
+1. `Bob\output\{ファイル名}.htm` を確認・編集
+2. `gif\` フォルダにアルバムジャケット画像（`{ファイル名}L.jpg`, `{ファイル名}M.jpg`）を配置
 3. Score Card の評点・スコアバー画像を設定
 4. レーベル名・解説文を追記
-5. 完成したファイルをサイトルートにコピー（例: `jimlegxacy1.htm`）
+5. 完成したファイルをサイトルートにコピー（例: `jimlegxacy1.htm` または `jimlegxacy2.htm`）
 6. `index.html` の Latest CD Reviews セクションにエントリーを追加

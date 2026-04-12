@@ -7,13 +7,24 @@
     Genius.comのアルバムページURL
     例: https://genius.com/albums/Jim-legxacy/Black-british-music-2025
 
+.PARAMETER OutputFilePrefix
+    出力HTMLファイル名のプレフィックス（省略可能）
+    指定しない場合は、アーティスト名から自動生成されます
+    例: "jimlegxacy" を指定すると "jimlegxacy1.htm" として出力されます
+
 .EXAMPLE
     .\genius_album_to_html.ps1 -AlbumUrl "https://genius.com/albums/Jim-legxacy/Black-british-music-2025"
+    
+.EXAMPLE
+    .\genius_album_to_html.ps1 -AlbumUrl "https://genius.com/albums/Jim-legxacy/Black-british-music-2025" -OutputFilePrefix "jimlegxacy"
 #>
 
 param(
     [Parameter(Mandatory=$true)]
-    [string]$AlbumUrl
+    [string]$AlbumUrl,
+    
+    [Parameter(Mandatory=$false)]
+    [string]$OutputFilePrefix = ""
 )
 
 Add-Type -AssemblyName System.Web
@@ -359,8 +370,14 @@ foreach ($track in $tracks) {
 $tracksTableHtml = $sb.ToString()
 
 # ---- ファイル名生成 ----
-$safeArtist = ($artistName -replace '[^a-zA-Z0-9]', '').ToLower()
-$outputFileName = "${safeArtist}1_tracks.htm"
+if ($OutputFilePrefix) {
+    # パラメーターで指定された場合はそれを使用
+    $outputFileName = "${OutputFilePrefix}.htm"
+} else {
+    # 指定がない場合は従来通りアーティスト名から生成
+    $safeArtist = ($artistName -replace '[^a-zA-Z0-9]', '').ToLower()
+    $outputFileName = "${safeArtist}1_tracks.htm"
+}
 $outputPath = Join-Path $OutputDir $outputFileName
 
 # ---- HTML テンプレート生成 ----

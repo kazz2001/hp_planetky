@@ -25,7 +25,7 @@ AllMusicのアルバムページからトラックリスト情報（曲名、作
 ### 基本的な使い方
 
 ```bash
-node allmusic_track_scraper.js <AllMusic Album URL> [output_file.html]
+node Bob/allmusic_track_scraper.js <AllMusic Album URL> [output_file.html]
 ```
 
 ### パラメータ

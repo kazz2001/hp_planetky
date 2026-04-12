@@ -1,7 +1,36 @@
-# Bob\allmusic_track_scraper.js
-# Bob\fetch_album_producers.js
-# index.htmlのバックアップをとってから、jimlegxacy1.htm"の内容を追加して。次に、最後のエントリーは削除して。
-# oliviadean1.htmのMetaタグの内容をupdateして。
+
+# HTMLドラフト作成 Bob\genius_album_to_html.ps1
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "<Genius アルバム URL>" [-OutputFilePrefix "<ファイル名>"]
+```
+# メタタグ, TitleをCopyする。
+
+# トラックリストを洗練する 
+```
+Bob\allmusic_track_scraper.js
+```
+```bash
+# デフォルトのファイル名で出力
+node Bob/allmusic_track_scraper.js https://www.allmusic.com/album/addison-mw0004526525
+
+# カスタムファイル名で出力
+node Bob/allmusic_track_scraper.js https://www.allmusic.com/album/addison-mw0004526525 my_album_tracks.html
+```
+# Producerを洗練する
+```
+Bob\fetch_album_producers.js
+
+```
+# レビューする。
+```
+/review ファイル名
+```
+
+# index.htmlのバックアップをとってから、先頭にjid2.htm"の内容を追加して。次に、最後のエントリーは削除して。
+
+# oliviadean1.htmのMetaタグの内容をupdateして。  不要
+
 # レビュー
 
 Genius API
