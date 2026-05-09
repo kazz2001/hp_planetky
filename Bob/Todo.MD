@@ -8,6 +8,10 @@ powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUr
 
 # トラックリストを洗練する 
 ```
+notebooklmで/tracks
+
+Bob\output\track.mdの内容で、Bob\output\danielcaesar1_tracks.htmのTracksセクションのテーブルの内容を置き替えて。列名はBob\output\danielcaesar1_tracks.htmのままで。
+
 Bob\allmusic_track_scraper.js
 ```
 ```bash
