@@ -10,7 +10,8 @@ powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUr
 ```
 notebooklmで/tracks
 
-Bob\output\track.mdの内容で、Bob\output\danielcaesar1_tracks.htmのTracksセクションのテーブルの内容を置き替えて。列名はBob\output\danielcaesar1_tracks.htmのままで。
+file1=Bob\output\brunomars1_tracks.htm
+Bob\output\track.mdの内容で、file1のTracksセクションのテーブルの内容を置き替えて。列名はfile1のままで。
 
 Bob\allmusic_track_scraper.js
 ```
