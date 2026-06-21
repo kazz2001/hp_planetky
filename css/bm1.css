@@ -25,7 +25,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 500;
-  src: local("IBM Plex Sans JP Medium"), local("IBMPlexSansJP-Medium"), url("../fonts//IBM-Plex-Sans-JP/fonts/complete/woff2/hinted/IBMPlexSansJP-Medium.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-JP/fonts/complete/woff/hinted/IBMPlexSansJP-Medium.woff") format("woff"); 
+  src: local("IBM Plex Sans JP Medium"), local("IBMPlexSansJP-Medium"), url("../fonts/IBM-Plex-Sans-JP/fonts/complete/woff2/hinted/IBMPlexSansJP-Medium.woff2") format("woff2"), url("../fonts/IBM-Plex-Sans-JP/fonts/complete/woff/hinted/IBMPlexSansJP-Medium.woff") format("woff");
 }
 /* a:link    { color:#408070; }
 a:visited { color:#2593c7; }
@@ -86,11 +86,11 @@ img{
 
 .header-img {
 	width: 474px;
-	height: 76
+	height: 76px;
 }
 
 .td-left, .td-left480 {
-	text-align: left
+	text-align: left;
 	vertical-align: top;
 }
 
@@ -124,7 +124,7 @@ img{
 	vertical-align: top;
 }
 
-.td-black, td-centertop-black, .td-g-centertop-black{
+.td-black, .td-centertop-black, .td-g-centertop-black{
 	background-color: #000000;
 }
 
@@ -388,7 +388,7 @@ A{
 	display: block;
 }
 
-.section1, section2{
+.section1, .section2{
 	font-family: 'IBM Plex Sans', sans-serif;
 	color: #408080;
 	background-color: #dedede;

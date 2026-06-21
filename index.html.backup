@@ -44,7 +44,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     <tr>
       <td nowrap><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
         <option selected>Album Review : Select Year </option>
-        <option value="cd.htm">2025</option>
+        <option value="cd.htm">2026</option>
+        <option value="cd2025.htm">2025</option>
         <option value="cd2024.htm">2024</option>
         <option value="cd2023.htm">2023</option>
         <option value="cd2022.htm">2022</option>
@@ -112,9 +113,9 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     </tr>
     <tr>
       <td class="td-g-centertop-black" rowspan="7"><!-- #BeginLibraryItem "/Library/BMmenu1.lbi" -->
-      <table width="90%">
+<table width="90%">
   <tr>
-          <td align="center" bgcolor="#000000"><p class="p-white">
+    <td align="center" bgcolor="#000000"><p class="p-white">
 	            <br>
               Black Music Album Best 50<br>
 							<a href="best2025.htm" class="size3">2025</a><br>
@@ -147,7 +148,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
               <a href="best1998.htm" class="size3">1998</a><br>
               <br>
               CD Review<br>
-              <a href="cd.htm" class="size3">2025</a><br>
+              <a href="cd.htm" class="size3">2026</a><br>
+							<a href="cd2025.htm" class="size3">2025</a><br>
 							<a href="cd2024.htm" class="size3">2024</a><br>
 							<a href="cd2023.htm" class="size3">2023</a><br>
 							<a href="cd2022.htm" class="size3">2022</a><br>
@@ -190,9 +192,9 @@ document.write('Last updated at ', document.lastModified);
                     </script>
               </font></p>
         <p></p></td>
-        </tr>
+  </tr>
 </table>
-      <!-- #EndLibraryItem --><br>
+<!-- #EndLibraryItem --><br>
       <br>
       <table border="0" cellspacing="1" bgcolor="#999999">
         <tbody>
@@ -246,6 +248,83 @@ document.write('Last updated at ', document.lastModified);
       <td colspan="2">
       <table class="t4">
         <tbody>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jillscott7.htm">Jill Scott / To Whom This May Concern</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="jillscott7.htm"><img src="gif/jillscottML.jpg" border="0" alt="[Jill Scott / To Whom This May Concern]" width="75"></a></td>
+            <td>Jill Scottのなんと11年ぶりとなる6作目のスタジオアルバム。その不在感を埋めるべく19曲58分に及んでおり、デジタルに支配された現代の抵抗と、表層的な繋がりに対し内面性や本物の人間関係、成熟した大人の視点を提唱する骨太な作品になっている。<br>
+            サウンドは生楽器の演奏とアナログの温かみを優先した豊かな音のパレットが特徴で。R&amp;Bをベースにファンク、ジャズ、ヒップホップ、ハウス、ブルース、ゴスペルまで黒人音楽を横断的に融合させている。アップからスローまで曲調も様々で即興性と有機的なグルーヴに満ちた構成になっている。<br>
+            ゲストも豪華だが、中でもTierra Whackとの⑤での地元愛溢れるRapの掛け合いが面白い。<br>
+            Lyricでは自己実現、地元/コミュニティ愛、先達への敬意、現代社会批判など表現しており、これを低音から高音までの独特の質感を持つ、滑らかなVocalで歌い上げている。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="ladywray1.htm">Lady Wray / Cover Girl</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="ladywray1.htm"><img src="gif/ladywray1M.jpg" border="0" alt="[Lady Wray / Cover Girl]" width="75"></a></td>
+            <td>アルバムリリース時で46歳となるSinger, Lady Wrayの3年ぶりとなるアルバム。16歳でMissy Elliottに見い出され、Nicole Wrayとしてデビューしたのち、メジャーでの苦難を経てBig Crown Recordsの看板歌手となった。レーベル主催のLeon Michelsと組むのは3作目となる。タイトルは、子供時代の愛称である「Cover Girl」に由来しているとのことで、波乱万丈な歩みで培われた成熟した表現力を本作で遺憾なく発揮している。<br>
+            全体の印象はゴスペル色の強いクラシックなソウルであり、Leon Michelsによるアナログ感溢れる骨太なプロダクションが、生演奏の温かみとタイムレスな響きを全編に与えている。ノリの良い曲やしっとりとしたきょくまで曲調は様々。<br>
+            Lyricではキャリアを経て、自己愛、信仰、そして生きる喜びを再発見する旅を描いている。<br>
+            経験に裏打ちされた深みと力強さを併せ持つVocalもハイライトになっている。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="thundercat3.htm">Thundercat / Distracted</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="thundercat3.htm"><img src="gif/thundercat3M.jpg" border="0" alt="[Thundercat / Distracted]" width="75"></a></td>
+            <td>Thundercatの6年ぶりとなるソロ通算5作目。親友Mac Millerの死という深い喪失を経て放たれた本作は、本人が語るように「幸せになることを選ぶ」ためのプロセスが刻みつつ、現代人の「注意散漫（Distracted）」な精神状態を描いている。<br>
+            R&amp;Bやジャズ、ヨットロックなどを適度に融合したポップで耳馴染みの良い響きを持つ曲が多く、これにファルセット中心のThundercatのVocalに加わっている。もちろん超絶技巧のベースプレイも各所で披露している。<br>
+            Greg Kurstinをパートナーに迎え、盟友Flying LotusやKenny Beats、The Lemon Twigsらが制作に参加。客演にはラッパー陣だけでなく、人脈を活かしてTame Impala、WILLOWなど共通の音楽性を持つ周辺ジャンルの人々も迎えている。<br>
+            よったりとした心地よい曲が多く、ぼおっとしていると頭の中を過ぎ去っていくようなところもあるので、1曲1曲を注意深く聴くのがよさそう。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="summerwalker4.htm">Summer Walker / Finally Over It</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+          </tr>
+          <tr>
+            <td><a href="summerwalker4.htm"><img src="gif/summerwalker4M.jpg" border="0" alt="[Summer Walker / Finally Over It]" width="75"></a></td>
+            <td>Summer Walkerの4年ぶりの3rdアルバム。&quot;Over It&quot;三部作の完結編となる。2026年のGrammyでは、&quot;Heart of a Woman&quot;が2部門にノミネートされた。<br>
+            失恋や痛みを乗り越え、自己愛と幸福を掴み取ろうとする感情の進化を描いており、自分を優先する「For Better」と、無条件の愛を捨て去る「For Worse」の2部構成になっている。<br>
+            スロー曲中心の構成なっていて、90年代中盤から00年代前半のR&amp;Bへのオマージュが軸となっており、これにTrapっぽさが加わった感じで、温かみのある洗練されたプロダクションが特徴と言えそう。穏やかで落ち着いた曲も多い。<br>
+            Summer Walkerのしっとり成熟したVocalは、終始抑え気味で、感情の揺れを繊細に伝えている。<br>
+            多くのProducerと豪華なゲスト陣が参加しているが、全員で三部作の完成を盛り立てている印象もある。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="brunomars4.htm">Bruno Mars / The Romantic</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
+          </tr>
+          <tr>
+            <td><a href="brunomars4.htm"><img src="gif/brunomars4M.jpg" border="0" alt="[Bruno Mars / The Romantic]" width="75"></a></td>
+            <td>Bruno Marsのソロとしては10年ぶり、DuoだったSik Sonicからは5年ぶりのアルバム。その間、コラボでヒット作を連発していたので不在感は無かったが、随分長いインターバルとなった。<br>
+            その割には、全9曲・約32分という極めてコンパクトな構成で、コンセプトはタイトルの通り、「恋愛」に焦点を絞っている。<br>
+            サウンドの最大の特徴は、前作やSik Sonucでの音楽感を下敷きにボレロやサルサ、チカーノ・ソウルなどのラテン要素の導入していることである。生楽器によるアナログな温かみを重視し、70年代ソウルやディスコの熱量を現代的な音圧で再現し、華やかなホーンセクションやコンガが、情熱的で優雅で甘美なグルーヴを刻んでいる。<br>
+            ゲストは無しで、制作陣もD'Mileとの共同プロデュースを軸として、曲とBrunoのVocalを活かした曲作りになっているようだ。<br>
+            前作やSik Sonicでの大成功を経験し、守りに入った感は否めないが、それでも、曲と唄の良さでは圧倒していると思う。</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <hr>
+            </td>
+          </tr>
           <tr>
             <td colspan="2"><img src="newoy.gif" class="img-new"><a href="delasoul3.htm">De La Soul / Cabin In the Sky</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
           </tr>
@@ -325,91 +404,7 @@ document.write('Last updated at ', document.lastModified);
             <hr>
             </td>
           </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="elmichelsaffair1.htm">El Michels Affair / 24 Hr Sports</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="elmichelsaffair1.htm"><img src="gif/elmichelsaffair1M.jpg" border="0" alt="[El Michels Affair / 24 Hr Sports]" width="75"></a></td>
-            <td>Leon Michels率いるNYで活動するユニット、El Michels Affiairの2025年秋リリースのアルバム。Leon Michelsが文字通り中心となり、全曲制作に加え、複数楽器をこなし、これに気心知れたバンドメンバーが加わるという編成となている。<br>
-            「1980〜90年代のスポーツ文化」をコンセプトにし、架空のラジオ番組のような構成となっている。 ナカミチのカセットデッキを通すことで高音域を削り、中音域に厚みを持たせたローファイな質感を生み出しラジオ風な音にしている。<br>
-            また、シネマティック・ソウルと言われるだけあって、映画音楽のようなところもあり、特に杉並児童合唱団が参加する⑧などは、エヴァンゲリオンの最終盤に流れていそう。<br>
-            Trackは、ビンテージなソウルをベースとし、ところどころサイケな味付けをしたもので、インスト多めであり、構成要素の一つとしてVocalを加えたような曲が多い。<br>
-            GuestはNorah JonesやThe RootsからDave Guy, ブラジルのRogêなどに加え、坂本慎太郎が⑫では大きくフィーチャーされ、日本語で唄と語りを提供している。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="keiyaa1.htm">KeiyaA / hooke's law</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="keiyaa1.htm"><img src="gif/keiyaa1M.jpg" border="0" alt="[KeiyaA / hooke's law]" width="75"></a></td>
-            <td>Chicago出身でNYを拠点に活動するシンガーソングライターKeiyaAの2ndアルバム。マルチ奏者でもあり、当作ではSaxやFluteも演奏している。デビュー作リリース時の年齢は28歳と遅咲きではあるが、そのぶん、確固とした才能を示している。<br>
-            自身が全曲制作に携わるトラックはジャズやR&amp;Bを核に、ジャングル、IDM、日本のアニメ・電子音楽等の要素を重層的にコラージュしていて、機材を駆使したエクスペリメンタルなものになっている。これとメロディアスな曲との絶妙な一体感が特徴となっている。<br>
-            Vocalでは滑らかな声と囁くようなシーツな声を使い分け、ところどころでは「メカスーツ」と呼ぶAuto-Tuneを用いている。<br>
-            タイトルにもある「下方への螺旋は力を蓄えたバネである」という物理法則を再生の比喩に採用し、黒人女性への伝統的な役割期待や搾取的な社会システムへの怒りや葛藤を表現している。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="rochellejordan1.htm">Rochelle Jordan / Through The Wall</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="rochellejordan1.htm"><img src="gif/rochellejordan1M.jpg" border="0" alt="[Rochelle Jordan / Through The Wall]" width="75"></a></td>
-            <td>UK生まれでカナダ育ち、LA拠点のシンガー、Rochelle Jordanの正式には3作目。2011年デビュー後、契約トラブルや持病による7年の空白を経て2021年に再起。90年代R&amp;BとUKクラブ音楽を融合した独自のスタイルを確立している。<br>
-            夜のクラブ体験をシミュレートしたような流動的な構成で、洗練さと親密さが同居した印象を感じる。<br>
-            KLSHやKAYTRANADAらを迎え、ハウス、UKガラージ、R&amp;Bを統合したような重厚でサンサブルでサウンドで、浮遊感のある歌声にマッチしている。DāM
-            FunKとの⑪などは80年代R&amp;B風でもある。<br>
-            タイトルは「壁越しに聴いた兄の音楽」という原体験と、自己不信という「心の壁」の打破することを象徴しているとのことで。恋愛や官能性だけでなく、デジタル社会の虚無や個の解放なども唄っている。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="earlsweatshirt5.htm">Earl Sweatshirt / Live Laugh Love</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
-          </tr>
-          <tr>
-            <td><a href="earlsweatshirt5.htm"><img src="gif/earlsweatshirt5M.jpg" border="0" alt="[Earl Sweatshirt / Live Laugh Love]" width="75"></a></td>
-            <td>The Alchemistとの共作をはさんで、Earl Sweatshirtの3年ぶり、5作目のアルバム。ゆったりとして、意図的なリズムのずれのあるアブストラクトなTrackなのは、いままで変わりないが、厭世的な雰囲気が薄れ、開放的で温かみなところが最大の特徴で、自身が家庭を持ち、父となり、飲酒もやめて安定的な生活を送っていることが反映されていて、タイトルにも現れている。少々ソウルフルにもなって聴き易くもなっていると思う。ラストのErykah Badu参加曲で、&quot;自身がどうあるか&quot;と問いかけて、締めくくっている。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jimlegxacy1.htm">Jim Legxacy / black british music (2025)</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="jimlegxacy1.htm"><img src="gif/jimlegxacy1M.jpg" border="0" alt="[Jim Legxacy / black british music (2025)]" width="75"></a></td>
-            <td>London出身で25歳のRapper, Jim Legxacyの2作目のMixtape。2010年代終盤より活動を始め、当作がXL Recordingsと契約後、初のレーベル・リリースとなる。R&amp;B、Hip-Hop、ポップ、グライム、フォーク、アフロビート、オルタナティブなど混ぜたサウンドが特徴で、本人もジャンルレスを志向している。これをノスタルジックでメランコリックな雰囲気が覆っている。ホームレス時代やプライベートでのヘビーな状況を経て、現代イギリスを生きる黒人としての経験、苦悩、アイデンティティなどを唄っているが、重い内容にかかわらず、全体感では軽快でPopなところで救われる。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="oliviadean1.htm">Olivia Dean / The Art Of Loving</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" class="img-CD-S"></td>
-          </tr>
-          <tr>
-            <td><a href="oliviadean1.htm"><img src="gif/oliviadean1M.jpg" border="0" alt="[Olivia Dean / The Art Of Loving]" width="75"></a></td>
-            <td>北ロンドン生まれでイギリス人の父とジャマイカ系ガイアナ人の母を持つSinger, Olivia Deanの2nd Album。2010年代終わりごろから活動を始め、2023年のデビュー作でUKでは既に高評価を得ていたが、今作ではUSでもブレークし、2026年グラミーの新人賞受賞に至っている。ただ、UKっぽい閉塞感は全くなく、おおらかで瑞々しい印象を受ける作品になっている。全体感はPopで、フリートウッド・マック、バート・バカラック、エイミー・ワインハウスを思わせる曲や、フォーキーな曲、R&amp;BやGospelっぽいものなど曲調はバラエティに富んでいる。コンセプトはベル・フックスという社会活動家の著作&quot;All
-            About Love: New Visons&quot;にインスパイアされたとのことで、愛の様々な形やステップをLyricに投影している。</td>
-          </tr>
-          <tr>
-            <td colspan="2">
-            <hr>
-            </td>
-          </tr>
-        </tbody>
+ </tbody>
       </table>
       <table class="t4">
         <tbody>
