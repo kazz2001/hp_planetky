@@ -19,22 +19,12 @@
 <META name="ABSTRACT" content="Review of ">
 <TITLE></TITLE>
 <!-- #EndEditable --> 
-<STYLE>
-<!--
-
--->
-</STYLE>
 <SCRIPT language="JavaScript">
 <!--
-function fc(w){
-        if(w == "")return;
-        document.menu0.url.selectedIndex = 0;
-        location.href=w;
-}
-
-function MM_jumpMenu(targ,selObj,restore){ //v3.0
-  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-  if (restore) selObj.selectedIndex=0;
+function MM_jumpMenu(selObj, restore) {
+  var url = selObj.options[selObj.selectedIndex].value;
+  if (url) parent.location = url;
+  if (restore) selObj.selectedIndex = 0;
 }
 //-->
 </SCRIPT>
@@ -67,7 +57,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 			</script><!-- #EndLibraryItem --></TD>
 	</TR>
 	<TR> 
-		<TD width="420" class="td-left"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+		<TD width="420" class="td-left"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu('this',this,0)">
 		  <option selected>Album Review : Select Year </option>
       <option value="../cd.htm">2026</option>
       <option value="../cd2025.htm">2025</option>
@@ -99,7 +89,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
       <option value="../cd1999.htm">1999</option>
       <option value="../cd1998.htm">1998</option>
 </select></form> 
-				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu('this',this,0)">
 				  <option selected>Best 50 : Select Year </option>
           <option value="../best2025.htm">2025</option>
           <option value="../best2024.htm">2024</option>
