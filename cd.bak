@@ -51,7 +51,7 @@
         </td>
       </tr>
       <tr>
-        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form1"><select name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu(this,1)">
 					<option selected>Album Review : Select Year </option>
 					<option value="cd.htm">2026</option>
 					<option value="cd2025.htm">2025</option>
@@ -83,7 +83,7 @@
 					<option value="cd1999.htm">1999</option>
 					<option value="cd1998.htm">1998</option>
 				</select></form> 
-				<FORM name="form1"><SELECT name="AnotherYear" onchange="MM_jumpMenu('parent',this,1)">
+				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu(this,1)"> 
 					<option selected>Best 50 : Select Year </option>
 					<option value="best2025.htm">2025</option>
 					<option value="best2024.htm">2024</option>
@@ -221,6 +221,19 @@
 				  <!-- InstanceBeginEditable name="AlbumReviewTable" -->
       <table class="t4">
         <tbody>
+          <tr>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="drake11.htm">Drake / ICEMAN</a><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"></td>
+          </tr>
+          <tr>
+            <td><a href="drake11.htm"><img src="gif/drake11M.jpg" border="0" alt="[Drake / ICEMAN]" width="75"></a></td>
+            <td>Drakeが2026年5月にリリースしたコンセプトの異なる3枚のアルバムの中核となる作品。ソロのスタジオアルバムとしては約2年7ヶ月ぶりとなる通算9枚目になる。<br>
+            2024年のKendrick Lamarとの熾烈なビーフと敗北を経て、Drakeが自らを「氷のように冷徹な戦略家（Iceman）」と再定義したプロジェクトで、業界内の裏切りへの憤りや忠誠心、復讐をテーマにしており、孤立感と頂点に君臨する不動の自信が入り混じる、ダークな自己神話化の作品になっている。<br>
+            ダーク・トラップや硬質なヒップホップ、無駄を削ぎ落としたミニマリズムを基調とした、全体的に攻撃的で冷ややかな音像が特徴で、重厚なベースやハードなスネアが、不気味なシンセサイザーと絡み合います。「Whisper
+            My Name」などで見られる、曲の途中でビートが急展開する「ビート・スイッチ」の手法が多用されており、緊張感と威圧感のある不穏なサウンドスケープを構築している。<br>
+            Lyricでは、Kendrick Lamarに限らず、多くのRapperやバスケット選手までディスの対象とし、憤りの大きさや、敗北感を未だにひきずっていることが判る。逆にTorontoへの地元愛も吐露することで精神のバランスをとっているのかもしれない。<br>
+            多くのProducerを起用しているが、逆に盟友&quot;Noah &quot;40&quot; Shebib&quot;の関与は減っている。<br>
+            また、Rapは感情を押し殺したような硬質なものになっている。</td>
+          </tr>
           <tr>
             <td colspan="2"><img src="newoy.gif" class="img-new"><a href="a$aprocky3.htm">A$AP Rocky / Don't Be Dumb</a><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
           </tr>
