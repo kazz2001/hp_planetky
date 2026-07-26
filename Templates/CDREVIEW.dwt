@@ -19,15 +19,14 @@
 <META name="ABSTRACT" content="Review of ">
 <TITLE></TITLE>
 <!-- #EndEditable --> 
-<SCRIPT language="JavaScript">
-<!--
+<script>
 function MM_jumpMenu(selObj, restore) {
   var url = selObj.options[selObj.selectedIndex].value;
-  if (url) parent.location = url;
+  if (url) window.location.href = url;
   if (restore) selObj.selectedIndex = 0;
 }
-//-->
-</SCRIPT>
+</script>
+
 <LINK rel="stylesheet" href="../css/bm1.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
 </HEAD>
@@ -40,7 +39,7 @@ function MM_jumpMenu(selObj, restore) {
 	</TR>
 	<TR> 
 		<TD rowspan="4" width="60">&nbsp;</TD>
-		<TD colspan="2" height="3">@</TD>
+		<TD colspan="2" height="3">ï¿½@</TD>
 	</TR>
 	<TR> 
 		<TD class="td-left" colspan="2">
@@ -57,7 +56,7 @@ function MM_jumpMenu(selObj, restore) {
 			</script><!-- #EndLibraryItem --></TD>
 	</TR>
 	<TR> 
-		<TD width="420" class="td-left"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu('this',this,0)">
+		<TD width="420" class="td-left"><!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu(this,0)">
 		  <option selected>Album Review : Select Year </option>
       <option value="../cd.htm">2026</option>
       <option value="../cd2025.htm">2025</option>
@@ -89,7 +88,7 @@ function MM_jumpMenu(selObj, restore) {
       <option value="../cd1999.htm">1999</option>
       <option value="../cd1998.htm">1998</option>
 </select></form> 
-				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu('this',this,0)">
+				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu(this,0)">
 				  <option selected>Best 50 : Select Year </option>
           <option value="../best2025.htm">2025</option>
           <option value="../best2024.htm">2024</option>
@@ -124,18 +123,19 @@ function MM_jumpMenu(selObj, restore) {
 	</TR>
 	<TR> 
 		<TD class="td-g-green"><p class="header1-nobg">Site Contents</p></TD>
-		<td class="td-gray">
+		<td class="td-gray"></TD>
 		<TD class="section1">CD Review :<!-- #BeginEditable "B" -->{B}<!-- #EndEditable --></TD>
 		<td class="section1">
-			<div class="td-m">
-        <script language="JavaScript">
-          var imgFile
-          var imgFile2
-          imgFile = window.location.href.split('/').pop().split('.').shift()+"M.jpg";
-          imgFile2 = "<img src=gif/"+imgFile+" width=75>"
-          document.write(imgFile2);
+      <div class="td-m">
+        <div id="thumb-img"></div>
+        <script>
+					var imgFile = window.location.href.split('/').pop().split('.').shift() + "M.jpg";
+					var img = document.createElement('img');
+					img.src = 'gif/' + imgFile;
+					img.width = 75;
+					document.getElementById('thumb-img').appendChild(img);
 				</script>
-			</div>
+      </div>
 		</td>
 	</TR>
 	<TR>
@@ -211,7 +211,7 @@ function MM_jumpMenu(selObj, restore) {
 			<br>
 			<a href="../mag.htm" class="size2">Hip-Hop Magazine Review</a> <br>
 			<br>
-			<a href="http://planetky.com" class="size2">planet.KY home </a><br>
+			<a href="https://planetky.com" class="size2">planet.KY home </a><br>
 			<br>
 			<br>
 		</p>
@@ -224,7 +224,7 @@ function MM_jumpMenu(selObj, restore) {
 	</td>
 </tr></tbody></table><!-- #EndLibraryItem --><!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
 		</td>
-		<TD>@</TD>
+		<TD>ï¿½@</TD>
 		<td colspan="2" class="td-left480">
 		      <!-- #BeginEditable "X" -->{X}<!-- #EndEditable --> 
 			<TABLE class="t2">
@@ -234,24 +234,24 @@ function MM_jumpMenu(selObj, restore) {
 						<TD colspan="3" class="header1">Score Card</TD>
 					</TR>
 					<TR class="size1"> 
-						<TD class="td-left">ƒ‰ƒbƒv(rap oriented)</TD>
+						<TD class="td-left">ï¿½ï¿½ï¿½bï¿½v(rap oriented)</TD>
 						<TD class="td-center170"><!-- #BeginEditable "C" -->{C}<!-- #EndEditable --></TD>
-						<TD class="td-right">‰Ì(song oriented)</TD>
+						<TD class="td-right">ï¿½ï¿½(song oriented)</TD>
 					</TR>
 					<TR class="size1"> 
-						<TD class="td-gray-left">ƒA[ƒoƒ“(urban)</TD>
+						<TD class="td-gray-left">ï¿½Aï¿½[ï¿½oï¿½ï¿½(urban)</TD>
 						<TD class="td-center170-gray"><!-- #BeginEditable "D" -->{D}<!-- #EndEditable --></TD>
-						<TD class="td-gray-right">ƒA[ƒV[(earthy)</TD>
+						<TD class="td-gray-right">ï¿½Aï¿½[ï¿½Vï¿½[(earthy)</TD>
 					</TR>
 					<TR class="size1"> 
-						<TD class="td-left">’®‚«‚â‚·‚¢(familiar)</TD>
+						<TD class="td-left">ï¿½ï¿½ï¿½ï¿½ï¿½â‚·ï¿½ï¿½(familiar)</TD>
 						<TD class="td-center170"><!-- #BeginEditable "E" -->{E}<!-- #EndEditable --></TD>
-						<TD class="td-right">ƒŠƒXƒi[‚ğ‘I‚Ô(serious)</TD>
+						<TD class="td-right">ï¿½ï¿½ï¿½Xï¿½iï¿½[ï¿½ï¿½Iï¿½ï¿½(serious)</TD>
 					</TR>
 					<TR class="size1"> 
-						<TD class="td-gray-left">•]“_(rating)</TD>
+						<TD class="td-gray-left">ï¿½]ï¿½_(rating)</TD>
 						<TD class="td-center170-gray"><!-- #BeginEditable "F" -->{F}<!-- #EndEditable --></TD>
-						<TD class="td-gray-right">i5“_–“_ fullmark :5j</TD>
+						<TD class="td-gray-right">ï¿½i5ï¿½_ï¿½ï¿½ï¿½_ fullmark :5ï¿½j</TD>
 					</TR>
 					<tr class="size1">
 						<td colspan="3">      <!-- #BeginEditable "Y" -->{Y}<!-- #EndEditable --> </TD>
@@ -262,7 +262,7 @@ function MM_jumpMenu(selObj, restore) {
 				<col span="5">
 				<tbody>
 					<TR> 
-						<td colspan="5" class="header1">Tracks <FONT size=-2>—A“ü”Õ@ 
+						<td colspan="5" class="header1">Tracks <FONT size=-2>ï¿½Aï¿½ï¿½ï¿½Õ@ 
    				      <!-- #BeginEditable "G" -->{G}<!-- #EndEditable --></FONT>
 						</TD>
 					</TR>
@@ -306,7 +306,7 @@ function MM_jumpMenu(selObj, restore) {
 	</tr>
 	<tr>					 
 		<TD class="td-g-black"><BR></TD>
-		<TD class="td-white">@</TD>
+		<TD class="td-white">ï¿½@</TD>
 		<TD class="td-gray" colspan="2"><p><font size="-1" face="Times New Roman,Times,Times NewRoman">Copyright &copy; 1998-<!-- #BeginLibraryItem "/Library/toYear.lbi" -->2026<!-- #EndLibraryItem --> planet.KY. All rights reserved.</font></p>
 		</TD>
 	</TR>

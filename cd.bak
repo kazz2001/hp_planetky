@@ -51,7 +51,7 @@
         </td>
       </tr>
       <tr>
-        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu(this,1)">
+        <td class="td-left">				  <!-- #BeginLibraryItem "/Library/BMContent1.lbi" -->				<form name="form-album-year"><select name="AnotherYear" onchange="MM_jumpMenu(this,0)">
 					<option selected>Album Review : Select Year </option>
 					<option value="cd.htm">2026</option>
 					<option value="cd2025.htm">2025</option>
@@ -83,7 +83,7 @@
 					<option value="cd1999.htm">1999</option>
 					<option value="cd1998.htm">1998</option>
 				</select></form> 
-				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu(this,1)"> 
+				<FORM name="form-best-year"><SELECT name="AnotherYear" onchange="MM_jumpMenu(this,0)">
 					<option selected>Best 50 : Select Year </option>
 					<option value="best2025.htm">2025</option>
 					<option value="best2024.htm">2024</option>
@@ -193,7 +193,7 @@
 			<br>
 			<a href="mag.htm" class="size2">Hip-Hop Magazine Review</a> <br>
 			<br>
-			<a href="http://planetky.com" class="size2">planet.KY home </a><br>
+			<a href="https://planetky.com" class="size2">planet.KY home </a><br>
 			<br>
 			<br>
 		</p>
@@ -222,7 +222,7 @@
       <table class="t4">
         <tbody>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="drake11.htm">Drake / ICEMAN</a><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="drake11.htm">Drake / ICEMAN</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"></td>
           </tr>
           <tr>
             <td><a href="drake11.htm"><img src="gif/drake11M.jpg" border="0" alt="[Drake / ICEMAN]" width="75"></a></td>
@@ -235,7 +235,7 @@
             また、Rapは感情を押し殺したような硬質なものになっている。</td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="a$aprocky3.htm">A$AP Rocky / Don't Be Dumb</a><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="a$aprocky3.htm">A$AP Rocky / Don't Be Dumb</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
           </tr>
           <tr>
             <td><a href="a$aprocky3.htm"><img src="gif/a$aprocky3M.jpg" border="0" alt="[A$AP Rocky / Don't Be Dumb]" width="75"></a></td>
@@ -249,7 +249,7 @@
             Ya Flow」では、フロウの盗用や Rihannaとの関係を巡って、因縁の相手であるDrakeやTravis Scottに対して痛烈なディスを放っている。</td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jillscott7.htm">Jill Scott / To Whom This May Concern</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="jillscott7.htm">Jill Scott / To Whom This May Concern</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
           </tr>
           <tr>
             <td><a href="jillscott7.htm"><img src="gif/jillscottML.jpg" border="0" alt="[Jill Scott / To Whom This May Concern]" width="75"></a></td>
@@ -259,7 +259,7 @@
             Lyricでは自己実現、地元/コミュニティ愛、先達への敬意、現代社会批判など表現しており、これを低音から高音までの独特の質感を持つ、滑らかなVocalで歌い上げている。</td>
           </tr>
           <tr>
-            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="thundercat3.htm">Thundercat / Distracted</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-S"></td>
+            <td colspan="2"><img src="newoy.gif" class="img-new"><a href="thundercat3.htm">Thundercat / Distracted</a><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3h.GIF" class="img-CD-M"><img src="biz3_b3l.gif" width="15" height="15" border="0"></td>
           </tr>
           <tr>
             <td><a href="thundercat3.htm"><img src="gif/thundercat3M.jpg" border="0" alt="[Thundercat / Distracted]" width="75"></a></td>

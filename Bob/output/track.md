@@ -1,18 +1,25 @@
-Joy Crookesのアルバム『Juniper』の曲順リストを作成しました。ご指定の通り、人名はオリジナルのまま略さずに記載し、Markdownのソースコード形式で出力します。
+RAYEのアルバム『THIS MUSIC MAY CONTAIN HOPE.』の曲順リストのMarkdownソースを作成しました。ご活用ください。
 
 ```markdown
-| #   | Title             | Composer                                                                                                      | Performer                       | Producer                            | Time |
-| --- | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------- | ---- |
-| 1   | Brave             | Nathan Allen, Sam Beste, Alex Bonfanti, Joy Crookes, Graham Godfrey, Blue May, Steve Pringle, Junior Williams | Joy Crookes                     | Blue May                            | 3:55 |
-| 2   | Pass the Salt     | Joy Crookes, Jonny Lattimer, Barney Lister, Vince Staples                                                     | Joy Crookes feat. Vince Staples | Joy Crookes, Blue May               | 2:47 |
-| 3   | Carmen            | Joy Crookes, Elton John, Jonny Lattimer, Bernie Taupin                                                        | Joy Crookes                     | Joy Crookes, Blue May               | 3:03 |
-| 4   | Perfect Crime     | Joy Crookes, Jonny Lattimer, Ntuthuko Nhlumayo                                                                | Joy Crookes                     | Joy Crookes, Harvey Grant           | 2:33 |
-| 5   | Mathematics       | Sam Beste, Joy Crookes, Kane Robinson, Barney Lister, Matt Maltese                                            | Joy Crookes feat. Kano          | Blue May                            | 3:19 |
-| 6   | House With a Pool | Sam Beste, Joy Crookes, Jonny Lattimer, Barney Lister                                                         | Joy Crookes                     | Blue May                            | 3:29 |
-| 7   | I Know You'd Kill | Joy Crookes, Barney Lister, Joel Pott                                                                         | Joy Crookes                     | Joy Crookes, Blue May               | 2:54 |
-| 8   | First Last Dance  | Joy Crookes, Jonny Lattimer, Ntuthuko Nhlumayo                                                                | Joy Crookes                     | Chrome Sparks, Joy Crookes, TK      | 3:20 |
-| 9   | Mother            | Sam Beste, Joy Crookes, Barney Lister, Joel Pott                                                              | Joy Crookes                     | Blue May                            | 3:30 |
-| 10  | Somebody to You   | Joy Crookes, Jonny Lattimer, Joel Pott                                                                        | Joy Crookes                     | Joy Crookes, Blue May               | 2:57 |
-| 11  | Forever           | Joy Crookes, Nathaniel Ledwidge                                                                               | Joy Crookes                     | Joy Crookes, Harvey Grant, Blue May | 3:17 |
-| 12  | Paris             | Sam Beste, Joy Crookes, Barney Lister, Joel Pott                                                              | Joy Crookes                     | Blue May                            | 6:19 |
+# RAYE - THIS MUSIC MAY CONTAIN HOPE.
+
+| No. | Title | Composer | Performer | Producer | Time |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Intro: Girl Under The Grey Cloud. | Rachel Keen, Chris Hill, Tom Richards | RAYE | Rachel Keen, Chris Hill, Tom Richards | 1:12 |
+| 2 | I Will Overcome. | Rachel Keen, Chris Hill, Tom Richards, Mike Sabath, Antoine Klein | RAYE | Rachel Keen, Chris Hill, Tom Richards, Mike Sabath, Antoine Klein | 4:55 |
+| 3 | Beware.. The South London Lover Boy. | Rachel Keen, Pete Clements, Mike Sabath | RAYE | Rachel Keen, Pete Clements, Mike Sabath | 3:26 |
+| 4 | The WhatsApp Shakespeare. | Rachel Keen, Callum Au, Tom Richards, Mike Sabath | RAYE | Rachel Keen, Mike Sabath, Chris Hill, Tom Richards | 3:56 |
+| 5 | Winter Woman. | Rachel Keen, Chris Hill, Tom Richards, Toneworld, Mike Sabath | RAYE | Rachel Keen, Mike Sabath, Toneworld, Chris Hill, Tom Richards | 4:23 |
+| 6 | Click Clack Symphony. | Rachel Keen, Mike Sabath, Hans Zimmer, Hendric Buenck, Russell Emanuel, Billie Ray Fingers | RAYE, Hans Zimmer | Rachel Keen, Hans Zimmer, Mike Sabath, Hendric Buenck, Russell Emanuel | 5:03 |
+| 7 | I Know You're Hurting. | Rachel Keen, Graeme Blevins, Matt Brooks, Pete Clements, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Jordan Riley, Oscar Steiler | RAYE | Rachel Keen, Pete Clements, Jordan Riley | 6:18 |
+| 8 | Life Boat. | Rachel Keen, Punctual, Jordan Riley | RAYE | Rachel Keen, Jordan Riley, Punctual | 4:18 |
+| 9 | I Hate The Way I Look Today. | Rachel Keen, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Ed Richardson, Oscar Steiler | RAYE | Rachel Keen, Chris Hill, Tom Richards | 3:30 |
+| 10 | Goodbye Henry. | Rachel Keen, Graeme Blevins, Matt Brooks, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Oscar Steiler | RAYE, Al Green | Rachel Keen, Pete Clements | 5:22 |
+| 11 | Nightingale Lane. | Rachel Keen, Chris Hill, Tom Richards | RAYE | Rachel Keen, Chris Hill, Tom Richards | 5:02 |
+| 12 | Skin & Bones. | Rachel Keen, Pete Clements, Mike Sabath | RAYE | Rachel Keen, Mike Sabath | 3:14 |
+| 13 | WHERE IS MY HUSBAND! | Rachel Keen, Mike Sabath | RAYE | Rachel Keen, Mike Sabath | 3:17 |
+| 14 | Fields. | Rachel Keen, Daniella Bernard, Graeme Blevins, Michael Keen, Paul Murray, Tom Richards, Alex Robinson, Mike Sabath, Liv Thompson | RAYE, Grandad Michael | Rachel Keen, Mike Sabath, Alex Robinson | 4:12 |
+| 15 | Joy. | Rachel Keen, Abby-Lynn Keen, Lauren Keen, Tom Richards, Mike Sabath | RAYE, Amma, Absolutely | Rachel Keen, Tom Richards, Mike Sabath | 4:25 |
+| 16 | Happier Times Ahead. | Rachel Keen, Graeme Blevins, Matt Brooks, Pete Clements, Chris Hill, Tom Richards, Tom Walsh, Joe Webb | RAYE | Rachel Keen, Pete Clements | 4:31 |
+| 17 | Fin. | Rachel Keen, Chris Hill, Tom Richards | RAYE | Rachel Keen, Chris Hill, Tom Richards | 6:27 |
 ```
