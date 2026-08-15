@@ -4,7 +4,7 @@
     <loc>http://bm.planetky.com/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-26T06:38:55+00:00</lastmod>
+    <lastmod>2026-08-15T06:36:56+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/2131.htm</loc>
@@ -898,7 +898,7 @@
     <loc>http://bm.planetky.com/cd.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-26T06:32:48+00:00</lastmod>
+    <lastmod>2026-08-15T06:36:56+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/cd1998.htm</loc>
@@ -1030,7 +1030,7 @@
     <loc>http://bm.planetky.com/chancetherapper1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:23:32+00:00</lastmod>
+    <lastmod>2026-08-09T08:02:31+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/changingfaces1.htm</loc>
@@ -5440,7 +5440,7 @@
     <loc>http://bm.planetky.com/chancetherapper2.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:23:32+00:00</lastmod>
+    <lastmod>2026-08-09T08:03:20+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/arianagrande3.htm</loc>
@@ -6400,7 +6400,7 @@
     <loc>http://bm.planetky.com/chancetherapper3.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:23:32+00:00</lastmod>
+    <lastmod>2026-08-09T08:04:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/bloodorange4.htm</loc>
@@ -16024,7 +16024,7 @@
     <loc>http://bm.planetky.com/cd2025.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:21:52+00:00</lastmod>
+    <lastmod>2026-08-09T08:04:33+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/teyanataylor4.htm</loc>
@@ -16061,5 +16061,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <lastmod>2026-07-26T06:38:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/chancetherapper4.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-08-09T08:00:41+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/babykeem1.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-08-15T06:36:55+00:00</lastmod>
   </url>
 </urlset>
