@@ -4,7 +4,7 @@
     <loc>http://bm.planetky.com/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-08-23T06:55:17+00:00</lastmod>
+    <lastmod>2026-09-19T07:45:31+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/2131.htm</loc>
@@ -898,7 +898,7 @@
     <loc>http://bm.planetky.com/cd.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-08-23T06:55:17+00:00</lastmod>
+    <lastmod>2026-09-19T07:45:32+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/cd1998.htm</loc>
@@ -2200,13 +2200,13 @@
     <loc>http://bm.planetky.com/jcole1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:03+00:00</lastmod>
+    <lastmod>2026-09-06T07:06:33+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/jcole2.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:03+00:00</lastmod>
+    <lastmod>2026-09-06T07:06:58+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/jdupri1.htm</loc>
@@ -6160,7 +6160,7 @@
     <loc>http://bm.planetky.com/jcole3.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:03+00:00</lastmod>
+    <lastmod>2026-09-06T07:07:22+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/best2018.htm</loc>
@@ -6466,7 +6466,7 @@
     <loc>http://bm.planetky.com/stevelacy1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:25:37+00:00</lastmod>
+    <lastmod>2026-09-19T07:45:58+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/arilennox1.htm</loc>
@@ -6868,7 +6868,7 @@
     <loc>http://bm.planetky.com/genesisowusu1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:05+00:00</lastmod>
+    <lastmod>2026-08-30T06:12:16+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/hiatuskaiyote2.htm</loc>
@@ -6940,7 +6940,7 @@
     <loc>http://bm.planetky.com/jcole4.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:13+00:00</lastmod>
+    <lastmod>2026-09-06T07:07:49+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/lauramvula3.htm</loc>
@@ -7342,7 +7342,7 @@
     <loc>http://bm.planetky.com/stevelacy2.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:41+00:00</lastmod>
+    <lastmod>2026-09-19T07:46:24+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/ellamai2.htm</loc>
@@ -15430,7 +15430,7 @@
     <loc>http://bm.planetky.com/tyla1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:45+00:00</lastmod>
+    <lastmod>2026-09-13T06:22:51+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/schoolboyq4.htm</loc>
@@ -16079,5 +16079,29 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <lastmod>2026-08-23T07:02:46+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/genesisowusu2.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-08-30T06:12:40+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/jcole5.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-09-06T07:06:08+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/tyla2.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-09-13T06:22:24+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/stevelacy3.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-09-19T07:45:05+00:00</lastmod>
   </url>
 </urlset>

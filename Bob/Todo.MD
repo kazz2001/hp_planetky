@@ -2,7 +2,8 @@
 # HTMLドラフト作成 Bob\genius_album_to_html.ps1
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "<Genius アルバム URL>" [-OutputFilePrefix "<ファイル名>"]
+powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl 
+"<Genius アルバム URL>" [-OutputFilePrefix "<ファイル名>"]
 ```
 # メタタグ, TitleをCopyする。
 
@@ -11,7 +12,7 @@ powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUr
 notebooklmで/tracks
 
 file1=Bob\output\brunomars1_tracks.htm
-Bob\output\track.mdの内容で、file1のTracksセクションのテーブルの内容を置き替えて。列名はfile1のままで。
+Bob\output\track.mdの内容で、file1のTracksセクションのテーブルの内容を置き替えて。列名はfile1のままで。曲順、曲名はBob\output\track.mdが正しいです。
 
 Bob\allmusic_track_scraper.js
 ```
@@ -23,6 +24,12 @@ node Bob/allmusic_track_scraper.js https://www.allmusic.com/album/addison-mw0004
 node Bob/allmusic_track_scraper.js https://www.allmusic.com/album/addison-mw0004526525 my_album_tracks.html
 ```
 # Producerを洗練する
+
+Producerのリストを出力して。下記のような形式で。
+
+Pro1(1)
+Pro2 and Pro3(2,3)
+Pro1, Pro3 and Pro4(4)
 ```
 Bob\fetch_album_producers.js
 
