@@ -34,9 +34,19 @@ Pro1, Pro3 and Pro4(4)
 Bob\fetch_album_producers.js
 
 ```
-# レビューする。
+# Guestのリストを作る
+
+Guestのリストを下記のような形式で出力して。
+
+Guest1, Guest2, Guest3
+
+# アルバムレビューを書く。
 ```
-/review ファイル名
+Notebooklm で/revire
+
+# ファイルをレビューする。
+
+ファイル名をレビューして
 ```
 
 # index.htmlに追加

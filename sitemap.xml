@@ -4,7 +4,7 @@
     <loc>http://bm.planetky.com/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-09-19T07:45:31+00:00</lastmod>
+    <lastmod>2026-10-11T04:41:13+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/2131.htm</loc>
@@ -898,7 +898,7 @@
     <loc>http://bm.planetky.com/cd.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-09-19T07:45:32+00:00</lastmod>
+    <lastmod>2026-10-11T04:41:13+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/cd1998.htm</loc>
@@ -2560,7 +2560,7 @@
     <loc>http://bm.planetky.com/kelela1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:15+00:00</lastmod>
+    <lastmod>2026-10-04T06:39:31+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/kelis1.htm</loc>
@@ -5866,7 +5866,7 @@
     <loc>http://bm.planetky.com/kelela2.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:16+00:00</lastmod>
+    <lastmod>2026-10-04T06:40:34+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/tydolla$ign2.htm</loc>
@@ -14866,7 +14866,7 @@
     <loc>http://bm.planetky.com/kelela3.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:19+00:00</lastmod>
+    <lastmod>2026-10-04T06:41:31+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/cd2022.htm</loc>
@@ -16103,5 +16103,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <lastmod>2026-09-19T07:45:05+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/kneecap1.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-09-26T06:13:32+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/kelela4.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-10-04T06:42:11+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/dontoliver1.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-10-11T04:41:12+00:00</lastmod>
   </url>
 </urlset>
