@@ -42,7 +42,7 @@ Guest1, Guest2, Guest3
 
 # アルバムレビューを書く。
 ```
-Notebooklm で/revire
+Notebooklm で/review
 
 # ファイルをレビューする。
 

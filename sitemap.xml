@@ -4,7 +4,7 @@
     <loc>http://bm.planetky.com/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-10-11T04:41:13+00:00</lastmod>
+    <lastmod>2026-10-18T05:54:19+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/2131.htm</loc>
@@ -898,7 +898,7 @@
     <loc>http://bm.planetky.com/cd.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-10-11T04:41:13+00:00</lastmod>
+    <lastmod>2026-10-18T06:05:55+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/cd1998.htm</loc>
@@ -6118,7 +6118,7 @@
     <loc>http://bm.planetky.com/jorjasmith1.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:24:09+00:00</lastmod>
+    <lastmod>2026-10-18T05:56:15+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/rplusrequalnow1.htm</loc>
@@ -6958,7 +6958,7 @@
     <loc>http://bm.planetky.com/jorjasmith2.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:15+00:00</lastmod>
+    <lastmod>2026-10-18T05:58:13+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/littlesimz2.htm</loc>
@@ -15274,7 +15274,7 @@
     <loc>http://bm.planetky.com/jorjasmith3.htm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2026-07-25T07:22:15+00:00</lastmod>
+    <lastmod>2026-10-18T06:04:21+00:00</lastmod>
   </url>
   <url>
     <loc>http://bm.planetky.com/brentfaiyaz2.htm</loc>
@@ -16121,5 +16121,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <lastmod>2026-10-11T04:41:12+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://bm.planetky.com/jorjasmith4.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-10-18T06:05:25+00:00</lastmod>
   </url>
 </urlset>
