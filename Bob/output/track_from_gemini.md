@@ -1,15 +1,30 @@
 
-```markdown
-| No | Title | Composer | Performer | Producer | Time |
+## 基本情報
+* **アーティスト**: DOMi & JD BECK
+* **全曲 Performer**: DOMi & JD BECK
+* **全曲 Producer**: DOMi & JD BECK （※一部楽曲でAnderson .Paak、Noé Degalleが共同参加）
+
+## 曲順リスト（テーブル形式）
+
+| # | タイトル | Composer（人名略称なし） | Performer | Producer | Time |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | History | David Omoregie, James Blake, Dominic Maker | Dave feat. James Blake | Dom Maker, James Blake | 4:06 |
-| 2 | 175 Months | David Omoregie, James Blake, Harrison Fisher, James Norton, Jamil Pierre, Boy Matthews | Dave | Santan, James Blake, Jo Caleb, Jonny Leslie | 4:34 |
-| 3 | No Weapons | David Omoregie, Jim Legxacy, Jo Caleb, Jonny Leslie, Kyle Evans | Dave feat. Jim Legxacy | Santan, Jim Legxacy, Jo Caleb, Jonny Leslie, Kyle Evans, .Nathan | 3:18 |
-| 4 | Chapter 16 | David Omoregie, Kane Robinson, James Blake, Jo Caleb | Dave feat. Kano | Santan, James Blake, Jo Caleb | 6:20 |
-| 5 | Raindance | David Omoregie, Temilade Openiyi, Jo Caleb, Kyle Evans, Jonny Leslie | Dave feat. Tems | Kyle Evans, Jo Caleb, Jonny Leslie, Santan, Jim Legxacy, Tems | 3:39 |
-| 6 | Selfish | David Omoregie, James Blake | Dave feat. James Blake | James Blake, Santan, Jo Caleb, Jonny Leslie | 4:31 |
-| 7 | My 27th Birthday | David Omoregie, Jo Caleb, Jonny Leslie, Elijah Fox, Grayson Lane | Dave | Santan, Jo Caleb, Jonny Leslie | 7:51 |
-| 8 | Marvellous | David Omoregie, Jo Caleb, Kyle Evans | Dave | Jo Caleb, Kyle Evans, Santan | 3:01 |
-| 9 | Fairchild | David Omoregie, Jo Caleb, Kyle Evans | Dave feat. Nicole Blakk | Santan, Jo Caleb, Kyle Evans, Fraser T. Smith | 5:46 |
-| 10 | The Boy Who Played the Harp | David Omoregie, Fraser T. Smith, John Lennon, Paul McCartney | Dave | Fraser T. Smith, Jo Caleb | 4:37 |
+| 01 | ÉPiPHANiE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:33 |
+| 02 | HAD ENOUGH | Domitille Degalle, James Denis Beck, Brandon Anderson | DOMi & JD BECK | DOMi & JD BECK (Co-Lyricist: Anderson .Paak) | 03:20 |
+| 03 | EXiT | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 02:53 |
+| 04 | SiLHOUETTE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:30 |
+| 05 | GROWiNG OLDER | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:35 |
+| 06 | SOME THiNGS NEVER CHANGE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:50 |
+| 07 | RAiN | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:00 |
+| 08 | SMALL EYES | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 03:39 |
+| 09 | LOVELY MASQUERADE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:49 |
+| 10 | PUZZLE PiECES | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 04:14 |
+| 11 | PHANTOM THREAD | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:34 |
+| 12 | OUT OF SYNC | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:52 |
+| 13 | CONCERTiNO (FOR PiANO, DRUMS & ORCHESTRA) | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 05:04 |
+| 14 | CLiMBiNG HiGH | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:32 |
+| 15 | ÉPiLOGUE | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 04:04 |
 ```
+
+---
+
+🎵 各楽曲の音楽的特徴や楽譜制作（Sibelius）などのバックストーリーについて、さらに詳しく知りたい情報はありますか？

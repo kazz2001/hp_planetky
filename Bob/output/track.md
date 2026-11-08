@@ -1,24 +1,32 @@
 
+# DOMi & JD BECK - 『WHO ASKED?』 トラックリスト
 
-以下にMarkdownソースを出力します（**composer列**は本名の **Moonga K Kapambwe** で記載し、**それ以外の列**は通称表記 **MOONGA K.** を維持しています）。
+## 基本情報
+* **アーティスト**: DOMi & JD BECK
+* **全曲 Performer**: DOMi & JD BECK
+* **全曲 Producer**: DOMi & JD BECK （※一部楽曲でAnderson .Paak、Noé Degalleが共同参加）
 
-```markdown
-| No. | タイトル | composer | performer | producer | time |
-| :-: | :--- | :--- | :--- | :--- | :-: |
-| 1 | TRANSMISSION 001 | Moonga K Kapambwe | MOONGA K. | (*1) | 0:50 |
-| 2 | BIG EGO | Moonga K Kapambwe, Ryan Marshall | MOONGA K. | (*1) | 3:50 |
-| 3 | FLY | Moonga K Kapambwe | MOONGA K. | (*1) | 3:15 |
-| 4 | SOMETHING NEW | Moonga K Kapambwe | MOONGA K. | (*1) | 2:10 |
-| 5 | STRUT | Moonga K Kapambwe | MOONGA K. | (*1) | 3:15 |
-| 6 | TIME TRAVELLIN' LOVER | Moonga K Kapambwe | MOONGA K. | (*1) | 3:30 |
-| 7 | SATISFIED | Moonga K Kapambwe | MOONGA K. | (*1) | 4:20 |
-| 8 | TRANSMISSION 002 | Moonga K Kapambwe | MOONGA K. | (*1) | 0:25 |
-| 9 | HERE IT GOES | Moonga K Kapambwe, I Am Roze | MOONGA K., I Am Roze | (*1) | 3:40 |
-| 10 | TO THE SUN | Moonga K Kapambwe, Filah Lah Lah | MOONGA K., Filah Lah Lah | (*1) | 2:40 |
-| 11 | STAR SURFIN' | Moonga K Kapambwe | MOONGA K. | (*1) | 2:35 |
-| 12 | TRANSMISSION 003 | Moonga K Kapambwe | MOONGA K. | (*1) | 0:45 |
-| 13 | LET'S GET LOUD! | Moonga K Kapambwe | MOONGA K. | (*1) | 3:05 |
-| 14 | BIRTHRIGHT | Moonga K Kapambwe | MOONGA K. | (*1) | 2:15 |
-| 15 | HOPE! | Moonga K Kapambwe, James McKinney | MOONGA K., James McKinney | (*1) | 4:35 |
+## 曲順リスト（テーブル形式）
 
-(*1) 全曲共通プロデューサー: MOONGA K., Ryan Marshall, Matthew Garton
+| # | タイトル | Composer（人名略称なし） | Performer | Producer | Time |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 01 | ÉPiPHANiE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:33 |
+| 02 | HAD ENOUGH | Domitille Degalle, James Denis Beck, Brandon Anderson | DOMi & JD BECK | DOMi & JD BECK (Co-Lyricist: Anderson .Paak) | 03:20 |
+| 03 | EXiT | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 02:53 |
+| 04 | SiLHOUETTE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:30 |
+| 05 | GROWiNG OLDER | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:35 |
+| 06 | SOME THiNGS NEVER CHANGE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:50 |
+| 07 | RAiN | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:00 |
+| 08 | SMALL EYES | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 03:39 |
+| 09 | LOVELY MASQUERADE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:49 |
+| 10 | PUZZLE PiECES | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 04:14 |
+| 11 | PHANTOM THREAD | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:34 |
+| 12 | OUT OF SYNC | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:52 |
+| 13 | CONCERTiNO (FOR PiANO, DRUMS & ORCHESTRA) | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 05:04 |
+| 14 | CLiMBiNG HiGH | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:32 |
+| 15 | ÉPiLOGUE | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 04:04 |
+```
+
+---
+
+🎵 各楽曲の音楽的特徴や楽譜制作（Sibelius）などのバックストーリーについて、さらに詳しく知りたい情報はありますか？
