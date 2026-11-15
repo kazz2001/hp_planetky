@@ -1,7 +1,7 @@
 ﻿<#
 .SYNOPSIS
     Genius.comのアルバムページからトラック情報を取得し、planet.KY形式のHTMLファイルを生成します。
-    Genius APIを使用して完全なProducer/Writer情報を取得します。
+    Genius APIトークンを使用してCloudflare検知を回避し、完全なProducer/Writer情報を取得します。
 
 .PARAMETER AlbumUrl
     Genius.comのアルバムページURL
@@ -11,6 +11,10 @@
     出力HTMLファイル名のプレフィックス（省略可能）
     指定しない場合は、アーティスト名から自動生成されます
     例: "jimlegxacy" を指定すると "jimlegxacy1.htm" として出力されます
+
+.PARAMETER GeniusToken
+    Genius APIのClient Access Token（省略可能）
+    指定しない場合は環境変数 GENIUS_ACCESS_TOKEN から自動取得します
 
 .EXAMPLE
     .\genius_album_to_html.ps1 -AlbumUrl "https://genius.com/albums/Jim-legxacy/Black-british-music-2025"
@@ -24,10 +28,26 @@ param(
     [string]$AlbumUrl,
     
     [Parameter(Mandatory=$false)]
-    [string]$OutputFilePrefix = ""
+    [string]$OutputFilePrefix = "",
+
+    [Parameter(Mandatory=$false)]
+    [string]$GeniusToken = ""
 )
 
 Add-Type -AssemblyName System.Web
+
+# ---- トークン取得 ----
+if (-not $GeniusToken) {
+    $GeniusToken = [System.Environment]::GetEnvironmentVariable('GENIUS_ACCESS_TOKEN', 'User')
+    if (-not $GeniusToken) {
+        $GeniusToken = $env:GENIUS_ACCESS_TOKEN
+    }
+}
+
+if (-not $GeniusToken) {
+    Write-Error "Genius APIトークンが見つかりません。環境変数 GENIUS_ACCESS_TOKEN を設定するか、-GeniusToken パラメーターで渡してください。"
+    exit 1
+}
 
 # ---- 設定 ----
 $OutputDir = Join-Path $PSScriptRoot "output"
@@ -35,262 +55,141 @@ if (-not (Test-Path $OutputDir)) {
     New-Item -ItemType Directory -Path $OutputDir | Out-Null
 }
 
-$Headers = @{
-    "User-Agent"      = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    "Accept-Language" = "en-US,en;q=0.9"
-    "Accept"          = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-}
-
 $ApiHeaders = @{
-    "User-Agent"       = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    "Accept"           = "application/json"
-    "X-Requested-With" = "XMLHttpRequest"
-}
-
-# ---- ヘルパー関数 ----
-function Get-WebContent([string]$Url, [hashtable]$H = $Headers) {
-    try {
-        # WebClientを使用してUTF-8として正しくデコード
-        $wc = New-Object System.Net.WebClient
-        foreach ($key in $H.Keys) { $wc.Headers.Add($key, $H[$key]) }
-        $wc.Encoding = [System.Text.Encoding]::UTF8
-        return $wc.DownloadString($Url)
-    } catch {
-        # フォールバック: Invoke-WebRequest
-        try {
-            $r = Invoke-WebRequest -Uri $Url -Headers $H -UseBasicParsing -TimeoutSec 30
-            return $r.Content
-        } catch {
-            Write-Warning "Failed to fetch: $Url - $_"
-            return $null
-        }
-    }
+    "Authorization" = "Bearer $GeniusToken"
+    "User-Agent"    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
 }
 
 function HtmlEnc([string]$s) { return [System.Web.HttpUtility]::HtmlEncode($s) }
 function HtmlDec([string]$s) { return [System.Web.HttpUtility]::HtmlDecode($s) }
 
-# JSON文字列から名前リストを抽出（"name":"Value" パターン）
-function Get-NamesFromJsonArray([string]$jsonBlock) {
-    $names = [System.Collections.Generic.List[string]]::new()
-    $namePattern = '"name":"([^"]+)"'
-    $matches2 = [regex]::Matches($jsonBlock, $namePattern)
-    foreach ($m in $matches2) {
-        $name = $m.Groups[1].Value.Trim()
-        if ($name -and $name.Length -gt 0) { $names.Add($name) }
-    }
-    return $names
-}
-
-# ---- アルバムページ取得 ----
-Write-Host "アルバムページを取得中: $AlbumUrl" -ForegroundColor Cyan
-$albumHtml = Get-WebContent -Url $AlbumUrl
-if (-not $albumHtml) {
-    Write-Error "アルバムページの取得に失敗しました。"
+# ---- URL解析 ----
+$artistSlug = ""
+$albumSlug  = ""
+if ($AlbumUrl -match '/albums/([^/]+)/([^/]+)') {
+    $artistSlug = $matches[1]
+    $albumSlug  = $matches[2]
+} else {
+    Write-Error "無効なGeniusアルバムURLです: $AlbumUrl"
     exit 1
 }
 
-# ---- アーティスト名・アルバム名取得 ----
-$artistName = ""
-$albumName  = ""
+$artistQuery = $artistSlug -replace '-', ' '
+$albumQuery  = $albumSlug  -replace '-', ' '
 
-# titleタグから取得: "Artist – Album Lyrics and Tracklist | Genius"
-$titlePattern = '<title>([^<]+)</title>'
-if ($albumHtml -match $titlePattern) {
-    $titleText = [System.Web.HttpUtility]::HtmlDecode($matches[1])
-    if ($titleText -match '^(.+?)\s*[–\-]\s*(.+?)\s*\|') {
-        $artistName = $matches[1].Trim()
-        $albumName  = ($matches[2] -replace '\s*(Lyrics\s+and\s+Tracklist|Tracklist|Lyrics)\s*$', '').Trim()
+Write-Host "アルバム情報を Genius API から検索中: $artistQuery / $albumQuery" -ForegroundColor Cyan
+
+# ---- 1. アルバム検索 ----
+$targetAlbum = $null
+
+# 方法A: アーティスト名 + アルバム名で検索
+$searchUrl = "https://api.genius.com/search?q=" + [System.Web.HttpUtility]::UrlEncode("$artistQuery $albumQuery")
+try {
+    $searchRes = Invoke-RestMethod -Uri $searchUrl -Headers $ApiHeaders
+    if ($searchRes.response.hits) {
+        foreach ($hit in $searchRes.response.hits) {
+            try {
+                $sDetail = Invoke-RestMethod -Uri "https://api.genius.com/songs/$($hit.result.id)" -Headers $ApiHeaders
+                $alb = $sDetail.response.song.album
+                if ($alb -and ($alb.url -like "*$albumSlug*" -or $alb.name.ToLower() -eq $albumQuery.ToLower())) {
+                    $targetAlbum = $alb
+                    break
+                }
+            } catch {}
+        }
+    }
+} catch {
+    Write-Warning "検索APIの呼び出しでエラーが発生しました: $_"
+}
+
+# 方法B: 見つからない場合、アーティストの楽曲一覧からアルバムを探す
+if (-not $targetAlbum) {
+    Write-Host "アーティスト楽曲一覧からアルバムを検索中..." -ForegroundColor Cyan
+    $artistSearchUrl = "https://api.genius.com/search?q=" + [System.Web.HttpUtility]::UrlEncode($artistQuery)
+    $artistId = $null
+    try {
+        $artistSearchRes = Invoke-RestMethod -Uri $artistSearchUrl -Headers $ApiHeaders
+        foreach ($h in $artistSearchRes.response.hits) {
+            if ($h.result.primary_artist.slug -eq $artistSlug.ToLower() -or $h.result.primary_artist.name.ToLower() -eq $artistQuery.ToLower()) {
+                $artistId = $h.result.primary_artist.id
+                break
+            }
+        }
+    } catch {}
+
+    if ($artistId) {
+        $page = 1
+        while ($page -le 5 -and -not $targetAlbum) {
+            try {
+                $songsRes = Invoke-RestMethod -Uri "https://api.genius.com/artists/$artistId/songs?page=$page&per_page=50&sort=popularity" -Headers $ApiHeaders
+                foreach ($s in $songsRes.response.songs) {
+                    try {
+                        $sDetail = Invoke-RestMethod -Uri "https://api.genius.com/songs/$($s.id)" -Headers $ApiHeaders
+                        $alb = $sDetail.response.song.album
+                        if ($alb -and ($alb.url -like "*$albumSlug*" -or $alb.name.ToLower() -eq $albumQuery.ToLower())) {
+                            $targetAlbum = $alb
+                            break
+                        }
+                    } catch {}
+                }
+            } catch { break }
+            $page++
+        }
     }
 }
 
-# URLからアーティスト名を補完
-if (-not $artistName) {
-    $urlPattern = '/albums/([^/]+)/'
-    if ($AlbumUrl -match $urlPattern) {
-        $slug = $matches[1] -replace '-', ' '
-        $artistName = (Get-Culture).TextInfo.ToTitleCase($slug.ToLower())
-    }
+if (-not $targetAlbum) {
+    Write-Error "Genius APIでアルバム情報を取得できませんでした: $AlbumUrl"
+    exit 1
 }
+
+$albumId    = $targetAlbum.id
+$albumName  = $targetAlbum.name
+$artistName = if ($targetAlbum.artist.name) { $targetAlbum.artist.name } else { (Get-Culture).TextInfo.ToTitleCase($artistQuery.ToLower()) }
 
 Write-Host "アーティスト: $artistName" -ForegroundColor Green
-Write-Host "アルバム: $albumName"      -ForegroundColor Green
+Write-Host "アルバム    : $albumName (ID: $albumId)" -ForegroundColor Green
 
-# ---- アーティストスラッグ取得 ----
-$artistSlug = ""
-$albumSlugPattern = '/albums/([^/]+)/'
-if ($AlbumUrl -match $albumSlugPattern) {
-    $artistSlug = $matches[1].ToLower()
-}
+# ---- 2. トラックリスト取得 ----
+Write-Host "トラックリストを取得中..." -ForegroundColor Cyan
+$tracksRes = Invoke-RestMethod -Uri "https://api.genius.com/albums/$albumId/tracks" -Headers $ApiHeaders
+$rawTracks = $tracksRes.response.tracks
+Write-Host "トラック数  : $($rawTracks.Count)" -ForegroundColor Green
 
-# ---- トラックURL一覧取得 ----
-Write-Host "トラックリストを解析中..." -ForegroundColor Cyan
-
-$trackUrls = [System.Collections.Generic.List[string]]::new()
-$seen      = @{}
-
-$lyricsPattern = 'href="(https://genius\.com/[^"]+?-lyrics)"'
-$trackMatches  = [regex]::Matches($albumHtml, $lyricsPattern)
-foreach ($m in $trackMatches) {
-    $url = $m.Groups[1].Value
-    $urlPath = $url -replace 'https://genius\.com/', ''
-    # アーティストスラッグで始まるURLのみ含める
-    $isArtistTrack = $true
-    if ($artistSlug) {
-        $isArtistTrack = $urlPath.ToLower().StartsWith($artistSlug + "-")
-    }
-    if ($isArtistTrack -and -not $seen.ContainsKey($url)) {
-        $seen[$url] = $true
-        $trackUrls.Add($url)
-    }
-}
-
-Write-Host "トラック数: $($trackUrls.Count)" -ForegroundColor Green
-
-# ---- 各トラックの情報取得 ----
+# ---- 3. 各トラックの詳細情報取得 ----
 $tracks = [System.Collections.Generic.List[PSCustomObject]]::new()
 
-for ($i = 0; $i -lt $trackUrls.Count; $i++) {
-    $trackUrl = $trackUrls[$i]
-    $trackNum = $i + 1
-    Write-Host "  [$trackNum/$($trackUrls.Count)] $trackUrl" -ForegroundColor Yellow
-
-    $trackHtml = Get-WebContent -Url $trackUrl
-    if (-not $trackHtml) {
-        $tracks.Add([PSCustomObject]@{
-            Number    = $trackNum
-            Title     = "Track $trackNum"
-            Composers = ""
-            Performer = $artistName
-            Time      = ""
-            Producers = ""
-            Featured  = ""
-        })
-        continue
-    }
-
-    # --- タイトル取得 ---
-    $title = ""
-    $trackTitlePattern = '<title>([^<]+)</title>'
-    if ($trackHtml -match $trackTitlePattern) {
-        $rawTitle = [System.Web.HttpUtility]::HtmlDecode($matches[1])
-        $rawTitle = $rawTitle -replace '\s*\|\s*Genius.*$', ''
-        $rawTitle = ($rawTitle -replace '\s+Lyrics\s*$', '').Trim()
-        # "Artist – Song" 形式から曲名だけ取り出す（–, -, U+2013, U+2014 など）
-        if ($rawTitle -match '^.+?\s*[\u2013\u2014\-–]\s*(.+)$') {
-            $title = $matches[1].Trim()
-        } else {
-            $title = $rawTitle
-        }
-    }
-    # タイトルが空またはU+00A0(NBSP)などの不正文字を含む場合はスラッグから補完
-    if (-not $title -or $title -match '[\x00-\x08\x0B\x0C\x0E-\x1F\uFFFD]') {
-        $slug  = $trackUrl -replace 'https://genius\.com/', '' -replace '-lyrics$', ''
-        $escArtistSlug = [regex]::Escape($artistSlug)
-        $slug  = $slug -replace "(?i)^$escArtistSlug(-and-[^-]+-)?-", ""
-        $slugTitle = ($slug -replace '-', ' ').Trim()
-        if ($slugTitle) { $title = $slugTitle }
-    }
-
-    # --- Song ID取得 → Genius API呼び出し ---
-    $songId = ""
-    $songIdPattern = '"song":(\d+),'
-    if ($trackHtml -match $songIdPattern) {
-        $songId = $matches[1]
-    }
-    # 別パターン
-    if (-not $songId) {
-        $songIdPattern2 = '"id":(\d+),"_type":"song"'
-        if ($trackHtml -match $songIdPattern2) {
-            $songId = $matches[1]
-        }
-    }
-    # URLパターンからも試みる
-    if (-not $songId) {
-        $songIdPattern3 = '/songs/(\d+)'
-        if ($trackHtml -match $songIdPattern3) {
-            $songId = $matches[1]
-        }
-    }
+foreach ($t in $rawTracks) {
+    $trackNum = $t.number
+    $songId   = $t.song.id
+    $title    = $t.song.title
+    Write-Host "  [$trackNum/$($rawTracks.Count)] $title (ID: $songId)" -ForegroundColor Yellow
 
     $writers   = [System.Collections.Generic.List[string]]::new()
     $producers = [System.Collections.Generic.List[string]]::new()
     $featured  = [System.Collections.Generic.List[string]]::new()
 
-    if ($songId) {
-        # Genius API で完全な情報を取得
-        $apiUrl = "https://genius.com/api/songs/$songId"
-        $apiJson = Get-WebContent -Url $apiUrl -H $ApiHeaders
+    try {
+        $songDetail = Invoke-RestMethod -Uri "https://api.genius.com/songs/$songId" -Headers $ApiHeaders
+        $s = $songDetail.response.song
 
-        if ($apiJson) {
-            # producer_artists から取得
-            $prodArtistsPattern = '"producer_artists":\[([^\]]*(?:\{[^\}]*\}[^\]]*)*)\]'
-            if ($apiJson -match $prodArtistsPattern) {
-                $prodBlock = $matches[1]
-                $prodNames = Get-NamesFromJsonArray -jsonBlock $prodBlock
-                foreach ($n in $prodNames) { $producers.Add($n) }
-            }
-
-            # writer_artists から取得
-            $writerArtistsPattern = '"writer_artists":\[([^\]]*(?:\{[^\}]*\}[^\]]*)*)\]'
-            if ($apiJson -match $writerArtistsPattern) {
-                $writerBlock = $matches[1]
-                $writerNames = Get-NamesFromJsonArray -jsonBlock $writerBlock
-                foreach ($n in $writerNames) { $writers.Add($n) }
-            }
-
-            # featured_artists から取得
-            $featArtistsPattern = '"featured_artists":\[([^\]]*(?:\{[^\}]*\}[^\]]*)*)\]'
-            if ($apiJson -match $featArtistsPattern) {
-                $featBlock = $matches[1]
-                $featNames = Get-NamesFromJsonArray -jsonBlock $featBlock
-                foreach ($n in $featNames) { $featured.Add($n) }
+        if ($s.writer_artists) {
+            foreach ($w in $s.writer_artists) {
+                if ($w.name) { $writers.Add($w.name.Trim()) }
             }
         }
-        Start-Sleep -Milliseconds 300
-    }
-
-    # API失敗時のフォールバック: HTMLから取得
-    if ($writers.Count -eq 0) {
-        $writtenIdx = $trackHtml.IndexOf('was written by ')
-        if ($writtenIdx -ge 0) {
-            $writtenBlock = $trackHtml.Substring($writtenIdx, [Math]::Min(1000, $trackHtml.Length - $writtenIdx))
-            $jsonAPattern = '<a href=(?:\\\\?\\\"|\")[^\"\\\\]+(?:\\\\?\\\"|\")(?:[^>]*)>([^<]+)<\\?\/a>'
-            $jaMatches = [regex]::Matches($writtenBlock, $jsonAPattern)
-            foreach ($am in $jaMatches) {
-                $name = HtmlDec($am.Groups[1].Value.Trim())
-                if ($name -and $name.Length -gt 1) { $writers.Add($name) }
+        if ($s.producer_artists) {
+            foreach ($p in $s.producer_artists) {
+                if ($p.name) { $producers.Add($p.name.Trim()) }
             }
         }
-    }
-
-    # Composerの先頭の不正文字を除去
-    $cleanedWriters = [System.Collections.Generic.List[string]]::new()
-    foreach ($w in $writers) {
-        $cleaned = $w -replace '^[^\w\(]', ''
-        if ($cleaned) { $cleanedWriters.Add($cleaned) }
-    }
-    $writers = $cleanedWriters
-
-    if ($producers.Count -eq 0) {
-        $prodIdx = $trackHtml.IndexOf('Producers</span>')
-        if ($prodIdx -lt 0) { $prodIdx = $trackHtml.IndexOf('Producer</span>') }
-        if ($prodIdx -ge 0) {
-            $prodBlock = $trackHtml.Substring($prodIdx, [Math]::Min(2000, $trackHtml.Length - $prodIdx))
-            $creditDivIdx = $prodBlock.IndexOf('CreditList')
-            if ($creditDivIdx -ge 0) {
-                $divStart = [Math]::Max(0, $creditDivIdx - 50)
-                $divBlock = $prodBlock.Substring($divStart, [Math]::Min(1500, $prodBlock.Length - $divStart))
-                $divEndIdx = $divBlock.IndexOf('</div>')
-                if ($divEndIdx -gt 0) { $divBlock = $divBlock.Substring(0, $divEndIdx) }
-                $aPattern = '<a[^>]*>([^<]+)</a>'
-                $aMatches = [regex]::Matches($divBlock, $aPattern)
-                foreach ($am in $aMatches) {
-                    $name = HtmlDec($am.Groups[1].Value.Trim())
-                    if ($name -and $name.Length -gt 1) { $producers.Add($name) }
-                }
+        if ($s.featured_artists) {
+            foreach ($f in $s.featured_artists) {
+                if ($f.name) { $featured.Add($f.name.Trim()) }
             }
         }
+    } catch {
+        Write-Warning "曲の詳細情報取得に失敗しました (ID: $songId): $_"
     }
 
     # Performer 文字列構築
@@ -313,7 +212,7 @@ for ($i = 0; $i -lt $trackUrls.Count; $i++) {
         Featured  = $uniqueFeatured  -join ", "
     })
 
-    Start-Sleep -Milliseconds 300
+    Start-Sleep -Milliseconds 150
 }
 
 # ---- Producers セクション集約 ----
@@ -370,12 +269,10 @@ foreach ($track in $tracks) {
 $tracksTableHtml = $sb.ToString()
 
 # ---- ファイル名生成 ----
+$safeArtist = ($artistName -replace '[^a-zA-Z0-9]', '').ToLower()
 if ($OutputFilePrefix) {
-    # パラメーターで指定された場合はそれを使用
     $outputFileName = "${OutputFilePrefix}.htm"
 } else {
-    # 指定がない場合は従来通りアーティスト名から生成
-    $safeArtist = ($artistName -replace '[^a-zA-Z0-9]', '').ToLower()
     $outputFileName = "${safeArtist}1_tracks.htm"
 }
 $outputPath = Join-Path $OutputDir $outputFileName
@@ -627,5 +524,3 @@ foreach ($track in $tracks) {
     if ($track.Producers) { Write-Host "     Producers: $($track.Producers)" -ForegroundColor Gray }
     if ($track.Featured)  { Write-Host "     Featured : $($track.Featured)"  -ForegroundColor Gray }
 }
-
-# Made with Bob

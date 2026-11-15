@@ -20,7 +20,9 @@
 ## 🛠️ 各ステップ詳細とコマンド / プロンプト
 
 ### 1. HTMLドラフト作成 (`Bob\genius_album_to_html.ps1`)
-Geniusからアルバム情報のドラフトHTMLを生成します。
+Genius API（Bearer Token）を利用してアルバム情報・トラックリスト・クレジット（作詞/作曲/Producer/Guest）を取得し、ドラフトHTMLを生成します。
+
+> **Note:** Genius API トークンは環境変数 `GENIUS_ACCESS_TOKEN` から自動取得されます（オプションで `-GeniusToken "<トークン>"` を渡すことも可能）。
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File "Bob\genius_album_to_html.ps1" -AlbumUrl "<Genius アルバム URL>" [-OutputFilePrefix "<ファイル名>"]
@@ -99,8 +101,8 @@ index.htmlのバックアップをとってから、先頭に【アルバムレ�
 
 ## 🔑 認証情報 (Genius API)
 
-| 項目 | 値 |
-| :--- | :--- |
-| **Client ID** | `1UovcPrC5QtD-AY6DwGsIy98mzNHXFo9UYAd3AaBshre4gcl0tV7fKwCGytpWNTb` |
-| **Client Secret** | `vQJfyEiIMKllBy4xEe3ZeY7R4yd37MdMJmOs2thbVeQnMcY8yBoh91_1nxlOJTGd6x1E6NRYwVcM9VsxEB_YRg` |
-| **Access Token** | `7yNKHpRUHuMZR2G1Uxiy6a7eumS6RtRIqLkbbZR34Oy9DXGfW1J3Bwz4y9WnPKRk` |
+| 項目 | 値 | 備考 |
+| :--- | :--- | :--- |
+| **Client ID** | `1UovcPrC5QtD-AY6DwGsIy98mzNHXFo9UYAd3AaBshre4gcl0tV7fKwCGytpWNTb` | |
+| **Client Secret** | `vQJfyEiIMKllBy4xEe3ZeY7R4yd37MdMJmOs2thbVeQnMcY8yBoh91_1nxlOJTGd6x1E6NRYwVcM9VsxEB_YRg` | |
+| **Access Token** | `7yNKHpRUHuMZR2G1Uxiy6a7eumS6RtRIqLkbbZR34Oy9DXGfW1J3Bwz4y9WnPKRk` | ユーザー環境変数 `GENIUS_ACCESS_TOKEN` に登録済み |

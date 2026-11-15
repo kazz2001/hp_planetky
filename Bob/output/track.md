@@ -1,32 +1,17 @@
+**Vince Staples** のアルバム **『Cry Baby』** のトラックリスト（曲順リスト）です。ご指定の条件（Composer列は人名を略さずフルネーム表記、それ以外の列は通称表記）に沿って作成しています。
 
-# DOMi & JD BECK - 『WHO ASKED?』 トラックリスト
+以下がMarkdownのソースコードです。
 
-## 基本情報
-* **アーティスト**: DOMi & JD BECK
-* **全曲 Performer**: DOMi & JD BECK
-* **全曲 Producer**: DOMi & JD BECK （※一部楽曲でAnderson .Paak、Noé Degalleが共同参加）
-
-## 曲順リスト（テーブル形式）
-
-| # | タイトル | Composer（人名略称なし） | Performer | Producer | Time |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | ÉPiPHANiE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:33 |
-| 02 | HAD ENOUGH | Domitille Degalle, James Denis Beck, Brandon Anderson | DOMi & JD BECK | DOMi & JD BECK (Co-Lyricist: Anderson .Paak) | 03:20 |
-| 03 | EXiT | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 02:53 |
-| 04 | SiLHOUETTE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:30 |
-| 05 | GROWiNG OLDER | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:35 |
-| 06 | SOME THiNGS NEVER CHANGE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:50 |
-| 07 | RAiN | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:00 |
-| 08 | SMALL EYES | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 03:39 |
-| 09 | LOVELY MASQUERADE | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 02:49 |
-| 10 | PUZZLE PiECES | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 04:14 |
-| 11 | PHANTOM THREAD | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:34 |
-| 12 | OUT OF SYNC | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK (Self-Produced) | 03:52 |
-| 13 | CONCERTiNO (FOR PiANO, DRUMS & ORCHESTRA) | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 05:04 |
-| 14 | CLiMBiNG HiGH | Domitille Degalle, James Denis Beck | DOMi & JD BECK | DOMi & JD BECK | 03:32 |
-| 15 | ÉPiLOGUE | Domitille Degalle, James Denis Beck, Noé Degalle | DOMi & JD BECK | DOMi & JD BECK (Co-Arranger: Noé Degalle) | 04:04 |
-```
-
----
-
-🎵 各楽曲の音楽的特徴や楽譜制作（Sibelius）などのバックストーリーについて、さらに詳しく知りたい情報はありますか？
+```markdown
+| No. | Title | Composer | Performer | Producer | Time |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | Blackberry Marmalade | Vincent Staples, Mike Hector, Solal Tong Cuong | Vince Staples | Mike Hector, Banshee the Great | 3:52 |
+| 2 | Go! Go! Gorilla | Vincent Staples, Mino Drerup, Kurtis Wells, Zach Fogarty | Vince Staples | Saint Mino, Kurtis Wells, Zach Fogarty | 3:31 |
+| 3 | White Flag | Vincent Staples, Mino Drerup, Joseph Harrison, Homer Steinweiss | Vince Staples | Saint Mino, Joseph Harrison | 2:34 |
+| 4 | The Running Man | Vincent Staples, Mino Drerup, Homer Steinweiss, Paul Casteluzzo | Vince Staples | Saint Mino | 3:22 |
+| 5 | TV Guide | Vincent Staples, Mino Drerup, Joseph Harrison, Afolabi Osinulu | Vince Staples | Saint Mino, Joseph Harrison, Teej | 4:24 |
+| 6 | The Big Bad Wolf | Vincent Staples, Mike Hector, Noah Ehler, Ryan James Carr, Ricky Walters | Vince Staples | Mike Hector, Noah Ehler, Ryan James Carr | 2:12 |
+| 7 | Only In America | Vincent Staples, Mino Drerup, Afolabi Osinulu | Vince Staples | Saint Mino, Teej | 4:29 |
+| 8 | Do You Know The Devil | Vincent Staples, Mike Hector, Adeyinka Bankole-Ojo, Francis Nguyen-Tran | Vince Staples | Mike Hector, Fwdslxsh, FrancisGotHeat, Mike Baretz | 3:09 |
+| 9 | Cotton | Vincent Staples, Mike Hector, Leoren Davis | Vince Staples | Mike Hector, Oh Gosh Leotus | 3:43 |
+| 10 | 7 In The Morning | Vincent Staples, Mike Hector, Ryan James Carr, Mike Baretz | Vince Staples | Mike Hector, Ryan James Carr, Mike Baretz | 4:08 |
