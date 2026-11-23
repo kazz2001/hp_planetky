@@ -60,6 +60,7 @@ node Bob/allmusic_track_scraper.js <AllMusic アルバム URL> my_album_tracks.h
 1. プロデューサー情報を取得・集計。
 2. 以下の形式でプロデューサーリストを出力・反映:
    ```text
+   以下の形式でProducerのリストを出力して
    Pro1(1)
    Pro2 and Pro3(2,3)
    Pro1, Pro3 and Pro4(4)
